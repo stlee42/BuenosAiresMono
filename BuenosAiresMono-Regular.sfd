@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: BuenosAiresMono-Regular
 FullName: Buenos Aires Mono Regular
 FamilyName: Buenos Aires Mono
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1478837281
+ModificationTime: 1690444276
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 4
+WinInfo: 48 16 4
 BeginPrivate: 6
 BlueValues 31 [-14 0 542 555 739 748 767 796]
 OtherBlues 11 [-206 -198]
@@ -2471,22 +2471,22 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 89
 Width: 613
-Flags: MW
+VWidth: 981
+Flags: HMWO
 TeX: 99 0
 LayerCount: 2
 Fore
 SplineSet
-119 406 m 4
- 59 444 l 4
- 94 503 155 551 222 551 c 4
- 320 551 351 462 419 462 c 4
- 458 462 486 493 520 539 c 4
- 574 494 l 4
- 543 447 485 384 410 384 c 4
- 314 384 289 479 217 479 c 4
- 183 479 149 455 119 406 c 4
+119 266.5 m 4
+ 59 304.5 l 4
+ 94 363.5 155 411.5 222 411.5 c 4
+ 320 411.5 351 322.5 419 322.5 c 4
+ 458 322.5 486 353.5 520 399.5 c 4
+ 574 354.5 l 4
+ 543 307.5 485 244.5 410 244.5 c 4
+ 314 244.5 289 339.5 217 339.5 c 4
+ 183 339.5 149 315.5 119 266.5 c 4
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -11812,7 +11812,7 @@ StartChar: approxequal
 Encoding: 8776 8776 585
 Width: 613
 VWidth: 1046
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 89 126 N 1 0 0 1 0 -102 2
