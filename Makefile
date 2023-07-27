@@ -18,6 +18,9 @@ all: ttf otf
 
 .sfd.ttf:
 	${FFCMD}
+	ttfautohint $@ ${@:.ttf=.autohinted.ttf}
+	rm $@
+	mv ${@:.ttf=.autohinted.ttf} $@
 .sfd.otf:
 	${FFCMD}
 
