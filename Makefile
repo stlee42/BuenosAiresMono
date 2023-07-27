@@ -1,12 +1,12 @@
-# Makefile for Inconsolata font
+# Makefile for BuenosAiresMono font
 
-FONTS=Inconsolata-LGC.ttf \
-      Inconsolata-LGC-Bold.ttf \
-      Inconsolata-LGC-Italic.ttf \
-      Inconsolata-LGC-BoldItalic.ttf
+FONTS=BuenosAiresMono-Regular.ttf \
+      BuenosAiresMono-Bold.ttf \
+      BuenosAiresMono-Italic.ttf \
+      BuenosAiresMono-BoldItalic.ttf
 OTFONTS=${FONTS:.ttf=.otf}
 DOCUMENTS=README ChangeLog LICENSE
-PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz
+PKGS=BuenosAiresMono.tar.xz BuenosAiresMono-OT.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
@@ -29,22 +29,22 @@ otf: ${OTFONTS}
 .PHONY: dist
 dist: ${PKGS}
 
-InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
+BuenosAiresMono.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
-InconsolataLGC.tar.gz: ${FONTS} ${DOCUMENTS}
+BuenosAiresMono.tar.gz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvz $@ $*
-InconsolataLGC.tar.bz2: ${FONTS} ${DOCUMENTS}
+BuenosAiresMono.tar.bz2: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvj $@ $*
-InconsolataLGC.zip: ${FONTS} ${DOCUMENTS}
+BuenosAiresMono.zip: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; zip -9r $@ $*
 
-InconsolataLGC-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
+BuenosAiresMono-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; tar cfvJ $@ $*
-InconsolataLGC-OT.tar.gz: ${OTFONTS} ${DOCUMENTS}
+BuenosAiresMono-OT.tar.gz: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; tar cfvz $@ $*
-InconsolataLGC-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
+BuenosAiresMono-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; tar cfvj $@ $*
-InconsolataLGC-OT.zip: ${OTFONTS} ${DOCUMENTS}
+BuenosAiresMono-OT.zip: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; zip -9r $@ $*
 
 ChangeLog: .git # GIT
