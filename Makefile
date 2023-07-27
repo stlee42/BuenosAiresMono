@@ -5,7 +5,7 @@ FONTS=BuenosAiresMono-Regular.ttf \
       BuenosAiresMono-Italic.ttf \
       BuenosAiresMono-BoldItalic.ttf
 OTFONTS=${FONTS:.ttf=.otf}
-DOCUMENTS=README ChangeLog LICENSE
+DOCUMENTS=README.md ChangeLog LICENSE
 PKGS=BuenosAiresMono.tar.xz BuenosAiresMono-OT.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
