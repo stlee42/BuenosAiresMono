@@ -5873,7 +5873,7 @@ EndChar
 StartChar: trademark
 Encoding: 8482 8482 291
 Width: 613
-VWidth: 1184
+VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
@@ -7960,7 +7960,7 @@ EndChar
 
 StartChar: afii10066
 Encoding: 1073 1073 400
-Width: 614
+Width: 613
 Flags: MW
 LayerCount: 2
 Fore
@@ -9381,7 +9381,7 @@ EndChar
 
 StartChar: afii10084.mkd
 Encoding: 65548 -1 465
-Width: 614
+Width: 613
 Flags: W
 LayerCount: 2
 Fore

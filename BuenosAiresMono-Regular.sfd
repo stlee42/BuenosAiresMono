@@ -973,8 +973,8 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 34
-Width: 627
-VWidth: 1048
+Width: 613
+VWidth: 1046
 Flags: MW
 TeX: 116 0
 LayerCount: 2
@@ -994,8 +994,8 @@ EndChar
 
 StartChar: grave
 Encoding: 96 96 35
-Width: 627
-VWidth: 1048
+Width: 613
+VWidth: 1046
 Flags: MW
 TeX: 105 0
 LayerCount: 2
@@ -1611,8 +1611,8 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 58
-Width: 627
-VWidth: 1048
+Width: 613
+VWidth: 1046
 Flags: MW
 TeX: 116 0
 LayerCount: 2
@@ -6157,7 +6157,7 @@ EndChar
 StartChar: trademark
 Encoding: 8482 8482 291
 Width: 613
-VWidth: 1183
+VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
