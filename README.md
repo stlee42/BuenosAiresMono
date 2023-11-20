@@ -1,6 +1,8 @@
 # Buenos Aires Mono
 
-Buenos Aires Mono is a monospaced font for programming forked from [Inconsolata LGC Short](https://github.com/eggsyntax/Inconsolata-LGC-Short) but with even more reduced line height and with vertically centered tilde.
+Buenos Aires Mono is a monospaced font for programming, forked from [Inconsolata LGC Short](https://github.com/eggsyntax/Inconsolata-LGC-Short), but with even more reduced line height and with vertically centered tilde.
+
+It comes in 4 styles (regular, italic, bold, and bold italic), and has Latin, Greek, and Cyrillic glyphs.
 
 ### Customizations
 
@@ -14,3 +16,11 @@ With [fontforge](https://fontforge.org) and [ttfautohint](https://github.com/fon
 ```
 make
 ```
+
+## Download
+
+Download OpenType font files (`BuenosAiresMono-OT.zip`) or TrueType font files (`BuenosAiresMono.zip`) from the [release](https://github.com/stlee42/BuenosAiresMono/releases) page.
+
+## License
+
+Buenos Aires Mono is licensed under SIL Open Font License (OFL). See `LICENSE` file for more information.
