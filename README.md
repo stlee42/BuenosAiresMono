@@ -7,7 +7,7 @@ It comes in 4 styles (regular, italic, bold, and bold italic), and has Latin, Gr
 ### Customizations
 
 - To set your own line spacing, please see [c9839cc](https://github.com/stlee42/BuenosAiresMono/commit/c9839cc066eb7ca2b1d2eedee06242ba203fdb77). It is currently set to zero. To increase the spacing between lines, increase the LineGap parameter.
--- For the vertical adjustment to tilde character, please see `center.tilde.vertically.py` in `script` folder. Offset the second argument to `translate` call, then run the script.
+- For the vertical adjustment to tilde character, please see `center.tilde.vertically.py` in `script` folder. Offset the second argument to `translate` call, then run the script.
 
 ### Build instructions
 
