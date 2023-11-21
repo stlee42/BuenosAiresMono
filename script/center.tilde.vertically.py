@@ -1,10 +1,44 @@
-# https://www.reddit.com/r/FontForge/comments/11r6x4q/vertically_centering_glyphs/
-fontfile = "/Users/stl/src/BuenosAiresMono/BuenosAiresMono-Regular.sfd"
-startglyph = 94
-endglyph = 94
+#!/usr/local/bin/fontforge -script
 
-thisfont = fontforge.open(fontfile)
-for i in range(startglyph,endglyph+1):
-    ytop = thisfont[i].boundingBox()[-1]
-    ybot = thisfont[i].boundingBox()[1]
-    thisfont[i].transform( psMat.translate( 0, thisfont.ascent - (thisfont.ascent + thisfont.descent - (ytop - ybot)) / 2 - ytop))
+import fontforge
+
+colon = 26
+tilde = 94
+
+def alignTilde(fontfile):
+    thisfont = fontforge.open(fontfile)
+
+    colontop = thisfont[colon].boundingBox()[-1]
+    colonbot = thisfont[colon].boundingBox()[1]
+    ytop = thisfont[tilde].boundingBox()[-1]
+    ybot = thisfont[tilde].boundingBox()[1]
+
+    # Choose between these two
+
+    # Vertically center tilde with respect to colon character
+    # This is more like Apple's Menlo font
+    #offset = colontop - (colontop + colonbot - (ytop - ybot)) / 2 - ytop
+
+    # Vertically center tilde
+    # This is more like Apple's SF Mono font
+    offset = thisfont.ascent - (thisfont.ascent + thisfont.descent - (ytop - ybot)) / 2 - ytop
+
+    #print(colontop )
+    #print(colonbot )
+    #print(ytop )
+    #print(ybot )
+    #print(offset )
+    #print(thisfont.ascent)
+    #print(thisfont.descent)
+    #print()
+
+    thisfont[tilde].transform( psMat.translate( 0, offset) )
+    thisfont.save()
+
+alignTilde("../BuenosAiresMono-Regular.sfd")
+alignTilde("../BuenosAiresMono-Italic.sfd")
+alignTilde("../BuenosAiresMono-BoldItalic.sfd")
+alignTilde("../BuenosAiresMono-Bold.sfd")
+
+# originally from
+# https://www.reddit.com/r/FontForge/comments/11r6x4q/vertically_centering_glyphs/
