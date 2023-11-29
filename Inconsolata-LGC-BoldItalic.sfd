@@ -46,7 +46,7 @@ Lookup: 1 0 0 "Macedonian-Serbian Italic"  {"Macedonian-Serbian Italic subtable"
 Lookup: 1 0 0 "Romanian comma accent"  {"Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 
+LangName: 1033 "" "" "Bold Italic"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
