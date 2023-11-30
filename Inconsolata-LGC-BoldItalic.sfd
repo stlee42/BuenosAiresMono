@@ -46,7 +46,7 @@ Lookup: 1 0 0 "Macedonian-Serbian Italic"  {"Macedonian-Serbian Italic subtable"
 Lookup: 1 0 0 "Romanian comma accent"  {"Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 
+LangName: 1033 "" "" "Bold Italic"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -6159,7 +6159,7 @@ EndChar
 StartChar: trademark
 Encoding: 8482 8482 291
 Width: 613
-VWidth: 1184
+VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
@@ -18369,7 +18369,7 @@ EndChar
 
 StartChar: union
 Encoding: 8746 8746 862
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18395,7 +18395,7 @@ EndChar
 
 StartChar: propersubset
 Encoding: 8834 8834 863
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18421,7 +18421,7 @@ EndChar
 
 StartChar: propersuperset
 Encoding: 8835 8835 864
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18447,7 +18447,7 @@ EndChar
 
 StartChar: element
 Encoding: 8712 8712 865
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18476,7 +18476,7 @@ EndChar
 
 StartChar: suchthat
 Encoding: 8715 8715 866
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18527,7 +18527,7 @@ EndChar
 
 StartChar: uni2266
 Encoding: 8806 8806 869
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18556,7 +18556,7 @@ EndChar
 
 StartChar: uni2267
 Encoding: 8807 8807 870
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18585,7 +18585,7 @@ EndChar
 
 StartChar: proportional
 Encoding: 8733 8733 871
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18616,7 +18616,7 @@ EndChar
 
 StartChar: angle
 Encoding: 8736 8736 872
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18634,7 +18634,7 @@ EndChar
 
 StartChar: uni226A
 Encoding: 8810 8810 873
-Width: 673
+Width: 613
 Flags: W
 LayerCount: 2
 Fore
@@ -18660,7 +18660,7 @@ EndChar
 
 StartChar: uni226B
 Encoding: 8811 8811 874
-Width: 673
+Width: 613
 Flags: W
 LayerCount: 2
 Fore
@@ -18708,7 +18708,7 @@ EndChar
 
 StartChar: perpendicular
 Encoding: 8869 8869 877
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18728,7 +18728,7 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 878
-Width: 643
+Width: 613
 Flags: W
 LayerCount: 2
 Fore
@@ -18753,7 +18753,7 @@ EndChar
 
 StartChar: arrowdblright
 Encoding: 8658 8658 880
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18780,7 +18780,7 @@ EndChar
 
 StartChar: arrowdblboth
 Encoding: 8660 8660 881
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
@@ -18815,7 +18815,7 @@ EndChar
 
 StartChar: logicaland
 Encoding: 8743 8743 882
-Width: 673
+Width: 613
 Flags: W
 LayerCount: 2
 Fore
@@ -18833,7 +18833,7 @@ EndChar
 
 StartChar: logicalor
 Encoding: 8744 8744 883
-Width: 673
+Width: 613
 Flags: W
 LayerCount: 2
 Fore
@@ -18851,7 +18851,7 @@ EndChar
 
 StartChar: uni2312
 Encoding: 8978 8978 884
-Width: 673
+Width: 613
 VWidth: 1046
 Flags: W
 LayerCount: 2
