@@ -23,4 +23,4 @@ Download OpenType font files (`BuenosAiresMono-OT.zip`) or TrueType font files (
 
 ## License
 
-Buenos Aires Mono is licensed under SIL Open Font License (OFL). See [LICENSE](LICENSE) file for more information.
+Buenos Aires Mono is licensed under SIL Open Font License (OFL). See [`LICENSE`](LICENSE) file for more information.
