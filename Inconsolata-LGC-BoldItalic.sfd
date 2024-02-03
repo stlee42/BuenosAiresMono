@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1706957283
+ModificationTime: 1706958673
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -43,8 +43,9 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['loca' ('latn' <'PLK ' > ) ]
-Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "Romanian comma accent" { "Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
+Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
+Lookup: 1 0 0 "Bulgarian variant forms" { "Bulgarian variant forms-1" ("bg") } ['locl' ('cyrl' <'BGR ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "Bold Italic"
@@ -84,7 +85,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65564 1046
+BeginChars: 65574 1056
 
 StartChar: a
 Encoding: 97 97 0
@@ -7691,6 +7692,7 @@ SplineSet
  395 636 l 1
  364 508 306 262 248 125 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10021.bg
 EndChar
 
 StartChar: afii10022
@@ -7853,6 +7855,7 @@ SplineSet
  169 -3 119 -8 94 -8 c 0
  59 -8 31 10 14 42 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10029.bg
 EndChar
 
 StartChar: afii10030
@@ -8401,6 +8404,7 @@ SplineSet
  428 452 416 455 402 456 c 0
  390 457 365 456 339 441 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10067.bg
 EndChar
 
 StartChar: afii10068
@@ -8517,6 +8521,7 @@ SplineSet
  250 101 185 -13 104 -13 c 0
  38 -13 26 37 19 95 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10072.bg
 EndChar
 
 StartChar: afii10073
@@ -8554,6 +8559,7 @@ SplineSet
  485 553 568 465 553 381 c 0
  545 338 518 305 478 285 c 1
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10073.bg
 EndChar
 
 StartChar: afii10074
@@ -8583,6 +8589,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 260 312 N 1 0 0 1 0 0 2
+Substitution2: "Bulgarian variant forms-1" afii10076.bg
 EndChar
 
 StartChar: afii10077
@@ -8623,6 +8630,7 @@ SplineSet
  169 -3 119 -8 94 -8 c 0
  59 -8 29 11 12 45 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10077.bg
 EndChar
 
 StartChar: afii10078
@@ -8979,6 +8987,7 @@ SplineSet
  387 243 344 243 307 243 c 0
  300 243 l 1
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10092.bg
 EndChar
 
 StartChar: afii10093
@@ -9053,6 +9062,7 @@ SplineSet
  365 243 338 243 301 243 c 0
  248 243 l 1
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10094.bg
 EndChar
 
 StartChar: afii10095
@@ -9118,6 +9128,7 @@ SplineSet
  508 304 511 335 511 360 c 0
  511 432 488 451 477 451 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" afii10096.bg
 EndChar
 
 StartChar: afii10097
@@ -22520,6 +22531,310 @@ Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 139 168 N 1 0 0 1 -8.81635 -50 2
 Refer: 195 -1 N 1 0 0 1 -6.1379 141 2
+EndChar
+
+StartChar: afii10021.bg
+Encoding: 65564 -1 1046
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+466 84 m 1
+ 443 216 437 351 414 499 c 1
+ 344 358 278 226 206 84 c 1
+ 466 84 l 1
+156 -16 m 1
+ 126 -186 l 1
+ 9 -186 l 1
+ 56 84 l 1
+ 68 84 80 84 92 84 c 1
+ 92 84 450 738 450 753 c 1
+ 450 738 459 738 459 753 c 2
+ 466 768 474 768 481 753 c 1
+ 481 738 583 84 583 84 c 1
+ 605 84 l 1
+ 623 84 l 1
+ 576 -187 l 1
+ 461 -187 l 1
+ 491 -16 l 1
+ 156 -16 l 1
+EndSplineSet
+EndChar
+
+StartChar: afii10029.bg
+Encoding: 65565 -1 1047
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 352 923 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: afii10067.bg
+Encoding: 65566 -1 1048
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+594 249 m 0
+ 594 128 484 -13 342 -13 c 0
+ 252 -13 102 5 102 192 c 0
+ 102 218 104 246 110 277 c 0
+ 145 471 145 472 146 475 c 0
+ 155 521 164 572 197 622 c 0
+ 249 700 334 742 416 742 c 0
+ 525 742 603 667 603 572 c 0
+ 603 502 561 438 504 402 c 1
+ 561 372 594 316 594 249 c 0
+215 211 m 0
+ 215 123 256 93 348 93 c 0
+ 426 93 481 175 481 239 c 0
+ 481 277 462 308 434 326 c 0
+ 408 342 389 344 353 344 c 0
+ 256 344 256 344 256 344 c 1
+ 275 444 l 1
+ 364 444 l 2
+ 452 444 478 508 486 546 c 0
+ 488 554 488 561 488 568 c 0
+ 488 594 478 612 462 623 c 0
+ 449 632 430 638 407 638 c 0
+ 373 638 340 631 309 599 c 0
+ 274 562 265 517 257 473 c 1
+ 256 473 l 0
+ 257 472 l 0
+ 257 471 257 468 256 465 c 0
+ 254 452 222 282 222 282 c 0
+ 217 255 215 231 215 211 c 0
+EndSplineSet
+EndChar
+
+StartChar: afii10072.bg
+Encoding: 65567 -1 1049
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+594 425 m 0
+ 594 425 593 447 587 463 c 1
+ 550 419 510 294 510 175 c 0
+ 510 162 510 117 520 94 c 1
+ 528 99 541 113 549 138 c 2
+ 549 149 556 170 556 160 c 1
+ 556 170 632 100 632 88 c 1
+ 599 32 573 -13 502 -13 c 0
+ 481 -13 463 -3 449 12 c 0
+ 422 42 411 93 411 157 c 0
+ 411 184 413 213 418 244 c 1
+ 399 244 l 1
+ 399 244 353 14 353 0 c 1
+ 353 15 250 15 250 0 c 1
+ 250 14 296 244 296 244 c 1
+ 281 244 l 1
+ 264 165 237 97 203 51 c 0
+ 175 13 142 -13 104 -13 c 0
+ 32 -13 25 47 18 105 c 1
+ 18 117 117 200 117 190 c 1
+ 117 200 117 168 117 158 c 2
+ 117 149 114 139 113 130 c 0
+ 113 130 114 107 121 91 c 1
+ 157 134 198 259 198 377 c 0
+ 198 391 197 434 188 458 c 1
+ 177 444 173 430 162 395 c 1
+ 162 399 86 470 86 467 c 1
+ 118 521 146 568 206 568 c 0
+ 251 568 297 523 297 390 c 0
+ 297 374 295 357 294 340 c 1
+ 313 340 l 1
+ 313 340 394 773 394 788 c 1
+ 494 788 l 1
+ 500 776 500 776 500 771 c 0
+ 500 769 500 768 500 766 c 2
+ 500 751 500 750 500 765 c 1
+ 496 749 490 752 489 743 c 2
+ 489 729 415 340 415 340 c 1
+ 436 340 l 1
+ 455 411 482 471 513 512 c 0
+ 539 546 570 568 604 568 c 0
+ 675 568 683 501 689 450 c 1
+ 689 453 591 368 591 363 c 1
+ 591 368 591 400 591 396 c 2
+ 591 402 592 410 593 417 c 0
+ 593 420 594 422 594 425 c 0
+EndSplineSet
+EndChar
+
+StartChar: afii10073.bg
+Encoding: 65568 -1 1050
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+279 -101 m 0
+ 375 -101 446 -19 455 34 c 0
+ 476 154 414 171 323 171 c 0
+ 309 171 307 171 300 170 c 0
+ 293 169 292 168 269 166 c 1
+ 290 282 l 1
+ 317 280 318 280 342 280 c 0
+ 395 280 429 291 449 304 c 0
+ 474 320 483 341 486 356 c 0
+ 495 408 456 450 395 450 c 0
+ 310 450 260 390 257 387 c 0
+ 255 383 256 366 240 355 c 2
+ 227 346 l 1
+ 166 437 l 1
+ 175 446 l 2
+ 233 513 318 553 409 553 c 0
+ 532 553 622 462 603 356 c 0
+ 593 300 559 258 519 232 c 1
+ 566 195 591 129 572 24 c 0
+ 555 -73 449 -207 260 -207 c 0
+ 164 -207 72 -171 28 -116 c 2
+ 20 -106 l 1
+ 103 -26 l 1
+ 112 -39 l 2
+ 139 -78 222 -101 279 -101 c 0
+EndSplineSet
+EndChar
+
+StartChar: afii10076.bg
+Encoding: 65569 -1 1051
+Width: 613
+Flags: W
+LayerCount: 2
+Back
+Refer: 260 312 N 1 0 0 1 0 0 2
+Fore
+Refer: 68 107 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: afii10077.bg
+Encoding: 65570 -1 1052
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -1 m 1
+ 0 13 379 540 379 554 c 1
+ 407 554 l 1
+ 407 540 605 14 605 0 c 1
+ 487 0 l 1
+ 461 74 414 208 359 380 c 1
+ 325 327 292 274 259 221 c 0
+ 170 79 148 45 118 -1 c 1
+ 118 14 0 14 0 -1 c 1
+EndSplineSet
+EndChar
+
+StartChar: afii10092.bg
+Encoding: 65571 -1 1053
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+181 101 m 0
+ 176 118 175 134 175 151 c 0
+ 175 178 178 196 186 241 c 0
+ 186 241 207 354 223 437 c 1
+ 111 437 l 1
+ 111 422 129 526 129 541 c 1
+ 354 541 l 1
+ 354 528 351 515 351 526 c 2
+ 351 526 336 448 324 385 c 1
+ 354 409 435 429 441 429 c 1
+ 440 428 l 1
+ 518 428 597 373 597 261 c 0
+ 597 245 595 228 592 210 c 0
+ 565 61 456 -13 360 -13 c 0
+ 273 -13 201 27 181 101 c 0
+290 183 m 0
+ 290 141 301 95 349 95 c 0
+ 383 95 456 110 473 203 c 0
+ 476 217 477 229 477 240 c 0
+ 477 281 460 300 442 310 c 0
+ 427 318 410 321 398 321 c 0
+ 365 321 331 305 314 280 c 0
+ 301 261 290 220 290 183 c 0
+EndSplineSet
+EndChar
+
+StartChar: afii10094.bg
+Encoding: 65572 -1 1054
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+565 210 m 0
+ 538 60 422 -13 321 -13 c 0
+ 217 -13 123 39 123 155 c 0
+ 123 181 126 200 134 244 c 2
+ 134 245 189 527 189 541 c 1
+ 299 541 l 1
+ 304 532 306 529 306 523 c 2
+ 306 512 306 511 306 522 c 1
+ 302 507 295 509 294 501 c 2
+ 294 492 271 382 271 382 c 1
+ 309 411 356 428 403 428 c 0
+ 492 428 570 370 570 260 c 0
+ 570 244 568 228 565 210 c 0
+241 216 m 0
+ 241 215 239 203 239 188 c 0
+ 239 147 250 95 309 95 c 0
+ 349 95 429 111 446 203 c 0
+ 448 215 450 227 450 237 c 0
+ 450 279 431 298 410 309 c 0
+ 393 318 372 321 358 321 c 0
+ 319 321 280 304 262 279 c 0
+ 251 264 247 246 241 216 c 0
+EndSplineSet
+EndChar
+
+StartChar: afii10096.bg
+Encoding: 65573 -1 1055
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+44 0 m 1
+ 44 14 188 774 188 788 c 1
+ 298 788 l 1
+ 304 777 304 775 304 771 c 0
+ 304 769 304 768 304 767 c 2
+ 304 752 304 751 304 766 c 1
+ 300 750 294 753 293 744 c 2
+ 293 730 219 339 219 339 c 1
+ 275 339 l 1
+ 303 427 350 497 404 536 c 0
+ 432 556 462 568 493 568 c 0
+ 571 568 626 494 626 370 c 0
+ 626 341 623 308 617 273 c 0
+ 595 154 545 68 486 22 c 0
+ 456 -1 424 -14 392 -14 c 0
+ 305 -14 250 72 250 187 c 0
+ 250 205 251 224 254 243 c 1
+ 202 243 l 1
+ 202 243 157 14 157 0 c 1
+ 157 15 44 15 44 0 c 1
+491 458 m 0
+ 486 463 481 465 477 465 c 0
+ 450 465 401 407 378 279 c 0
+ 372 244 369 213 369 187 c 0
+ 369 141 378 110 389 97 c 0
+ 394 91 398 89 403 89 c 0
+ 428 89 477 143 501 274 c 0
+ 508 312 511 344 511 371 c 0
+ 511 419 501 447 491 458 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
