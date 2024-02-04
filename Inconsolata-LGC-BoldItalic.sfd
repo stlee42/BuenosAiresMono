@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707022732
+ModificationTime: 1707028438
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -85,7 +85,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65577 1167
+BeginChars: 65577 1171
 
 StartChar: a
 Encoding: 97 97 0
@@ -25678,6 +25678,126 @@ SplineSet
  397 3 329 -28 272 -28 c 0
  195 -28 130 13 109 90 c 0
  104 109 101 128 101 147 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni04F6
+Encoding: 1270 1270 1167
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+12 0 m 1
+ 147 740 l 1
+ 632 740 l 1
+ 615 637 l 1
+ 240 637 l 1
+ 185 341 l 0
+ 139 91 l 1
+ 223 90 l 1
+ 176 -172 l 1
+ 62 -172 l 1
+ 92 0 l 1
+ 12 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni04F7
+Encoding: 1271 1271 1168
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+23 -137 m 1
+ 46 -95 47 -91 84 -48 c 0
+ 100 -29 115 -12 119 0 c 1
+ 70 0 l 1
+ 52 0 l 1
+ 153 543 l 1
+ 588 541 l 1
+ 570 443 l 1
+ 249 443 l 1
+ 184 95 l 1
+ 233 95 l 1
+ 251 95 l 1
+ 235 11 l 2
+ 223 -49 163 -104 153 -127 c 1
+ 153 -112 149 -136 149 -136 c 1
+ 23 -137 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0524
+Encoding: 1316 1316 1169
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+12 0 m 1
+ 147 740 l 1
+ 610 740 l 1
+ 607 723 l 1
+ 595 652 l 0
+ 492 92 l 1
+ 575 91 l 1
+ 528 -172 l 1
+ 414 -172 l 1
+ 444 0 l 1
+ 365 -0 l 1
+ 483 637 l 1
+ 240 637 l 1
+ 185 344 l 0
+ 137 83 l 1
+ 123 0 l 1
+ 12 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0525
+Encoding: 1317 1317 1170
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+73 0 m 1
+ 143 378 l 10
+ 148 406 151 430 151 451 c 0
+ 151 485 145 509 139 521 c 1
+ 139 508 129 525 129 539 c 1
+ 262 555 l 1
+ 268 537 271 529 271 489 c 0
+ 271 483 271 475 271 468 c 1
+ 330 525 393 555 459 555 c 0
+ 539 555 605 501 605 406 c 0
+ 605 382 602 366 595 324 c 2
+ 566 165 l 2
+ 562 143 560 124 560 107 c 0
+ 560 51 573 27 576 21 c 2
+ 578 17 l 1
+ 570 -23 554 -47 518 -94 c 0
+ 507 -109 497 -121 495 -127 c 1
+ 491 -136 l 1
+ 365 -137 l 1
+ 388 -95 389 -91 425 -49 c 0
+ 441 -30 452 -16 458 -5 c 1
+ 441 -6 l 1
+ 440 12 439 19 439 37 c 0
+ 439 64 441 108 450 157 c 2
+ 481 323 l 2
+ 484 340 488 359 488 376 c 0
+ 488 395 484 411 474 425 c 0
+ 462 442 443 451 420 451 c 0
+ 370 451 314 410 288 384 c 0
+ 262 358 254 337 248 304 c 2
+ 191 0 l 1
+ 73 0 l 1
 EndSplineSet
 EndChar
 EndChars
