@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707290809
+ModificationTime: 1707310894
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -85,7 +85,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65574 1056
+BeginChars: 65575 1057
 
 StartChar: a
 Encoding: 97 97 0
@@ -10163,7 +10163,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 101 82 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10185,7 +10185,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 52 76 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10207,7 +10207,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 67 71 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10245,7 +10245,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 16 114 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10267,7 +10267,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 7 108 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10289,7 +10289,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 N -1 0 0 -1 869 1422 2
+Refer: 1056 -1 N -1 0 0 -1 723 594 2
 Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10385,7 +10385,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 46 78 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10407,7 +10407,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 84 75 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10529,7 +10529,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
 EndChar
 
@@ -10540,7 +10540,7 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 N 1 0 0 1 -146 -828 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 68 107 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14480,7 +14480,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -142.825 -810 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 50 83 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14490,7 +14490,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -142.825 -810 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 3 115 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14500,7 +14500,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -142.825 -810 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 59 84 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14510,7 +14510,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -142.825 -810 2
+Refer: 1056 -1 N 1 0 0 1 0 0 2
 Refer: 8 116 N 1 0 0 1 0 0 2
 EndChar
 
@@ -22807,6 +22807,15 @@ SplineSet
  450 465 401 407 378 279 c 0
  372 244 369 213 369 187 c 0
 EndSplineSet
+EndChar
+
+StartChar: commaaccent
+Encoding: 65574 -1 1056
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 328 900 S 1 0 0 1 -146 -828 2
 EndChar
 EndChars
 EndSplineFont

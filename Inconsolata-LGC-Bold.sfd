@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707060371
+ModificationTime: 1707309741
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -84,7 +84,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65578 1060
+BeginChars: 65579 1061
 
 StartChar: a
 Encoding: 97 97 0
@@ -9973,7 +9973,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 101 82 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Itilde
@@ -9995,7 +9995,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Emacron
@@ -10017,7 +10017,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Tbar
@@ -10055,7 +10055,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: itilde
@@ -10077,7 +10077,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 7 108 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: emacron
@@ -10099,7 +10099,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
-Refer: 328 900 N -1 0 0 -1 618 1422 2
+Refer: 1060 -1 N -1 0 0 -1 618 594 2
 EndChar
 
 StartChar: tbar
@@ -10195,7 +10195,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Omacron
@@ -10217,7 +10217,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 84 75 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Uogonek
@@ -10339,7 +10339,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
-Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: kcommaaccent
@@ -10350,7 +10350,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 68 107 N 1 0 0 1 0 0 2
-Refer: 328 900 N 1 0 0 1 0 -828 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uogonek
@@ -14254,7 +14254,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 0 -810 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 50 83 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14264,7 +14264,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 0 -810 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 3 115 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14274,7 +14274,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 0 -810 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 59 84 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14284,7 +14284,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 0 -810 2
+Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 8 116 N 1 0 0 1 0 0 2
 EndChar
 
@@ -22695,6 +22695,15 @@ SplineSet
  406 462 398 465 392 465 c 0
  364 465 330 401 330 281 c 0
 EndSplineSet
+EndChar
+
+StartChar: commaaccent
+Encoding: 65578 -1 1060
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 328 900 N 1 0 0 1 0 -828 2
 EndChar
 EndChars
 EndSplineFont
