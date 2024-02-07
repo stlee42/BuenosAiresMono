@@ -5,7 +5,7 @@ FamilyName: Inconsolata LGC
 Weight: Regular
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.
 UComments: "2005-8-26: Created."
-Version: 1.4.2
+Version: 1.4.3
 ItalicAngle: 0
 UnderlinePosition: -101
 UnderlineWidth: 50
@@ -21239,9 +21239,6 @@ Encoding: 7874 7874 959
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-Refer: 170 202 N 1 0 0 1 0 0 2
-Refer: 1014 -1 S 1 0 0 1 150 231 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1014 -1 S 1 0 0 1 150 231 2
@@ -22123,10 +22120,6 @@ Encoding: 462 462 1025
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-Refer: 0 97 N 1 0 0 1 0 0 2
-Refer: 9 101 N 1 0 0 1 0 0 2
-Refer: 143 711 S 1 0 0 1 0 0 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 143 711 N 1 0 0 1 0 0 2

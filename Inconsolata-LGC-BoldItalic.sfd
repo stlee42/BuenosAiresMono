@@ -5,7 +5,7 @@ FamilyName: Inconsolata LGC
 Weight: Bold
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nEmboldened and italicized by MihailJP.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.
 UComments: "2005-8-26: Created."
-Version: 1.4.2
+Version: 1.4.3
 ItalicAngle: -10
 UnderlinePosition: -102
 UnderlineWidth: 51
@@ -4293,38 +4293,31 @@ TeX: 114 0
 LayerCount: 2
 Fore
 SplineSet
-251 657 m 1
- 295 694 346 738 445 738 c 0
- 513 738 570 711 588 652 c 0
- 597 622 591 591 586 560 c 0
- 540 300 l 1
- 435 300 l 1
- 439 323 l 1
- 401 301 360 290 321 290 c 0
- 232 290 177 350 190 421 c 0
- 197 463 230 509 289 537 c 0
- 342 563 396 564 446 564 c 0
- 457 564 468 564 478 564 c 0
- 480 564 l 1
- 481 567 l 2
- 485 587 486 601 479 616 c 0
- 472 632 455 644 422 644 c 0
- 358 644 328 612 300 582 c 1
- 251 657 l 1
-467 472 m 1
- 463 472 l 2
- 449 472 433 472 418 472 c 0
- 399 472 379 472 364 470 c 0
- 317 463 301 440 298 425 c 0
- 294 405 312 385 351 385 c 0
- 382 385 414 398 435 413 c 1
- 459 430 463 445 467 468 c 2
- 467 472 l 1
 131 260 m 1
  576 260 l 1
  559 165 l 1
  114 165 l 1
  131 260 l 1
+199 432 m 0
+ 236 634 385 738 467 738 c 0
+ 547 738 565 728 580 715 c 0
+ 591 706 591 706 621 698 c 1
+ 613 681 l 2
+ 610 672 602 648 599 632 c 2
+ 563 435 l 2
+ 553 382 563 338 591 300 c 1
+ 464 294 l 1
+ 460 315 459 327 458 341 c 0
+ 457 356 457 365 458 385 c 1
+ 406 298 366 289 309 289 c 0
+ 258 289 176 308 199 432 c 0
+298 438 m 0
+ 291 400 312 381 324 381 c 0
+ 349 381 428 439 466 517 c 0
+ 476 537 487 567 500 623 c 2
+ 506 648 l 1
+ 501 651 491 655 471 655 c 0
+ 437 655 324 573 298 438 c 0
 EndSplineSet
 EndChar
 
