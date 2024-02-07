@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707286426
+ModificationTime: 1707296782
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -3314,8 +3314,8 @@ Flags: W
 TeX: 118 0
 LayerCount: 2
 Fore
-Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 3 115 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: zcaron
@@ -3325,8 +3325,8 @@ Flags: W
 TeX: 125 0
 LayerCount: 2
 Fore
-Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 69 122 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: periodcentered
@@ -3641,8 +3641,6 @@ Width: 613
 Flags: W
 TeX: 118 0
 LayerCount: 2
-Back
-Refer: 60 45 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 45 N 1 0 0 1 0 0 2
 EndChar
@@ -4091,8 +4089,8 @@ Flags: W
 TeX: 85 0
 LayerCount: 2
 Fore
-Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 14 146 2
+Refer: 50 83 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Zcaron
@@ -4102,8 +4100,8 @@ Flags: W
 TeX: 92 0
 LayerCount: 2
 Fore
-Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 96 90 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ntilde
@@ -4124,8 +4122,8 @@ Flags: W
 TeX: 91 0
 LayerCount: 2
 Fore
-Refer: 94 89 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 -5 147 2
+Refer: 94 89 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: circumflex.cap
@@ -4218,8 +4216,35 @@ TeX: 114 0
 LayerCount: 2
 Fore
 SplineSet
-125 396 m 0
- 107 361 104 321 104 290 c 0
+202 553 m 0
+ 245 553 285 536 313 506 c 1
+ 346 537 388 553 432 553 c 0
+ 493 553 561 523 590 446 c 0
+ 605 405 607 359 607 315 c 8
+ 607 294 607 281 607 260 c 18
+ 607 247 l 1
+ 337 247 l 1
+ 338 184 342 159 353 136 c 0
+ 371 97 407 80 447 80 c 0
+ 492 80 529 98 555 132 c 1
+ 618 60 l 1
+ 570 11 506 -14 445 -14 c 0
+ 396 -14 350 1 311 30 c 1
+ 277 2 236 -13 193 -13 c 0
+ 141 -13 75 12 36 86 c 0
+ 5 146 2 220 2 280 c 0
+ 2 332 6 396 38 452 c 0
+ 75 520 140 553 202 553 c 0
+338 345 m 25
+ 506 345 l 1
+ 506 350 l 2
+ 506 354 506 357 506 361 c 0
+ 505 393 503 403 489 425 c 16
+ 475 447 449 458 423 458 c 0
+ 397 458 365 447 349 410 c 0
+ 347 404 339 386 338 353 c 8
+ 338 350 338 348 338 345 c 25
+104 290 m 0
  104 254 107 201 121 160 c 1
  139 105 175 90 203 90 c 0
  229 90 248 103 248 118 c 0
@@ -4227,35 +4252,7 @@ SplineSet
  232 362 243 406 243 418 c 0
  243 437 226 451 201 451 c 0
  175 451 144 434 125 396 c 0
-349 410 m 0
- 347 403 339 383 338 345 c 1
- 506 345 l 1
- 506 350 l 2
- 506 378 505 404 490 424 c 2
- 490 425 l 1
- 489 425 l 2
- 475 447 449 458 423 458 c 0
- 397 458 365 447 349 410 c 0
-38 452 m 0
- 75 520 140 553 202 553 c 0
- 245 553 285 536 313 506 c 1
- 346 537 388 553 432 553 c 0
- 493 553 561 523 590 446 c 0
- 605 405 607 359 607 315 c 2
- 607 247 l 1
- 337 247 l 1
- 338 184 342 159 353 136 c 0
- 371 97 407 80 447 80 c 0
- 479 80 516 90 543 119 c 2
- 555 132 l 1
- 618 60 l 1
- 608 51 l 2
- 565 10 507 -14 445 -14 c 0
- 396 -14 350 1 311 30 c 1
- 277 2 236 -13 193 -13 c 0
- 141 -13 75 12 36 86 c 0
- 5 146 2 220 2 280 c 0
- 2 332 6 396 38 452 c 0
+ 107 361 104 321 104 290 c 0
 EndSplineSet
 EndChar
 
@@ -4393,8 +4390,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Refer: 5 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: cedilla
@@ -4604,8 +4601,7 @@ TeX: 81 0
 LayerCount: 2
 Fore
 SplineSet
-213 750 m 0
- 243 750 271 740 295 724 c 1
+295 724 m 1
  295 740 l 1
  600 740 l 1
  600 636 l 1
@@ -4620,18 +4616,19 @@ SplineSet
  294 0 l 1
  294 17 l 1
  270 0 242 -8 212 -8 c 0
- 146 -8 68 36 33 147 c 1
+ 146 -8 65 35 33 147 c 0
  29 162 6 236 6 371 c 0
  6 467 14 551 47 626 c 0
  88 718 159 750 213 750 c 0
-135 571 m 1
- 127 552 113 501 113 384 c 0
+ 243 750 271 740 295 724 c 1
+113 384 m 0
  113 352 113 237 144 164 c 0
  169 106 202 95 222 95 c 0
  254 95 283 123 294 167 c 1
  294 563 l 1
  281 603 252 650 213 650 c 0
- 188 650 156 630 135 571 c 1
+ 188 650 158 629 135 571 c 0
+ 128 552 113 501 113 384 c 0
 EndSplineSet
 EndChar
 
@@ -4721,21 +4718,17 @@ TeX: 80 0
 LayerCount: 2
 Fore
 SplineSet
-428 -1 m 0
- 430 0 l 1
- 527 0 l 1
- 515 -11 l 0
- 475 -44 446 -73 436 -83 c 0
+430 0 m 1
+ 527 0 l 9
+ 492 -32 468 -47 436 -83 c 16
  428 -92 418 -103 418 -117 c 0
  418 -131 428 -142 446 -142 c 0
- 452 -142 461 -140 473 -136 c 0
- 491 -130 502 -122 509 -116 c 0
- 519 -108 l 1
- 519 -178 l 1
- 517 -180 l 0
- 492 -201 461 -209 431 -209 c 0
+ 446 -142 463 -141 482 -133 c 0
+ 495 -127 499 -124 519 -108 c 1
+ 519 -178 l 5
+ 504 -194 468 -209 431 -209 c 4
  367 -209 332 -176 332 -135 c 0
- 332 -96 366 -49 428 -1 c 0
+ 332 -89 380 -43 430 0 c 1
 EndSplineSet
 EndChar
 
@@ -4746,8 +4739,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 71 65 S 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 74 0 2
+Refer: 71 65 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Lcaron
@@ -4757,8 +4750,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 211 140 2
+Refer: 52 76 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Sacute
@@ -4768,8 +4761,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 50 83 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" Sacute.pl
 EndChar
 
@@ -4780,8 +4773,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -38 0 2
+Refer: 50 83 N 1 0 0 1 0 0 2
 Substitution2: "Romanian comma accent-1" Scommaaccent
 EndChar
 
@@ -4792,8 +4785,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 59 84 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 59 84 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Zacute
@@ -4803,8 +4796,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 96 90 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" Zacute.pl
 EndChar
 
@@ -4815,8 +4808,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 151 2
+Refer: 96 90 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dotaccent
@@ -4827,11 +4820,11 @@ TeX: 80 0
 LayerCount: 2
 Fore
 SplineSet
-236 702 m 0
- 236 744 270 778 312 778 c 0
+312 778 m 0
  354 778 388 744 388 702 c 0
  388 660 354 626 312 626 c 0
  270 626 236 660 236 702 c 0
+ 236 744 270 778 312 778 c 0
 EndSplineSet
 EndChar
 
@@ -4842,8 +4835,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 101 82 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Abreve
@@ -4853,8 +4846,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 -11 164 2
+Refer: 71 65 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Lacute
@@ -4864,8 +4857,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 52 76 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Cacute
@@ -4875,8 +4868,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 72 67 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" Cacute.pl
 EndChar
 
@@ -4887,8 +4880,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 28 146 2
+Refer: 72 67 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Eogonek
@@ -4898,8 +4891,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 17 0 2
+Refer: 80 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ecaron
@@ -4909,8 +4902,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 80 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Dcaron
@@ -4920,8 +4913,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 -23 146 2
+Refer: 79 68 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Dcroat
@@ -4941,8 +4934,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 -20 141 2
+Refer: 46 78 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" Nacute.pl
 EndChar
 
@@ -4953,8 +4946,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 46 78 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ohungarumlaut
@@ -4964,8 +4957,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 270 -1 S 1 0 0 1 0 0 2
+Refer: 42 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Rcaron
@@ -4975,8 +4968,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 101 82 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Uring
@@ -4986,8 +4979,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 161 730 S 1 0 0 1 -4 121 2
+Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Uhungarumlaut
@@ -4997,8 +4990,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 270 -1 S 1 0 0 1 0 0 2
+Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Tcedilla
@@ -5008,8 +5001,8 @@ Flags: W
 TeX: 80 0
 LayerCount: 2
 Fore
-Refer: 59 84 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -45 0 2
+Refer: 59 84 N 1 0 0 1 0 0 2
 Substitution2: "Romanian comma accent-1" uni021A
 EndChar
 
@@ -5019,8 +5012,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 14 0 2
+Refer: 0 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: hungarumlaut
@@ -5029,8 +5022,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 107 180 N 1 0 0 1 92 0 2
 Refer: 107 180 S 1 0 0 1 -92 0 2
+Refer: 107 180 N 1 0 0 1 92 0 2
 EndChar
 
 StartChar: breve
@@ -5041,15 +5034,11 @@ LayerCount: 2
 Fore
 SplineSet
 174 778 m 1
- 186 760 l 2
- 211 728 256 698 307 698 c 0
- 350 698 396 720 435 760 c 0
- 448 777 l 1
+ 205 732 247 698 307 698 c 0
+ 350 698 408 725 448 777 c 1
  500 707 l 1
- 494 699 l 0
- 452 646 385 606 307 606 c 0
- 237 606 167 640 118 695 c 0
- 110 704 l 1
+ 450 638 366 606 307 606 c 0
+ 230 606 160 648 110 704 c 1
  174 778 l 1
 EndSplineSet
 EndChar
@@ -5061,8 +5050,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-194 0 m 1
- 76 0 l 1
+76 0 m 1
  76 542 l 1
  194 542 l 1
  194 476 l 1
@@ -5072,11 +5060,9 @@ SplineSet
  538 75 l 0
  538 28 537 -23 515 -74 c 0
  480 -161 403 -209 322 -209 c 0
- 277 -209 232 -194 196 -166 c 0
- 186 -158 l 1
+ 268 -209 225 -189 186 -158 c 1
  239 -56 l 1
- 250 -59 l 0
- 267 -63 270 -79 270 -80 c 1
+ 265 -62 258 -70 270 -80 c 0
  276 -85 297 -98 324 -98 c 0
  352 -98 380 -85 399 -55 c 0
  422 -22 423 22 423 62 c 0
@@ -5086,6 +5072,7 @@ SplineSet
  286 450 236 409 217 385 c 0
  197 360 194 340 194 307 c 0
  194 0 l 1
+ 76 0 l 1
 EndSplineSet
 EndChar
 
@@ -5095,8 +5082,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 0 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ccaron
@@ -5105,8 +5092,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 143 711 S 1 0 0 1 0 0 2
 Refer: 1 99 N 1 0 0 1 0 0 2
+Refer: 143 711 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dcaron
@@ -5116,26 +5103,25 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-226 556 m 0
- 279 556 327 533 361 497 c 1
+361 497 m 1
  361 790 l 1
  473 790 l 1
- 473 63 l 0
- 473 48 474 33 478 19 c 0
- 483 0 l 1
+ 473 63 l 2
+ 473 38 477 22 483 0 c 1
  367 0 l 1
- 363 11 l 0
- 358 27 357 42 357 55 c 0
- 357 55 244 -12 215 -12 c 0
+ 362 13 357 28 357 43 c 2
+ 357 55 l 1
+ 326 12 271 -12 215 -12 c 0
  88 -12 -5 113 -5 275 c 0
  -5 450 106 556 226 556 c 0
-338 390 m 0
- 317 430 267 456 230 456 c 0
+ 279 556 327 533 361 497 c 1
+230 456 m 0
  166 456 108 389 108 285 c 0
  108 185 160 94 233 94 c 0
  272 94 310 120 330 151 c 0
  351 183 355 217 355 262 c 0
  355 329 353 361 338 390 c 0
+ 317 430 267 456 230 456 c 0
 EndSplineSet
 Refer: 56 8217 N 0.8 0 0 0.8 314 191 2
 EndChar
@@ -5147,35 +5133,30 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-311 459 m 0
- 261 459 192 433 172 340 c 1
- 437 340 l 1
- 437 342 437 342 437 343 c 0
- 437 407 384 459 311 459 c 0
-52 266 m 0
- 52 461 179 555 317 555 c 0
+317 555 m 0
  411 555 521 506 547 360 c 0
  551 340 553 317 553 295 c 0
- 553 282 552 270 551 257 c 2
- 550 244 l 1
+ 553 283 553 278 550 244 c 1
  167 244 l 1
  180 116 270 87 335 87 c 0
- 385 87 431 106 464 143 c 2
- 474 155 l 1
+ 392 87 444 110 474 155 c 1
  543 88 l 1
- 534 77 l 1
  489 21 l 2
  448 -30 412 -67 412 -98 c 0
  412 -122 428 -138 452 -138 c 0
- 457 -138 477 -138 510 -117 c 2
- 519 -111 l 1
+ 461 -138 479 -138 519 -111 c 1
  518 -184 l 1
- 515 -186 l 2
- 492 -199 463 -208 434 -208 c 0
+ 496 -198 464 -208 434 -208 c 0
  372 -208 330 -165 330 -113 c 0
  330 -80 347 -44 380 -8 c 1
  363 -11 346 -12 328 -12 c 0
  174 -12 52 87 52 266 c 0
+ 52 461 179 555 317 555 c 0
+172 340 m 1
+ 437 340 l 1
+ 437 342 437 342 437 343 c 0
+ 437 407 384 459 311 459 c 0
+ 261 459 192 433 172 340 c 1
 EndSplineSet
 EndChar
 
@@ -5185,8 +5166,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 7 108 N 1 0 0 1 -20 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 273 191 2
+Refer: 7 108 N 1 0 0 1 -20 0 2
 EndChar
 
 StartChar: lacute
@@ -5195,8 +5176,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 194 -1 S 1 0 0 1 -20 193 2
 Refer: 7 108 N 1 0 0 1 0 0 2
+Refer: 194 -1 S 1 0 0 1 -20 193 2
 EndChar
 
 StartChar: nacute
@@ -5205,8 +5186,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 6 110 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" nacute.pl
 EndChar
 
@@ -5216,8 +5197,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 6 110 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ohungarumlaut
@@ -5226,8 +5207,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 240 733 S 1 0 0 1 0 0 2
+Refer: 5 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: rcaron
@@ -5236,8 +5217,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 16 114 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sacute
@@ -5246,8 +5227,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 3 115 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" sacute.pl
 EndChar
 
@@ -5257,8 +5238,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -31 0 2
+Refer: 3 115 N 1 0 0 1 0 0 2
 Substitution2: "Romanian comma accent-1" scommaaccent
 EndChar
 
@@ -5268,8 +5249,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8 116 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 20 0 2
+Refer: 8 116 N 1 0 0 1 0 0 2
 Substitution2: "Romanian comma accent-1" uni021B
 EndChar
 
@@ -5279,8 +5260,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 161 730 S 1 0 0 1 0 0 2
+Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uhungarumlaut
@@ -5289,8 +5270,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 240 733 S 1 0 0 1 0 0 2
+Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: zdot
@@ -5299,8 +5280,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
+Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 222 729 N 1 0 0 1 0 0 2
-Refer: 69 122 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dotlessj
@@ -5310,22 +5291,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-144 441 m 1
- 144 543 l 1
+144 543 m 1
  463 543 l 1
  463 47 l 0
  463 2 462 -43 437 -90 c 0
  397 -168 315 -207 233 -207 c 0
- 161 -207 98 -177 56 -125 c 0
- 48 -116 l 1
+ 129 -207 80 -152 48 -116 c 1
  120 -20 l 1
- 133 -30 l 0
- 147 -41 146 -56 146 -56 c 0
+ 146 -40 138 -45 146 -56 c 0
  149 -60 181 -102 239 -102 c 0
  279 -102 316 -81 334 -43 c 0
  346 -19 346 5 346 32 c 0
  346 441 l 1
  144 441 l 1
+ 144 543 l 1
 EndSplineSet
 EndChar
 
@@ -5336,28 +5315,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-74 -1 m 1
- 74 542 l 1
+74 542 m 1
  199 542 l 1
- 202 529 l 0
- 202 527 202 526 202 524 c 0
+ 202 529 202 529 202 524 c 4
  202 510 192 501 191 499 c 0
  189 497 190 500 190 496 c 0
  190 313 l 1
  442 546 l 1
- 450 544 l 0
- 469 539 490 539 510 539 c 0
+ 464 541 470 539 510 539 c 2
  579 539 l 1
  333 319 l 1
- 611 -1 l 1
- 578 -1 l 0
- 575 -1 573 -1 570 -1 c 0
- 514 -1 469 -5 469 -5 c 0
- 461 -6 l 1
+ 611 -1 l 9
+ 595 -1 586 -1 570 -1 c 0
+ 510 -1 461 -6 461 -6 c 1
  245 264 l 1
  190 213 l 1
  190 -1 l 1
  74 -1 l 1
+ 74 542 l 1
 EndSplineSet
 EndChar
 
@@ -5498,16 +5473,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-332 800 m 1
- 510 969 l 1
+510 969 m 5
  585 866 l 1
  387 759 l 1
  332 800 l 1
-100 800 m 1
- 279 969 l 1
+ 510 969 l 5
+279 969 m 1
  353 866 l 1
  155 759 l 1
  100 800 l 1
+ 279 969 l 1
 EndSplineSet
 EndChar
 
@@ -5581,13 +5556,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-95 689 m 1
- 95 788 l 1
+95 788 m 1
  366 788 l 1
  366 460 l 1
- 422 479 l 1
- 433 482 439 486 450 494 c 0
- 474 511 l 1
+ 422 479 l 2
+ 443 486 454 497 474 511 c 1
  474 388 l 1
  366 353 l 1
  366 99 l 1
@@ -5602,6 +5575,7 @@ SplineSet
  249 419 l 1
  249 689 l 1
  95 689 l 1
+ 95 788 l 1
 EndSplineSet
 EndChar
 
@@ -5612,16 +5586,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-82 373 m 1
- 82 739 l 1
- 207 739 l 1
- 209 726 l 0
- 209 724 209 723 209 721 c 0
+82 739 m 1
+ 207 739 l 9
+ 208 732 209 726 209 721 c 0
  209 697 199 696 199 686 c 0
  199 411 l 1
- 375 466 l 0
- 386 469 394 472 404 476 c 0
- 426 485 l 1
+ 375 466 l 2
+ 387 469 403 476 426 485 c 1
  426 380 l 1
  199 310 l 1
  199 101 l 1
@@ -5632,6 +5603,7 @@ SplineSet
  18 252 l 1
  18 353 l 1
  82 373 l 1
+ 82 739 l 1
 EndSplineSet
 EndChar
 
@@ -5642,31 +5614,29 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-173 0 m 1
- 55 0 l 1
+55 0 m 1
  55 739 l 1
  173 739 l 1
  173 673 l 1
  219 722 282 753 350 753 c 0
  428 753 500 712 534 640 c 0
- 557 591 558 543 558 498 c 0
- 558 214 l 0
- 558 175 557 133 536 90 c 1
+ 557 591 558 543 558 498 c 2
+ 558 214 l 2
+ 558 175 557 133 536 90 c 0
  505 24 438 -12 364 -12 c 0
- 325 -12 285 -2 251 19 c 0
- 238 26 l 1
+ 309 -12 282 2 238 26 c 1
  295 126 l 1
- 309 119 l 0
- 318 114 322 105 323 104 c 1
+ 316 115 311 111 323 104 c 0
  328 101 346 92 366 92 c 0
- 394 92 419 106 432 133 c 1
- 443 156 443 185 443 211 c 0
- 443 494 l 0
- 443 527 444 562 427 592 c 1
- 409 628 375 647 335 647 c 0
- 279 647 222 603 197 570 c 1
- 177 542 173 518 173 482 c 0
+ 394 92 419 106 432 133 c 0
+ 443 156 443 185 443 211 c 2
+ 443 494 l 2
+ 443 527 443 562 427 592 c 0
+ 408 628 375 647 335 647 c 0
+ 279 647 222 603 197 570 c 0
+ 177 542 173 518 173 482 c 2
  173 0 l 1
+ 55 0 l 1
 EndSplineSet
 EndChar
 
@@ -5677,21 +5647,19 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-412 369 m 0
- 393 435 330 456 287 456 c 0
+287 456 m 0
  233 456 153 423 153 288 c 0
  153 129 239 94 291 94 c 0
  341 94 391 125 410 179 c 0
  418 202 420 229 420 266 c 0
  420 322 418 348 412 369 c 0
-590 614 m 1
- 538 614 l 1
- 539 62 l 0
- 539 47 539 32 543 18 c 0
- 548 0 l 1
+ 393 435 330 456 287 456 c 0
+538 614 m 1
+ 539 62 l 2
+ 539 38 541 22 548 0 c 1
  432 0 l 1
- 429 11 l 0
- 424 27 423 42 423 55 c 1
+ 429 9 423 24 423 38 c 2
+ 423 55 l 1
  384 13 329 -12 271 -12 c 0
  156 -12 40 79 40 275 c 0
  40 479 172 556 283 556 c 0
@@ -5702,12 +5670,12 @@ SplineSet
  427 709 l 1
  427 790 l 1
  548 790 l 1
- 549 775 l 0
- 550 761 542 751 540 748 c 0
+ 550 764 546 757 540 748 c 0
  537 743 538 745 538 740 c 0
  538 709 l 1
  590 709 l 1
  590 614 l 1
+ 538 614 l 1
 EndSplineSet
 EndChar
 
@@ -5717,8 +5685,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 171 2
+Refer: 67 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Idotaccent
@@ -5727,8 +5695,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 -20 161 2
+Refer: 4 73 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: cacute
@@ -5737,8 +5705,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 1 99 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" cacute.pl
 EndChar
 
@@ -5748,8 +5716,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 9 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gbreve
@@ -5758,8 +5726,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: racute
@@ -5768,8 +5736,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 16 114 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: zacute
@@ -5778,8 +5746,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 69 122 N 1 0 0 1 0 0 2
 Substitution2: "Polish kreska forms-1" zacute.pl
 EndChar
 
@@ -5789,8 +5757,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8 116 N 1 0 0 1 -31 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 283 232 2
+Refer: 8 116 N 1 0 0 1 -31 0 2
 EndChar
 
 StartChar: bullet
@@ -6704,11 +6672,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-254.596 836.294 m 1
- 381.195 825.404 l 1
+381.195 825.404 m 5
  324.462 617 l 1
  246.431 617 l 1
  254.596 836.294 l 1
+ 381.195 825.404 l 5
 EndSplineSet
 EndChar
 
@@ -9396,16 +9364,14 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-105 614 m 1
- 31 614 l 1
+31 614 m 1
  31 709 l 1
  105 709 l 1
  105 788 l 1
- 230 788 l 1
- 233 778 l 0
- 234 775 235 773 235 770 c 0
- 235 755 224 747 223 746 c 0
- 223 746 223 746 223 745 c 0
+ 230 788 l 17
+ 233 780 235 775 235 770 c 0
+ 235 759 230 753 226 749 c 0
+ 223 746 223 746 223 745 c 2
  223 709 l 1
  356 709 l 1
  356 614 l 1
@@ -9413,17 +9379,18 @@ SplineSet
  223 476 l 1
  265 522 324 555 388 555 c 0
  456 555 517 519 546 456 c 0
- 567 411 567 366 567 326 c 0
+ 567 411 567 366 567 326 c 2
  567 0 l 1
  452 0 l 1
- 452 320 l 0
+ 452 320 l 2
  452 356 451 395 426 423 c 0
  410 441 387 450 364 450 c 0
  315 450 266 409 247 385 c 0
- 227 360 223 340 223 307 c 0
+ 227 360 223 340 223 307 c 2
  223 0 l 1
  105 0 l 1
  105 614 l 1
+ 31 614 l 1
 EndSplineSet
 EndChar
 
@@ -9564,23 +9531,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-59 644 m 1
- 59 739 l 1
+59 739 m 1
  176 739 l 1
- 181 731 l 0
- 183 727 184 723 184 719 c 0
- 184 698 176 699 176 695 c 0
- 176 640 l 1
- 435 640 l 1
+ 182 729 184 726 184 719 c 0
+ 184 705 176 710 176 695 c 2
+ 176 644 l 1
+ 435 644 l 1
  435 739 l 1
  549 739 l 1
- 554 732 l 0
- 556 728 557 724 557 720 c 0
- 557 698 549 701 549 699 c 0
+ 555 731 557 728 557 720 c 0
+ 557 706 549 710 549 699 c 2
  549 644 l 1
  599 644 l 1
- 599 553 l 1
- 549 553 l 1
+ 599 554 l 1
+ 549 554 l 1
  549 -1 l 1
  434 -1 l 1
  434 337 l 1
@@ -9591,11 +9555,12 @@ SplineSet
  15 554 l 1
  15 644 l 1
  59 644 l 1
-435 438 m 1
- 435 561 l 1
- 176 561 l 1
+ 59 739 l 1
+435 554 m 1
+ 176 554 l 1
  176 438 l 1
  435 438 l 1
+ 435 554 l 1
 EndSplineSet
 EndChar
 
@@ -9606,8 +9571,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 12 72 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -1 146 2
+Refer: 12 72 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Jcircumflex
@@ -9617,8 +9582,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 83 74 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -1 146 2
+Refer: 83 74 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: hbar
@@ -9637,8 +9602,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 14 104 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 -1 146 2
+Refer: 14 104 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: jcircumflex
@@ -9648,8 +9613,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 259 567 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 259 567 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Cdotaccent
@@ -9659,8 +9624,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 150 2
+Refer: 72 67 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ccircumflex
@@ -9670,8 +9635,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -1 146 2
+Refer: 72 67 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Gdotaccent
@@ -9681,8 +9646,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 150 2
+Refer: 67 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Gcircumflex
@@ -9692,8 +9657,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -1 146 2
+Refer: 67 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ubreve
@@ -9703,8 +9668,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 -11 163 2
+Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Scircumflex
@@ -9714,8 +9679,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -1 146 2
+Refer: 50 83 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: cdotaccent
@@ -9725,8 +9690,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Refer: 1 99 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ccircumflex
@@ -9736,8 +9701,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 1 99 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gdotaccent
@@ -9747,8 +9712,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gcircumflex
@@ -9758,8 +9723,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ubreve
@@ -9769,8 +9734,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: scircumflex
@@ -9780,8 +9745,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 3 115 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Rcommaaccent
@@ -9791,8 +9756,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 101 82 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Itilde
@@ -9802,8 +9767,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 -5 149 2
+Refer: 4 73 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Lcommaaccent
@@ -9813,8 +9778,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 52 76 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Emacron
@@ -9824,8 +9789,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 0 201 2
+Refer: 80 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Gcommaaccent
@@ -9835,8 +9800,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 67 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Tbar
@@ -9846,8 +9811,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-32 635 m 1
- 32 740 l 1
+32 740 m 1
  574 740 l 1
  574 635 l 1
  356 635 l 1
@@ -9863,6 +9827,7 @@ SplineSet
  242 445 l 1
  242 635 l 1
  32 635 l 1
+ 32 740 l 1
 EndSplineSet
 EndChar
 
@@ -9873,8 +9838,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 16 114 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: itilde
@@ -9884,8 +9849,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 11 0 2
+Refer: 136 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: lcommaaccent
@@ -9895,8 +9860,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 7 108 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 7 108 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: emacron
@@ -9906,8 +9871,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Refer: 9 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gcommaaccent
@@ -9917,8 +9882,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 328 900 N -1 0 0 -1 618 1422 2
+Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tbar
@@ -9928,13 +9893,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-209 542 m 1
- 219 685 l 1
+219 685 m 1
  335 704 l 1
- 340 694 l 0
- 343 688 343 683 343 681 c 0
- 343 665 336 657 335 653 c 1
- 331 630 325 571 323 543 c 1
+ 343 689 343 688 343 681 c 0
+ 343 665 337 665 335 653 c 0
+ 330 630 325 571 323 543 c 1
  499 543 l 1
  499 441 l 1
  319 441 l 1
@@ -9942,14 +9905,13 @@ SplineSet
  473 343 l 1
  473 246 l 1
  310 246 l 1
- 310 186 313 172 313 165 c 1
- 322 114 356 99 389 99 c 0
- 418 99 458 113 502 146 c 0
- 518 157 l 1
+ 310 244 l 2
+ 310 186 313 172 313 165 c 0
+ 317 114 356 99 389 99 c 0
+ 434 99 467 122 518 157 c 1
  556 60 l 1
- 547 53 l 0
- 499 18 434 -10 365 -10 c 0
- 306 -10 257 12 228 50 c 1
+ 521 33 452 -10 365 -10 c 0
+ 306 -10 257 12 228 50 c 0
  193 97 194 152 194 197 c 0
  194 213 194 230 194 246 c 1
  84 246 l 1
@@ -9959,6 +9921,7 @@ SplineSet
  78 441 l 1
  79 542 l 1
  209 542 l 1
+ 219 685 l 1
 EndSplineSet
 EndChar
 
@@ -9969,8 +9932,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 201 2
+Refer: 71 65 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Iogonek
@@ -9980,8 +9943,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 -143 0 2
+Refer: 4 73 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Edotaccent
@@ -9991,8 +9954,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 150 2
+Refer: 80 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Imacron
@@ -10002,8 +9965,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 201 2
+Refer: 4 73 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ncommaaccent
@@ -10013,8 +9976,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 46 78 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Omacron
@@ -10024,8 +9987,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 201 2
+Refer: 42 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Kcommaaccent
@@ -10035,8 +9998,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 84 75 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 84 75 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Uogonek
@@ -10046,11 +10009,9 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-54 259 m 2
- 54 739 l 1
+54 739 m 1
  173 739 l 1
- 177 730 l 2
- 179 726 179 723 179 719 c 0
+ 179 725 179 725 179 719 c 0
  179 706 171 696 169 694 c 0
  167 691 167 692 167 688 c 2
  167 261 l 2
@@ -10061,26 +10022,21 @@ SplineSet
  455 739 l 1
  564 739 l 1
  564 263 l 2
- 564 211 563 158 533 105 c 0
- 526 92 518 82 509 71 c 1
- 509 71 l 0
- 506 68 504 65 501 62 c 0
- 500 61 498 59 497 58 c 2
- 429 -11 l 1
+ 564 201 564 130 501 62 c 0
+ 490 50 458 13 429 -11 c 16
  389 -44 360 -73 350 -83 c 0
  342 -92 332 -103 332 -117 c 0
  332 -131 342 -142 360 -142 c 0
- 366 -142 375 -140 387 -136 c 0
- 405 -130 416 -122 423 -116 c 2
- 433 -108 l 1
+ 366 -142 375 -141 387 -136 c 0
+ 408 -128 418 -122 433 -108 c 1
  433 -178 l 1
- 431 -180 l 2
- 406 -201 375 -209 345 -209 c 0
+ 409 -196 388 -209 345 -209 c 0
  281 -209 246 -176 246 -135 c 0
  246 -99 275 -57 328 -13 c 1
  322 -13 315 -13 309 -13 c 0
  217 -13 129 26 85 105 c 0
  56 157 54 209 54 259 c 2
+ 54 739 l 1
 EndSplineSet
 EndChar
 
@@ -10091,8 +10047,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 -5 149 2
+Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Umacron
@@ -10102,8 +10058,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 201 2
+Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: amacron
@@ -10113,8 +10069,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Refer: 0 97 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: iogonek
@@ -10124,8 +10080,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 105 N 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 -143 0 2
+Refer: 17 105 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: edotaccent
@@ -10135,8 +10091,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Refer: 9 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: imacron
@@ -10146,8 +10102,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Refer: 136 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ncommaaccent
@@ -10157,8 +10113,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 328 900 S 1 0 0 1 0 -828 2
+Refer: 6 110 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: kcommaaccent
@@ -10168,8 +10124,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 68 107 N 1 0 0 1 0 0 2
 Refer: 328 900 N 1 0 0 1 0 -828 2
+Refer: 68 107 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uogonek
@@ -10190,8 +10146,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 11 0 2
+Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: umacron
@@ -10201,8 +10157,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ebreve
@@ -10212,8 +10168,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 -11 163 2
+Refer: 80 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ebreve
@@ -10223,8 +10179,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 9 101 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ibreve
@@ -10234,8 +10190,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 -11 163 2
+Refer: 4 73 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ibreve
@@ -10245,8 +10201,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 136 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: IJ
@@ -10256,8 +10212,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-310 -1 m 1
- 15 -1 l 1
+15 -1 m 1
  15 99 l 1
  95 99 l 1
  95 639 l 1
@@ -10266,22 +10221,22 @@ SplineSet
  614 739 l 1
  614 639 l 1
  542 639 l 1
- 542 71 l 0
- 542 20 542 -37 511 -92 c 1
+ 542 71 l 2
+ 542 20 542 -37 511 -92 c 0
  473 -161 405 -199 329 -199 c 0
- 260 -199 192 -167 145 -111 c 0
- 137 -102 l 1
+ 271 -199 211 -184 137 -102 c 1
  210 -12 l 1
- 222 -22 l 0
- 233 -32 232 -46 232 -46 c 1
+ 225 -24 221 -35 232 -46 c 0
  241 -55 281 -94 331 -94 c 0
- 361 -94 388 -80 405 -54 c 1
- 428 -22 429 20 429 62 c 0
+ 361 -94 387 -80 405 -54 c 0
+ 427 -22 429 20 429 62 c 2
+ 429 77 l 1
  429 639 l 1
  209 639 l 1
  209 98 l 1
  310 98 l 1
  310 -1 l 1
+ 15 -1 l 1
 EndSplineSet
 EndChar
 
@@ -10292,40 +10247,38 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-364 0 m 1
- 15 0 l 1
+15 0 m 1
  15 99 l 1
  144 99 l 1
  144 442 l 1
  23 442 l 1
  23 543 l 1
  549 543 l 1
- 549 47 l 0
+ 549 47 l 2
  549 2 548 -43 523 -90 c 0
  483 -168 401 -207 319 -207 c 0
- 247 -207 184 -177 142 -125 c 0
- 134 -116 l 1
+ 249 -207 169 -170 134 -116 c 1
  206 -20 l 1
- 219 -30 l 0
- 233 -41 232 -56 232 -56 c 0
+ 232 -40 222 -42 232 -56 c 0
  235 -60 267 -102 325 -102 c 0
  365 -102 402 -81 420 -43 c 0
- 432 -19 432 5 432 32 c 0
+ 432 -19 432 5 432 32 c 2
  432 441 l 1
  261 441 l 1
  261 99 l 1
  364 99 l 1
  364 0 l 1
-205 626 m 0
- 163 626 128 660 128 702 c 0
+ 15 0 l 1
+128 702 m 0
  128 744 163 778 205 778 c 0
  247 778 282 744 282 702 c 0
  282 660 247 626 205 626 c 0
-492 626 m 0
- 450 626 415 660 415 702 c 0
+ 163 626 128 660 128 702 c 0
+415 702 m 0
  415 744 450 778 492 778 c 0
  534 778 568 744 568 702 c 0
  568 660 534 626 492 626 c 0
+ 450 626 415 660 415 702 c 0
 EndSplineSet
 EndChar
 
@@ -10336,8 +10289,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 142 183 N 1 0 0 1 102 0 2
+Refer: 52 76 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ldot
@@ -10347,8 +10300,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 7 108 N 1 0 0 1 -51 0 2
 Refer: 142 183 N 1 0 0 1 204 0 2
+Refer: 7 108 N 1 0 0 1 -51 0 2
 EndChar
 
 StartChar: napostrophe
@@ -10358,8 +10311,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-287 0 m 1
- 169 0 l 1
+169 0 m 1
  169 542 l 1
  287 542 l 1
  287 478 l 1
@@ -10374,6 +10326,7 @@ SplineSet
  359 450 333 412 311 385 c 0
  291 360 287 340 287 307 c 0
  287 0 l 1
+ 169 0 l 1
 EndSplineSet
 Refer: 56 8217 N 1 0 0 1 -195 0 2
 EndChar
@@ -10385,8 +10338,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 -11 163 2
+Refer: 42 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: obreve
@@ -10396,8 +10349,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Refer: 5 111 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Wcircumflex
@@ -10407,8 +10360,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 106 87 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -4 146 2
+Refer: 106 87 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: wcircumflex
@@ -10418,8 +10371,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 55 119 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 55 119 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ycircumflex
@@ -10429,8 +10382,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 94 89 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 -4 146 2
+Refer: 94 89 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ycircumflex
@@ -10440,8 +10393,8 @@ VWidth: 1046
 Flags: W
 LayerCount: 2
 Fore
-Refer: 23 121 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 23 121 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: longs
@@ -10451,24 +10404,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-300 0 m 1
- 187 0 l 1
- 187 548 l 0
- 187 596 189 645 219 694 c 1
+187 0 m 1
+ 187 548 l 2
+ 187 596 189 645 219 694 c 0
  260 761 338 796 418 796 c 0
- 491 796 554 767 596 716 c 0
- 602 709 l 1
+ 480 796 538 783 602 709 c 1
  554 612 l 1
- 545 612 l 0
- 534 612 521 622 520 637 c 1
- 520 641 l 1
- 519 642 l 1
- 519 643 l 0
+ 535 612 520 620 520 637 c 0
+ 520 640 520 641 519 643 c 16
  499 674 461 698 414 698 c 0
- 374 698 336 681 317 646 c 1
+ 374 698 336 681 317 646 c 0
  301 618 300 583 300 547 c 0
- 300 543 300 541 300 537 c 0
+ 300 543 300 541 300 537 c 18
  300 0 l 1
+ 187 0 l 1
 EndSplineSet
 EndChar
 
@@ -20979,9 +20928,6 @@ Encoding: 7874 7874 959
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-Refer: 170 202 N 1 0 0 1 0 0 2
-Refer: 1014 -1 S 1 0 0 1 150 231 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1014 -1 S 1 0 0 1 150 231 2
