@@ -16874,7 +16874,6 @@ StartChar: uni259B
 Encoding: 9627 9627 789
 Width: 613
 VWidth: 1046
-Flags: 
 LayerCount: 2
 Fore
 SplineSet
@@ -16892,7 +16891,6 @@ StartChar: uni259C
 Encoding: 9628 9628 790
 Width: 613
 VWidth: 1046
-Flags: 
 LayerCount: 2
 Fore
 SplineSet
@@ -16910,7 +16908,6 @@ StartChar: uni259E
 Encoding: 9630 9630 791
 Width: 613
 VWidth: 1046
-Flags: 
 LayerCount: 2
 Fore
 SplineSet
@@ -16930,7 +16927,6 @@ StartChar: uni259F
 Encoding: 9631 9631 792
 Width: 613
 VWidth: 1046
-Flags: 
 LayerCount: 2
 Fore
 SplineSet
