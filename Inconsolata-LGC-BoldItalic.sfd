@@ -21418,9 +21418,6 @@ Encoding: 7874 7874 965
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-Refer: 170 202 N 1 0 0 1 0 0 2
-Refer: 1020 -1 S 1 0 0 1 150 231 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1020 -1 S 1 0 0 1 191 231 2
@@ -22686,8 +22683,6 @@ Encoding: 65569 -1 1051
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-Refer: 260 312 N 1 0 0 1 0 0 2
 Fore
 Refer: 68 107 N 1 0 0 1 0 0 2
 EndChar
