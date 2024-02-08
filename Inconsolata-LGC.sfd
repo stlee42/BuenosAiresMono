@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707309741
+ModificationTime: 1707385490
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -7360,15 +7360,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-28 0 m 21
- 289 753 l 5
- 298 753 l 5
- 584 0 l 5
- 28 0 l 21
-136 81 m 5
- 467 81 l 5
- 293 562 l 5
- 136 81 l 5
+28 0 m 17
+ 289 753 l 1
+ 298 753 l 1
+ 584 0 l 1
+ 28 0 l 17
+136 81 m 1
+ 467 81 l 1
+ 293 562 l 1
+ 136 81 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7390,16 +7390,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-159 424 m 12
- 159 348 l 4
- 159 74 l 12
- 160 0 l 29
- 80 0 l 29
- 80 740 l 29
- 534 740 l 29
- 534 667 l 29
- 159 667 l 4
- 159 424 l 12
+159 424 m 8
+ 159 348 l 0
+ 159 74 l 8
+ 160 0 l 25
+ 80 0 l 25
+ 80 740 l 25
+ 534 740 l 25
+ 534 667 l 25
+ 159 667 l 0
+ 159 424 l 8
 EndSplineSet
 Validated: 1
 EndChar
@@ -7417,12 +7417,10 @@ SplineSet
  422 76 487 170 487 382 c 0
  487 522 463 672 308 672 c 0
 310 0 m 0
- 90 0 45 221 45 381 c 4
+ 90 0 45 221 45 381 c 0
  45 585 111 750 309 750 c 0
  485 750 569 608 569 382 c 0
  569 220 539 0 310 0 c 0
-444 422 m 1025
-176 421 m 1025
 444 340 m 1
  176 340 l 9
  176 421 l 25
@@ -7537,7 +7535,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-257 362 m 5
+257 362 m 1
  89 681 l 0
  88 739 l 0
  545 739 l 0
@@ -7551,10 +7549,8 @@ SplineSet
  559 -22 l 0
  70 -22 l 0
  70 28 l 0
- 257 362 l 5
-346 362 m 1025
+ 257 362 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Psi
