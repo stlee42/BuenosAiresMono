@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707572444
+ModificationTime: 1707579713
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4855,7 +4855,7 @@ TeX: 80 0
 LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
-Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Refer: 194 -1 N 1 0 0 1 29 141 2
 Substitution2: "Polish kreska forms-1" Cacute.pl
 EndChar
 
@@ -4867,7 +4867,7 @@ TeX: 80 0
 LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
-Refer: 191 -1 S 1 0 0 1 53.7437 146 2
+Refer: 191 -1 S 1 0 0 1 54 146 2
 EndChar
 
 StartChar: Eogonek
@@ -5079,7 +5079,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 143 711 N 1 0 0 1 24 0 2
 Refer: 1 99 N 1 0 0 1 0 0 2
 EndChar
 
@@ -5677,7 +5677,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
-Refer: 241 728 S 1 0 0 1 40.1519 171 2
+Refer: 241 728 N 1 0 0 1 64 171 2
 EndChar
 
 StartChar: Idotaccent
@@ -5697,7 +5697,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 107 180 N 1 0 0 1 24 0 2
 Substitution2: "Polish kreska forms-1" cacute.pl
 EndChar
 
@@ -9484,7 +9484,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 83 74 N 1 0 0 1 0 0 2
-Refer: 190 -1 S 1 0 0 1 25 146 2
+Refer: 190 -1 N 1 0 0 1 49 146 2
 EndChar
 
 StartChar: hbar
@@ -9526,7 +9526,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
-Refer: 222 729 S 1 0 0 1 26 150 2
+Refer: 222 729 N 1 0 0 1 50 150 2
 EndChar
 
 StartChar: Ccircumflex
@@ -9537,7 +9537,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
-Refer: 190 -1 S 1 0 0 1 25 146 2
+Refer: 190 -1 N 1 0 0 1 49 146 2
 EndChar
 
 StartChar: Gdotaccent
@@ -9548,7 +9548,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
-Refer: 222 729 S 1 0 0 1 26 150 2
+Refer: 222 729 N 1 0 0 1 50 150 2
 EndChar
 
 StartChar: Gcircumflex
@@ -9559,7 +9559,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
-Refer: 190 -1 S 1 0 0 1 25 146 2
+Refer: 190 -1 N 1 0 0 1 49 146 2
 EndChar
 
 StartChar: Ubreve
@@ -9592,7 +9592,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 222 729 S 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 24 0 2
 EndChar
 
 StartChar: ccircumflex
@@ -9603,7 +9603,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 137 710 S 1 0 0 1 0 0 2
+Refer: 137 710 N 1 0 0 1 24 0 2
 EndChar
 
 StartChar: gdotaccent
@@ -13768,7 +13768,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
-Refer: 668 -1 S 1 0 0 1 25 141 2
+Refer: 668 -1 N 1 0 0 1 49 141 2
 EndChar
 
 StartChar: cacute.pl
@@ -13779,7 +13779,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 669 -1 N 1 0 0 1 0 0 2
+Refer: 669 -1 N 1 0 0 1 24 0 2
 EndChar
 
 StartChar: Nacute.pl
@@ -21947,7 +21947,17 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 328 900 S 1 0 0 1 -146 -828 2
+SplineSet
+341 -100 m 0
+ 333 -146 311 -160 237 -212 c 1
+ 194 -178 l 1
+ 212 -167 231 -155 243 -142 c 0
+ 247 -138 253 -133 253 -131 c 0
+ 253 -130 251 -129 246 -127 c 0
+ 241 -124 223 -110 228 -83 c 0
+ 233 -54 260 -29 291 -29 c 0
+ 325 -29 348 -59 341 -100 c 0
+EndSplineSet
 EndChar
 
 StartChar: uni048A
