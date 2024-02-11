@@ -62,13 +62,13 @@ InconsolataLGC-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
 InconsolataLGC-OT.zip: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; zip -9r $@ $*
 
-InconsolataLGC-TTC.tar.xz: ${OTFONTS} ${DOCUMENTS}
+InconsolataLGC-TTC.tar.xz: ${TTCFONTS} ${DOCUMENTS}
 	${TTCPKGCMD}; tar cfvJ $@ $*
-InconsolataLGC-TTC.tar.gz: ${OTFONTS} ${DOCUMENTS}
+InconsolataLGC-TTC.tar.gz: ${TTCFONTS} ${DOCUMENTS}
 	${TTCPKGCMD}; tar cfvz $@ $*
-InconsolataLGC-TTC.tar.bz2: ${OTFONTS} ${DOCUMENTS}
+InconsolataLGC-TTC.tar.bz2: ${TTCFONTS} ${DOCUMENTS}
 	${TTCPKGCMD}; tar cfvj $@ $*
-InconsolataLGC-TTC.zip: ${OTFONTS} ${DOCUMENTS}
+InconsolataLGC-TTC.zip: ${TTCFONTS} ${DOCUMENTS}
 	${TTCPKGCMD}; zip -9r $@ $*
 
 ChangeLog: .git # GIT
