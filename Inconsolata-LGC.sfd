@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707716252
+ModificationTime: 1707735043
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -8502,7 +8502,7 @@ SplineSet
  590 0 l 1
  532 0 485 -4 485 -4 c 1
  352 227 l 1
- 350 224 346 220 344 217 c 1
+ 344 217 l 1
  344 0 l 1
  263 0 l 1
  263 224 l 1
@@ -19621,8 +19621,7 @@ SplineSet
  574 37 542 6 520 -13 c 0
  500 -31 469 -56 446 -91 c 1
  559 -91 l 2
- 560 -90 l 0
- 566 -84 571 -86 577 -88 c 1
+ 565 -91 568 -85 577 -88 c 1
  577 -132 l 1
  391 -132 l 1
  391 -105 l 1
@@ -25106,8 +25105,8 @@ SplineSet
  80 740 l 1
  534 740 l 1
  534 667 l 1
- 159 667 l 1
- 159 71 159 71 159 71 c 1
+ 159 667 l 25
+ 159 71 l 1
 EndSplineSet
 EndChar
 
