@@ -21,3 +21,13 @@ Changes inherited from Inconsolata Hellenic:
 
 Changes inherited from Inconsolata-dz:
 * Straight quotation marks.
+
+
+Build-time dependencies
+-----------------------
+
+* [Fontforge](https://fontforge.org/) with both Python and classic scripting
+  feature enabled
+* For variable font, also:
+  * [fonttools](https://github.com/fonttools/fonttools)
+  * [fontmake](https://github.com/googlefonts/fontmake)

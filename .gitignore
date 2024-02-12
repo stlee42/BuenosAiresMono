@@ -1,6 +1,8 @@
 ChangeLog
 *.otf
 *.ttf
+*.ufo
+*.designspace
 InconsolataLGC/
 InconsolataLGC-OT/
 *.tar.xz

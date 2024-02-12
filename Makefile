@@ -5,8 +5,12 @@ FONTS=Inconsolata-LGC.ttf \
       Inconsolata-LGC-Italic.ttf \
       Inconsolata-LGC-BoldItalic.ttf
 OTFONTS=${FONTS:.ttf=.otf}
+UFOS=${FONTS:.ttf=.ufo}
+DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 DOCUMENTS=README.md ChangeLog LICENSE
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz
+VARFONTS=variable_ttf/Inconsolata-LGC-VF.ttf \
+         variable_ttf/Inconsolata-LGC-Italic-VF.ttf
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
@@ -14,20 +18,33 @@ OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
 .PHONY: all
 all: ttf otf
 
-.SUFFIXES: .sfd .ttf .otf
+.SUFFIXES: .sfd .ttf .otf .ufo
 
 .sfd.ttf:
 	${FFCMD}
 .sfd.otf:
 	${FFCMD}
+.sfd.ufo:
+	${FFCMD}
 
-.PHONY: ttf otf
+.PHONY: ttf otf variable
 ttf: ${FONTS}
 otf: ${OTFONTS}
+variable: ${VARFONTS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip
 .PHONY: dist
 dist: ${PKGS}
+
+Inconsolata-LGC.designspace: Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo
+	./make_designspace.py $@ $^
+Inconsolata-LGC-Italic.designspace: Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo
+	./make_designspace.py $@ $^
+
+variable_ttf/Inconsolata-LGC-VF.ttf: Inconsolata-LGC.designspace
+	fontmake -m $< -o variable
+variable_ttf/Inconsolata-LGC-Italic-VF.ttf: Inconsolata-LGC-Italic.designspace
+	fontmake -m $< -o variable
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
@@ -53,5 +70,6 @@ ChangeLog: .git # GIT
 .PHONY: clean
 clean:
 	-rm -f ${FONTS} ${OTFONTS} ChangeLog
+	-rm -rf ${UFOS} ${DESIGNSPACES} variable_ttf
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}
