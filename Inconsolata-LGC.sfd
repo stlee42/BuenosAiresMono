@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707668773
+ModificationTime: 1707716252
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65582 1183
+BeginChars: 65585 1210
 
 StartChar: a
 Encoding: 97 97 0
@@ -3012,7 +3012,7 @@ Flags: W
 TeX: 99 0
 LayerCount: 2
 Fore
-Refer: 130 715 S 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -3024,7 +3024,7 @@ Flags: W
 TeX: 99 0
 LayerCount: 2
 Fore
-Refer: 137 710 S 1 0 0 1 8 0 2
+Refer: 137 710 N 1 0 0 1 8 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -25248,6 +25248,285 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1055 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Adblgrave
+Encoding: 512 512 1183
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 71 65 N 1 0 0 1 0 0 2
+Refer: 1208 -1 S 1 0 0 1 4 0 2
+EndChar
+
+StartChar: adblgrave
+Encoding: 513 513 1184
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 97 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 -8 0 2
+EndChar
+
+StartChar: Ainvertedbreve
+Encoding: 514 514 1185
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 71 65 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 0 146 2
+EndChar
+
+StartChar: ainvertedbreve
+Encoding: 515 515 1186
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 97 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 16 0 2
+EndChar
+
+StartChar: Edblgrave
+Encoding: 516 516 1187
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 69 N 1 0 0 1 0 0 2
+Refer: 1208 -1 N 1 0 0 1 26 0 2
+EndChar
+
+StartChar: edblgrave
+Encoding: 517 517 1188
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 -16 0 2
+EndChar
+
+StartChar: Einvertedbreve
+Encoding: 518 518 1189
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 69 N 1 0 0 1 0 0 2
+Refer: 1209 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: einvertedbreve
+Encoding: 519 519 1190
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 12 0 2
+EndChar
+
+StartChar: Idblgrave
+Encoding: 520 520 1191
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 73 N 1 0 0 1 0 0 2
+Refer: 1208 -1 N 1 0 0 1 15 0 2
+EndChar
+
+StartChar: idblgrave
+Encoding: 521 521 1192
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 305 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 -33 0 2
+EndChar
+
+StartChar: Iinvertedbreve
+Encoding: 522 522 1193
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 73 N 1 0 0 1 0 0 2
+Refer: 1209 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: iinvertedbreve
+Encoding: 523 523 1194
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 305 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Odblgrave
+Encoding: 524 524 1195
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 79 N 1 0 0 1 0 0 2
+Refer: 1208 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: odblgrave
+Encoding: 525 525 1196
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 -33 0 2
+EndChar
+
+StartChar: Oinvertedbreve
+Encoding: 526 526 1197
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 79 N 1 0 0 1 0 0 2
+Refer: 1209 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: oinvertedbreve
+Encoding: 527 527 1198
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Rdblgrave
+Encoding: 528 528 1199
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 101 82 N 1 0 0 1 0 0 2
+Refer: 1208 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rdblgrave
+Encoding: 529 529 1200
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 16 114 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Rinvertedbreve
+Encoding: 530 530 1201
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 101 82 N 1 0 0 1 0 0 2
+Refer: 1209 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: rinvertedbreve
+Encoding: 531 531 1202
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 16 114 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 27 0 2
+EndChar
+
+StartChar: Udblgrave
+Encoding: 532 532 1203
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 63 85 N 1 0 0 1 0 0 2
+Refer: 1208 -1 N 1 0 0 1 21 0 2
+EndChar
+
+StartChar: udblgrave
+Encoding: 533 533 1204
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 15 117 N 1 0 0 1 0 0 2
+Refer: 1207 -1 N 1 0 0 1 -31 0 2
+EndChar
+
+StartChar: Uinvertedbreve
+Encoding: 534 534 1205
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 63 85 N 1 0 0 1 0 0 2
+Refer: 1209 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: uinvertedbreve
+Encoding: 535 535 1206
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 15 117 N 1 0 0 1 0 0 2
+Refer: 1209 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: dblgrave
+Encoding: 65582 -1 1207
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 92 0 2
+Refer: 130 715 N 1 0 0 1 -92 0 2
+EndChar
+
+StartChar: dblgrave.cap
+Encoding: 65583 -1 1208
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+115 962 m 0
+ 271 814 l 0
+ 233 765 l 0
+ 60 885 l 0
+ 115 962 l 0
+326 962 m 0
+ 482 814 l 0
+ 444 765 l 0
+ 271 885 l 0
+ 326 962 l 0
+EndSplineSet
+EndChar
+
+StartChar: invertedbreve
+Encoding: 65584 -1 1209
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N -1 0 0 -1 611 1403 2
 EndChar
 EndChars
 EndSplineFont
