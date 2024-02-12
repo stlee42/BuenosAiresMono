@@ -6,7 +6,7 @@ FONTS=Inconsolata-LGC.ttf \
       Inconsolata-LGC-BoldItalic.ttf
 OTFONTS=${FONTS:.ttf=.otf}
 TTCFONTS=${FONTS:.ttf=.ttc}
-DOCUMENTS=README ChangeLog LICENSE
+DOCUMENTS=README.md ChangeLog LICENSE
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-TTC.tar.xz
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*

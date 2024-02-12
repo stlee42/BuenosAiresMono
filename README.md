@@ -1,5 +1,5 @@
 Inconsolata LGC
----------------
+===============
 
 Inconsolata is one of the most suitable font for programmers created by Raph
 Levien. Since the original Inconsolata does not contain Cyrillic alphabet,
@@ -9,16 +9,16 @@ Inconsolata LGC is a modified version of Inconsolata with added the Cyrillic
 alphabet which directly descends from Inconsolata Hellenic supporting modern
 Greek.
 
-Inconsolata LGC supports OpenType 'locl' feature to display Polish,
+Inconsolata LGC supports OpenType `locl` feature to display Polish,
 Romanian, Bulgarian, Macedonian, and Serbian specific variant (for the
 latter two, affects to italic only). TTC version is intended for use in
-apps which do not support 'locl' feature.
+apps which do not support `locl` feature.
 
-Inconsolata LGC is licensed under SIL OFL.
+Inconsolata LGC is licensed under [SIL OFL](LICENSE).
 
 
 Inconsolata LGC changes:
-* Cyrillic glyphs added.
+* Cyrillic glyphs and additional symbols added.
 * Italic and Bold font added.
 
 Changes inherited from Inconsolata Hellenic:
