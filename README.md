@@ -31,7 +31,7 @@ latter two, affects to italic only).
 
 Build-time dependencies
 -----------------------
-* [Fontforge](https://fontforge.org/) with both Python and classic scripting
+* [FontForge](https://fontforge.org/) with both Python and classic scripting
   feature enabled
 * For variable font, also:
   * [fonttools](https://github.com/fonttools/fonttools)

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1707735022
+ModificationTime: 1707750510
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -2065,10 +2065,10 @@ Fore
 SplineSet
 84 696 m 1
  115 795 l 1
- 195 760 458 620 458 297 c 0
+ 356 683 458 487 458 297 c 0
  458 129 388 -73 109 -213 c 1
  78 -115 l 1
- 198 -50 343 75 343 294 c 0
+ 290 0 343 160 343 294 c 0
  343 416 296 580 84 696 c 1
 EndSplineSet
 EndChar
