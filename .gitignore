@@ -3,6 +3,8 @@ ChangeLog
 *.ttf
 *.ufo
 *.designspace
+Inconsolata-LGC-Minimum*
+Inconsolata-LGC-Maximum*
 InconsolataLGC/
 InconsolataLGC-OT/
 *.tar.xz
