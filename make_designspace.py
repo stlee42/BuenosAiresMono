@@ -7,7 +7,7 @@ from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, Source
 root = os.getcwd()
 doc = DesignSpaceDocument()
 
-familyName = "InconsolataLGC"
+familyName = "Inconsolata LGC"
 isItalic = bool(re.search('Italic', argv[1]))
 
 #------
