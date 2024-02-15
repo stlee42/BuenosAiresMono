@@ -1,8 +1,14 @@
 ChangeLog
 *.otf
 *.ttf
+*.ttc
+*-Polish*.sfd
+*-Bulgarian*.sfd
+*-Yugoslav*.sfd
+Inconsolata-LGC-*.mk
 InconsolataLGC/
 InconsolataLGC-OT/
+InconsolataLGC-TTC/
 *.tar.xz
 *.tar.gz
 *.tar.bz2

@@ -26,16 +26,18 @@ Regional forms
 --------------
 Inconsolata LGC supports OpenType `locl` feature to display Polish,
 Romanian, Bulgarian, Macedonian, and Serbian specific variant (for the
-latter two, affects to italic only).
+latter two, affects to italic only). TTC version is intended for use in
+apps which do not support `locl` feature.
 
 
 Build-time dependencies
 -----------------------
 * [FontForge](https://fontforge.org/) with both Python and classic scripting
   feature enabled
+* [Adobe Font Development Kit for OpenType][1] to build TTC
 
+[1]: https://github.com/adobe-type-tools/afdko
 
 License
 -------
 Inconsolata LGC is licensed under [SIL OFL](LICENSE).
-
