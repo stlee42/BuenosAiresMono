@@ -13,8 +13,8 @@ UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 DOCUMENTS=README.md ChangeLog LICENSE
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz
-VARFONTS=variable_ttf/Inconsolata-LGC-VF.ttf \
-         variable_ttf/Inconsolata-LGC-Italic-VF.ttf
+VARFONTS=Inconsolata-LGC-Variable.ttf \
+         Inconsolata-LGC-Variable-Italic.ttf
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
@@ -56,10 +56,10 @@ Inconsolata-LGC.designspace: Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Incons
 Inconsolata-LGC-Italic.designspace: Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo Inconsolata-LGC-MinimumItalic.ufo Inconsolata-LGC-MaximumItalic.ufo
 	./make_designspace.py $@ $^
 
-variable_ttf/Inconsolata-LGC-VF.ttf: Inconsolata-LGC.designspace
-	fontmake -m $< -o variable
-variable_ttf/Inconsolata-LGC-Italic-VF.ttf: Inconsolata-LGC-Italic.designspace
-	fontmake -m $< -o variable
+Inconsolata-LGC-Variable.ttf: Inconsolata-LGC.designspace
+	fontmake -m $< -o variable --output-path $@
+Inconsolata-LGC-Variable-Italic.ttf: Inconsolata-LGC-Italic.designspace
+	fontmake -m $< -o variable --output-path $@
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
@@ -84,7 +84,7 @@ ChangeLog: .git # GIT
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS} ${OTFONTS} ChangeLog
-	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES} variable_ttf
+	-rm -f ${FONTS} ${OTFONTS} ${VARFONTS} ChangeLog
+	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES}
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}
