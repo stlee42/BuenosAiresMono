@@ -21,7 +21,7 @@ OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
 VTTFPKGCMD=rm -rf $*; mkdir $*; cp ${VARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
-all: ttf otf
+all: ttf otf variable
 
 .SUFFIXES: .sfd .ttf .otf .ufo
 
