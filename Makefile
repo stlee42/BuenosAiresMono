@@ -30,6 +30,8 @@ all: ttf otf
 	${FFCMD}
 .sfd.ufo:
 	${FFCMD}
+	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
+	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
 
 .PHONY: ttf otf variable
 ttf: ${FONTS}
