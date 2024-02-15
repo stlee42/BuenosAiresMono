@@ -34,7 +34,9 @@ Build-time dependencies
 -----------------------
 * [Fontforge](https://fontforge.org/) with both Python and classic scripting
   feature enabled
+* [Adobe Font Development Kit for OpenType][1] to build TTC
 
+[1]: https://github.com/adobe-type-tools/afdko
 
 License
 -------
