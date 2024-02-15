@@ -26,91 +26,53 @@ doc.addAxis(a1)
 # masters
 #---------
 
-s0 = SourceDescriptor()
-s0.path = argv[2]
-s0.name = "master.InconsolataLGC.Regular.0"
-s0.familyName = familyName
-s0.styleName = "Italic" if isItalic else "Regular"
-s0.location = dict(Weight=400)
-s0.copyLib = True
-s0.copyInfo = True
-s0.copyGroups = True
-s0.copyFeatures = True
-doc.addSource(s0)
+sourceList = [
+	("Regular", argv[2],  400),
+	("Minimum", argv[4],    0),
+	("Bold",    argv[3],  700),
+	("Maximum", argv[5], 1000),
+]
 
-s1 = SourceDescriptor()
-s1.path = argv[4]
-s1.name = "master.InconsolataLGC.Minimum.0"
-s1.familyName = familyName
-s1.styleName = "Minimum Italic" if isItalic else "Minimum"
-s1.location = dict(Weight=0)
-doc.addSource(s1)
-
-s2 = SourceDescriptor()
-s2.path = argv[3]
-s2.name = "master.InconsolataLGC.Bold.0"
-s2.familyName = familyName
-s2.styleName = "Bold Italic" if isItalic else "Bold"
-s2.location = dict(Weight=700)
-doc.addSource(s2)
-
-s3 = SourceDescriptor()
-s3.path = argv[5]
-s3.name = "master.InconsolataLGC.Maximum.0"
-s3.familyName = familyName
-s3.styleName = "Maximum Italic" if isItalic else "Maximum"
-s3.location = dict(Weight=1000)
-doc.addSource(s3)
+for source in sourceList:
+	s0 = SourceDescriptor()
+	s0.path = source[1]
+	s0.name = "master.InconsolataLGC." + source[0].replace(" ", "") + ".0"
+	s0.familyName = familyName
+	s0.styleName = source[0] + (" Italic" if isItalic else "")
+	if s0.styleName == "Regular Italic":
+		s0.styleName = "Italic"
+	s0.location = dict(Weight=source[2])
+	if source[2] == a1.default:
+		s0.copyLib = True
+		s0.copyInfo = True
+		s0.copyGroups = True
+		s0.copyFeatures = True
+	doc.addSource(s0)
 
 #----------
 # instances
 #----------
 
-i1 = InstanceDescriptor()
-i1.styleName = "Thin Italic" if isItalic else "Thin"
-i1.designLocation = dict(Weight=100)
-doc.addInstance(i1)
+weightList = [
+	(100, "Thin"),
+	(200, "Extra Light"),
+	(300, "Light"),
+	(400, None),
+	(500, "Medium"),
+	(600, "DemiBold"),
+	(700, "Bold"),
+	(800, "Extra Bold"),
+	(900, "Black"),
+]
 
-i2 = InstanceDescriptor()
-i2.styleName = "Extra Light Italic" if isItalic else "Extra Light"
-i2.designLocation = dict(Weight=200)
-doc.addInstance(i2)
-
-i3 = InstanceDescriptor()
-i3.styleName = "Light Italic" if isItalic else "Light"
-i3.designLocation = dict(Weight=300)
-doc.addInstance(i3)
-
-i4 = InstanceDescriptor()
-i4.styleName = "Italic" if isItalic else "Regular"
-i4.designLocation = dict(Weight=400)
-doc.addInstance(i4)
-
-i5 = InstanceDescriptor()
-i5.styleName = "Medium Italic" if isItalic else "Medium"
-i5.designLocation = dict(Weight=500)
-doc.addInstance(i5)
-
-i6 = InstanceDescriptor()
-i6.styleName = "DemiBold Italic" if isItalic else "DemiBold"
-i6.designLocation = dict(Weight=600)
-doc.addInstance(i6)
-
-i7 = InstanceDescriptor()
-i7.styleName = "Bold Italic" if isItalic else "Bold"
-i7.designLocation = dict(Weight=700)
-doc.addInstance(i7)
-
-i8 = InstanceDescriptor()
-i8.styleName = "Extra Bold Italic" if isItalic else "Extra Bold"
-i8.designLocation = dict(Weight=800)
-doc.addInstance(i8)
-
-
-i9 = InstanceDescriptor()
-i9.styleName = "Black Italic" if isItalic else "Black"
-i9.designLocation = dict(Weight=900)
-doc.addInstance(i9)
+for weight in weightList:
+	i1 = InstanceDescriptor()
+	styleNameList = [i for i in [weight[1], "Italic" if isItalic else None] if i is not None]
+	i1.styleName = " ".join(styleNameList)
+	if i1.styleName == "":
+		i1.styleName = "Regular"
+	i1.designLocation = dict(Weight=weight[0])
+	doc.addInstance(i1)
 
 
 #--------
