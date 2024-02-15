@@ -12,12 +12,13 @@ OTFONTS=${FONTS:.ttf=.otf}
 UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 DOCUMENTS=README.md ChangeLog LICENSE
-PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz
+PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
+VTTFPKGCMD=rm -rf $*; mkdir $*; cp ${VARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
 all: ttf otf
@@ -78,6 +79,15 @@ InconsolataLGC-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; tar cfvj $@ $*
 InconsolataLGC-OT.zip: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; zip -9r $@ $*
+
+InconsolataLGC-Variable.tar.xz: ${VARFONTS} ${DOCUMENTS}
+	${VTTFPKGCMD}; tar cfvJ $@ $*
+InconsolataLGC-Variable.tar.gz: ${VARFONTS} ${DOCUMENTS}
+	${VTTFPKGCMD}; tar cfvz $@ $*
+InconsolataLGC-Variable.tar.bz2: ${VARFONTS} ${DOCUMENTS}
+	${VTTFPKGCMD}; tar cfvj $@ $*
+InconsolataLGC-Variable.zip: ${VARFONTS} ${DOCUMENTS}
+	${VTTFPKGCMD}; zip -9r $@ $*
 
 ChangeLog: .git # GIT
 	./mkchglog.rb > $@ # GIT
