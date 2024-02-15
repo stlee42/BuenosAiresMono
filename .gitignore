@@ -6,6 +6,10 @@ ChangeLog
 *-Bulgarian*.sfd
 *-Yugoslav*.sfd
 Inconsolata-LGC-*.mk
+*.ufo
+*.designspace
+Inconsolata-LGC-Minimum*
+Inconsolata-LGC-Maximum*
 InconsolataLGC/
 InconsolataLGC-OT/
 InconsolataLGC-TTC/
