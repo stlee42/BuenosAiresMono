@@ -12,7 +12,8 @@ OTFONTS=${FONTS:.ttf=.otf}
 TTCFONTS=${FONTS:.ttf=.ttc}
 UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
-DOCUMENTS=README.md ChangeLog LICENSE
+DOC_ASSET_DIR=doc
+DOCUMENTS=README.md ChangeLog LICENSE $(wildcard ${DOC_ASSET_DIR}/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
