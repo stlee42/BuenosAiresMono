@@ -1,5 +1,6 @@
 Inconsolata LGC
 ===============
+![Inconsolata LGC font specimen](doc/InconsolataLGC_specimen.png)
 
 Inconsolata is one of the most suitable font for programmers created by Raph
 Levien. Since the original Inconsolata does not contain Cyrillic alphabet,
