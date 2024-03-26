@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1708158874
+ModificationTime: 1711471398
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -46,6 +46,8 @@ Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['locl' (
 Lookup: 1 0 0 "Romanian comma accent" { "Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "Bulgarian variant forms" { "Bulgarian variant forms-1" ("bg") } ['locl' ('cyrl' <'BGR ' > ) ]
+Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'PLK ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'MOL ' 'PLK ' 'ROM ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "Bold Italic"
@@ -85,7 +87,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65581 1208
+BeginChars: 65587 1214
 
 StartChar: a
 Encoding: 97 97 0
@@ -557,6 +559,7 @@ SplineSet
  228 0 l 1
  110 0 l 1
 EndSplineSet
+Substitution2: "r with serif-1" r.serif
 EndChar
 
 StartChar: i
@@ -1201,6 +1204,7 @@ SplineSet
  381 93 480 159 516 363 c 0
  523 405 526 443 527 476 c 1
 EndSplineSet
+Substitution2: "Non-slashed zero-1" zero.noslash
 EndChar
 
 StartChar: one
@@ -5211,6 +5215,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rcaron.serif
 EndChar
 
 StartChar: sacute
@@ -5729,6 +5734,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" racute.serif
 EndChar
 
 StartChar: zacute
@@ -9739,6 +9745,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rcommaaccent.serif
 EndChar
 
 StartChar: itilde
@@ -10851,6 +10858,7 @@ SplineSet
  336 396 358 385 380 385 c 0
  417 385 486 421 507 538 c 0
 EndSplineSet
+Substitution2: "Non-slashed zero-1" zerosuperior.noslash
 EndChar
 
 StartChar: fivesuperior
@@ -24864,6 +24872,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1203 -1 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rdblgrave.serif
 EndChar
 
 StartChar: Rinvertedbreve
@@ -24884,6 +24893,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1205 -1 N 1 0 0 1 27 0 2
+Substitution2: "r with serif-1" rinvertedbreve.serif
 EndChar
 
 StartChar: Udblgrave
@@ -24992,6 +25002,82 @@ SplineSet
  531 163 l 1
  82 327 l 1
  531 490 l 1
+EndSplineSet
+EndChar
+
+StartChar: racute.serif
+Encoding: 65581 -1 1208
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 107 180 S 1 0 0 1 0 0 2
+Refer: 269 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rcommaaccent.serif
+Encoding: 65582 -1 1209
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1056 -1 N 1 0 0 1 0 0 2
+Refer: 269 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rcaron.serif
+Encoding: 65583 -1 1210
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 S 1 0 0 1 0 0 2
+Refer: 269 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rdblgrave.serif
+Encoding: 65584 -1 1211
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1203 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rinvertedbreve.serif
+Encoding: 65585 -1 1212
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1205 -1 N 1 0 0 1 27 0 2
+EndChar
+
+StartChar: zerosuperior.noslash
+Encoding: 65586 -1 1213
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+196 548 m 0
+ 220 683 338 770 444 770 c 0
+ 548 770 636 688 611 544 c 0
+ 582 379 458 296 361 296 c 0
+ 255 296 168 392 196 548 c 0
+301 556 m 0
+ 281 445 330 385 380 385 c 0
+ 417 385 486 421 507 538 c 0
+ 524 632 479 683 427 683 c 0
+ 385 683 316 643 301 556 c 0
 EndSplineSet
 EndChar
 EndChars

@@ -63,6 +63,18 @@ but Inconsolata LGC is not designed so.
 Delta-like _be_ also applies in Roman (non-italic) fonts.
 
 
+Character variants
+------------------
+
+### `cv01`: zero without slash ###
+This was included but not used in the original Inconsolata. Feature tag
+`zero` is inappropriate here because zero is slashed by default in this
+font.
+
+### `cv02`: _r_ with serif ###
+This was included but not used in the original Inconsolata.
+
+
 Build-time dependencies
 -----------------------
 * [FontForge](https://fontforge.org/) with both Python and classic scripting
