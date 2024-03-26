@@ -26,9 +26,8 @@ Inconsolata LGC changes
 Regional forms
 --------------
 Inconsolata LGC supports OpenType `locl` feature to display Polish,
-Romanian, Bulgarian, Macedonian, and Serbian specific variant (for the
-latter two, affects to italic only). TTC version is intended for use in
-apps which do not support `locl` feature.
+Romanian, Bulgarian, Macedonian, and Serbian specific variant. TTC version
+is intended for use in apps which do not support `locl` feature.
 
 ### Polish _kreska_ ###
 ![Differences between default and Polish variants](doc/Polish_kreska.png)
@@ -61,6 +60,7 @@ upside-down m, all three with a top bar while Russian ones looks like
 mirror-image s, lowercase n and m.
 Lowercase _de_ looks like g. In some fonts, Russian one looks like round d,
 but Inconsolata LGC is not designed so.
+Delta-like _be_ also applies in Roman (non-italic) fonts.
 
 
 Build-time dependencies
