@@ -63,16 +63,23 @@ but Inconsolata LGC is not designed so.
 Delta-like _be_ also applies in Roman (non-italic) fonts.
 
 
-Character variants
-------------------
+Miscellaneous variants
+----------------------
+
+### `onum`: old style numerals ###
+Old style numerals are “lowercase” of numerals: 0, 1, and 2 are of x-height,
+6 and 8 have ascenders, and the others have descenders. They are also known
+as text figures.
+On the other hand, lining (or titling) numerals are “uppercase” to which
+this font defaults.
 
 ### `cv01`: zero without slash ###
-This was included but not used in the original Inconsolata. Feature tag
-`zero` is inappropriate here because zero is slashed by default in this
+The glyph was included but not used in the original Inconsolata. Feature
+tag `zero` is inappropriate here because zero is slashed by default in this
 font.
 
 ### `cv02`: _r_ with serif ###
-This was included but not used in the original Inconsolata.
+The glyph was included but not used in the original Inconsolata.
 
 
 Build-time dependencies
