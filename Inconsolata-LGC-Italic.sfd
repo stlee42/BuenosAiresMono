@@ -91,7 +91,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65648 1326
+BeginChars: 65688 1366
 
 StartChar: a
 Encoding: 97 97 0
@@ -26658,6 +26658,482 @@ LayerCount: 2
 Fore
 Refer: 1055 -1 N 1 0 0 1 0 0 2
 Refer: 130 715 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Eracute
+Encoding: 65648 -1 1326
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 383 1056 N 1 0 0 1 0 0 2
+Refer: 194 -1 N 1 0 0 1 5 141 2
+Decomposition: "+BCADAQAA"
+EndChar
+
+StartChar: eracute
+Encoding: 65649 -1 1327
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 415 1088 N 1 0 0 1 0 0 2
+Refer: 107 180 S 1 0 0 1 0 0 2
+Decomposition: "+BEADAQAA"
+EndChar
+
+StartChar: Ergrave
+Encoding: 65650 -1 1328
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 383 1056 N 1 0 0 1 0 0 2
+Refer: 195 -1 S 1 0 0 1 -6 141 2
+Decomposition: "+BCADAAAA"
+EndChar
+
+StartChar: ergrave
+Encoding: 65651 -1 1329
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 0 0 2
+Refer: 415 1088 N 1 0 0 1 0 0 2
+Decomposition: "+BEADAAAA"
+EndChar
+
+StartChar: Acyrildblgrave
+Encoding: 65652 -1 1330
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 1040 N 1 0 0 1 0 0 2
+Refer: 1204 -1 S 1 0 0 1 4 0 2
+Decomposition: "+BBADDwAA"
+EndChar
+
+StartChar: acyrildblgrave
+Encoding: 65653 -1 1331
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 399 1072 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -8 0 2
+Decomposition: "+BDADDwAA"
+EndChar
+
+StartChar: Iedblgrave
+Encoding: 65654 -1 1332
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 372 1045 N 1 0 0 1 0 0 2
+Refer: 1204 -1 S 1 0 0 1 26 0 2
+Decomposition: "+BBUDDwAA"
+EndChar
+
+StartChar: iedblgrave
+Encoding: 65655 -1 1333
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 404 1077 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -16 0 2
+Decomposition: "+BDUDDwAA"
+EndChar
+
+StartChar: Iidblgrave
+Encoding: 65656 -1 1334
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 375 1048 N 1 0 0 1 0 0 2
+Refer: 1204 -1 S 1 0 0 1 26 0 2
+Decomposition: "+BBgDDwAA"
+EndChar
+
+StartChar: iidblgrave
+Encoding: 65657 -1 1335
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 407 1080 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -33 0 2
+Decomposition: "+BDgDDwAA"
+EndChar
+
+StartChar: Ocyrildblgrave
+Encoding: 65658 -1 1336
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 381 1054 N 1 0 0 1 0 0 2
+Refer: 1204 -1 N 1 0 0 1 0 0 2
+Decomposition: "+BB4DDwAA"
+EndChar
+
+StartChar: ocyrildblgrave
+Encoding: 65659 -1 1337
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 413 1086 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -33 0 2
+Decomposition: "+BD4DDwAA"
+EndChar
+
+StartChar: Erdblgrave
+Encoding: 65660 -1 1338
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 383 1056 N 1 0 0 1 0 0 2
+Refer: 1204 -1 S 1 0 0 1 0 0 2
+Decomposition: "+BCADDwAA"
+EndChar
+
+StartChar: erdblgrave
+Encoding: 65661 -1 1339
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 415 1088 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -16 0 2
+Decomposition: "+BEADDwAA"
+EndChar
+
+StartChar: Ucyrildblgrave
+Encoding: 65662 -1 1340
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 386 1059 N 1 0 0 1 0 0 2
+Refer: 1204 -1 S 1 0 0 1 26 0 2
+Decomposition: "+BCMDDwAA"
+EndChar
+
+StartChar: ucyrildblgrave
+Encoding: 65663 -1 1341
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 418 1091 N 1 0 0 1 0 0 2
+Refer: 1203 -1 S 1 0 0 1 -33 0 2
+Decomposition: "+BEMDDwAA"
+EndChar
+
+StartChar: Acyrilinvertedbreve
+Encoding: 65664 -1 1342
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 1040 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BBADEQAA"
+EndChar
+
+StartChar: acyrilinvertedbreve
+Encoding: 65665 -1 1343
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 399 1072 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 16 0 2
+Decomposition: "+BDADEQAA"
+EndChar
+
+StartChar: Ieinvertedbreve
+Encoding: 65666 -1 1344
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 372 1045 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BBUDEQAA"
+EndChar
+
+StartChar: ieinvertedbreve
+Encoding: 65667 -1 1345
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 404 1077 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 12 0 2
+Decomposition: "+BDUDEQAA"
+EndChar
+
+StartChar: Iiinvertedbreve
+Encoding: 65668 -1 1346
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 375 1048 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BBgDEQAA"
+EndChar
+
+StartChar: iiinvertedbreve
+Encoding: 65669 -1 1347
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 407 1080 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 0 0 2
+Decomposition: "+BDgDEQAA"
+EndChar
+
+StartChar: Ocyrilinvertedbreve
+Encoding: 65670 -1 1348
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 381 1054 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BB4DEQAA"
+EndChar
+
+StartChar: ocyrilinvertedbreve
+Encoding: 65671 -1 1349
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 413 1086 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 0 0 2
+Decomposition: "+BD4DEQAA"
+EndChar
+
+StartChar: Erinvertedbreve
+Encoding: 65672 -1 1350
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 383 1056 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BCADEQAA"
+EndChar
+
+StartChar: erinvertedbreve
+Encoding: 65673 -1 1351
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 415 1088 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 12 0 2
+Decomposition: "+BEADEQAA"
+EndChar
+
+StartChar: Ucyrilinvertedbreve
+Encoding: 65674 -1 1352
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 386 1059 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 26 146 2
+Decomposition: "+BCMDEQAA"
+EndChar
+
+StartChar: ucyrilinvertedbreve
+Encoding: 65675 -1 1353
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 418 1091 N 1 0 0 1 0 0 2
+Refer: 1205 -1 S 1 0 0 1 0 0 2
+Decomposition: "+BEMDEQAA"
+EndChar
+
+StartChar: Acyrilmacron
+Encoding: 65676 -1 1354
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 1040 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 35 201 2
+Decomposition: "+BBADBAAA"
+EndChar
+
+StartChar: acyrilmacron
+Encoding: 65677 -1 1355
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 399 1072 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+Decomposition: "+BDADBAAA"
+EndChar
+
+StartChar: Iemacron
+Encoding: 65678 -1 1356
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 372 1045 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 35 201 2
+Decomposition: "+BBUDBAAA"
+EndChar
+
+StartChar: iemacron
+Encoding: 65679 -1 1357
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 404 1077 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+Decomposition: "+BDUDBAAA"
+EndChar
+
+StartChar: Ocyrilmacron
+Encoding: 65680 -1 1358
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 381 1054 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 35 201 2
+Decomposition: "+BB4DBAAA"
+EndChar
+
+StartChar: ocyrilmacron
+Encoding: 65681 -1 1359
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 413 1086 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+Decomposition: "+BD4DBAAA"
+EndChar
+
+StartChar: Ermacron
+Encoding: 65682 -1 1360
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 383 1056 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 35 201 2
+Decomposition: "+BCADBAAA"
+EndChar
+
+StartChar: ermacron
+Encoding: 65683 -1 1361
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 415 1088 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+Decomposition: "+BEADBAAA"
+EndChar
+
+StartChar: Rgrave
+Encoding: 65684 -1 1362
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 101 82 N 1 0 0 1 0 0 2
+Refer: 195 -1 S 1 0 0 1 -6 141 2
+Decomposition: "R+AwAA"
+EndChar
+
+StartChar: rgrave
+Encoding: 65685 -1 1363
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 16 114 N 1 0 0 1 0 0 2
+Refer: 130 715 S 1 0 0 1 0 0 2
+Decomposition: "r+AwAA"
+EndChar
+
+StartChar: Rmacron
+Encoding: 65686 -1 1364
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 101 82 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 35 201 2
+Decomposition: "R+AwQA"
+EndChar
+
+StartChar: rmacron
+Encoding: 65687 -1 1365
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 16 114 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 30 0 2
+Decomposition: "r+AwQA"
 EndChar
 EndChars
 EndSplineFont
