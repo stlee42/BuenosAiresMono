@@ -62,6 +62,11 @@ Lowercase _de_ looks like g. In some fonts, Russian one looks like round d,
 but Inconsolata LGC is not designed so.
 Delta-like _be_ also applies in Roman (non-italic) fonts.
 
+### Sami _Eng_ ###
+In Sami languages, uppercase Eng should use that derived from uppercase N.
+Default glyph in this font is that from lowercase n.
+TTC version is not ready for Sami languages.
+
 
 Miscellaneous variants
 ----------------------
@@ -80,6 +85,10 @@ font.
 
 ### `cv02`: _r_ with serif ###
 The glyph was included but not used in the original Inconsolata.
+
+### `cv03`: variants of _Eng_ ###
+Uppercase _Eng_ can have glyphs derived from either upper- or lowercase
+of N.
 
 
 Build-time dependencies
