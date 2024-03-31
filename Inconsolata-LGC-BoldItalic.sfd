@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1711885188
+ModificationTime: 1711893150
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -91,7 +91,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65630 1308
+BeginChars: 65648 1326
 
 StartChar: a
 Encoding: 97 97 0
@@ -26284,6 +26284,7 @@ LayerCount: 2
 Fore
 Refer: 429 1102 N 1 0 0 1 0 0 2
 Refer: 107 180 N 1 0 0 1 -20 0 2
+Substitution2: "Bulgarian variant forms-1" iuacute.bg
 Decomposition: "+BE4DAQAA"
 EndChar
 
@@ -26430,6 +26431,219 @@ Fore
 Refer: 107 180 N 1 0 0 1 24 0 2
 Refer: 416 1089 N 1 0 0 1 0 0 2
 Decomposition: "+BEEDAQAA"
+EndChar
+
+StartChar: Hardacute
+Encoding: 65630 -1 1308
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 25 141 2
+Refer: 393 1066 N 1 0 0 1 0 0 2
+Decomposition: "+BCoDAQAA"
+EndChar
+
+StartChar: hardacute
+Encoding: 65631 -1 1309
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 107 180 N 1 0 0 1 0 0 2
+Refer: 425 1098 N 1 0 0 1 0 0 2
+Substitution2: "Bulgarian variant forms-1" hardacute.bg
+Decomposition: "+BEoDAQAA"
+EndChar
+
+StartChar: hardacute.bg
+Encoding: 65632 -1 1310
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1053 -1 N 1 0 0 1 0 0 2
+Refer: 107 180 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iuacute.bg
+Encoding: 65633 -1 1311
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1055 -1 N 1 0 0 1 0 0 2
+Refer: 107 180 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: Acyrilgrave
+Encoding: 65634 -1 1312
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 367 1040 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Decomposition: "+BBADAAAA"
+EndChar
+
+StartChar: acyrilgrave
+Encoding: 65635 -1 1313
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 399 1072 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
+Decomposition: "+BDADAAAA"
+EndChar
+
+StartChar: Ocyrilgrave
+Encoding: 65636 -1 1314
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 381 1054 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Decomposition: "+BB4DAAAA"
+EndChar
+
+StartChar: ocyrilgrave
+Encoding: 65637 -1 1315
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 413 1086 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
+Decomposition: "+BD4DAAAA"
+EndChar
+
+StartChar: Ucyrilgrave
+Encoding: 65638 -1 1316
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 386 1059 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Decomposition: "+BCMDAAAA"
+EndChar
+
+StartChar: ucyrilgrave
+Encoding: 65639 -1 1317
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 418 1091 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
+Decomposition: "+BEMDAAAA"
+EndChar
+
+StartChar: Hardgrave
+Encoding: 65640 -1 1318
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 393 1066 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Decomposition: "+BCoDAAAA"
+EndChar
+
+StartChar: hardgrave
+Encoding: 65641 -1 1319
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 425 1098 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 -20 0 2
+Substitution2: "Bulgarian variant forms-1" hardgrave.bg
+Decomposition: "+BEoDAAAA"
+EndChar
+
+StartChar: Iugrave
+Encoding: 65642 -1 1320
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 397 1070 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -26 141 2
+Decomposition: "+BC4DAAAA"
+EndChar
+
+StartChar: iugrave
+Encoding: 65643 -1 1321
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 429 1102 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 -20 0 2
+Substitution2: "Bulgarian variant forms-1" iugrave.bg
+Decomposition: "+BE4DAAAA"
+EndChar
+
+StartChar: Iagrave
+Encoding: 65644 -1 1322
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 398 1071 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Decomposition: "+BC8DAAAA"
+EndChar
+
+StartChar: iagrave
+Encoding: 65645 -1 1323
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 430 1103 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
+Decomposition: "+BE8DAAAA"
+EndChar
+
+StartChar: hardgrave.bg
+Encoding: 65646 -1 1324
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1053 -1 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: iugrave.bg
+Encoding: 65647 -1 1325
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1055 -1 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
