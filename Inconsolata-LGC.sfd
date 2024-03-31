@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1711852562
+ModificationTime: 1711858508
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -93,7 +93,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65605 1246
+BeginChars: 65605 1261
 
 StartChar: a
 Encoding: 97 97 0
@@ -10677,7 +10677,7 @@ Refer: 137 710 S 1 0 0 1 0 0 2
 Refer: 23 121 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: longs
+StartChar: slong
 Encoding: 383 383 526
 Width: 613
 VWidth: 1046
@@ -26127,6 +26127,156 @@ LayerCount: 2
 Fore
 Refer: 23 121 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Bdotaccent
+Encoding: 7682 7682 1246
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 73 66 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 -30 151 2
+EndChar
+
+StartChar: bdotaccent
+Encoding: 7683 7683 1247
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 11 98 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 151 2
+EndChar
+
+StartChar: Ddotaccent
+Encoding: 7690 7690 1248
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 79 68 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 -30 151 2
+EndChar
+
+StartChar: ddotaccent
+Encoding: 7691 7691 1249
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 100 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 0 151 2
+EndChar
+
+StartChar: Fdotaccent
+Encoding: 7710 7710 1250
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 54 70 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 151 2
+EndChar
+
+StartChar: fdotaccent
+Encoding: 7711 7711 1251
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 18 102 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 64 192 2
+EndChar
+
+StartChar: Mdotaccent
+Encoding: 7744 7744 1252
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 51 77 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 -10 151 2
+EndChar
+
+StartChar: mdotaccent
+Encoding: 7745 7745 1253
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 109 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Pdotaccent
+Encoding: 7766 7766 1254
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 85 80 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 -30 151 2
+EndChar
+
+StartChar: pdotaccent
+Encoding: 7767 7767 1255
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 21 112 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Sdotaccent
+Encoding: 7776 7776 1256
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 83 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 151 2
+EndChar
+
+StartChar: sdotaccent
+Encoding: 7777 7777 1257
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 115 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Tdotaccent
+Encoding: 7786 7786 1258
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 59 84 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 -15 151 2
+EndChar
+
+StartChar: tdotaccent
+Encoding: 7787 7787 1259
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 0 120 2
+Refer: 8 116 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: slongdotaccent
+Encoding: 7835 7835 1260
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 526 383 N 1 0 0 1 0 0 2
+Refer: 222 729 N 1 0 0 1 64 192 2
 EndChar
 EndChars
 EndSplineFont
