@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1711896852
+ModificationTime: 1711898802
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -95,7 +95,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65695 1373
+BeginChars: 65703 1381
 
 StartChar: a
 Encoding: 97 97 0
@@ -27735,6 +27735,104 @@ LayerCount: 2
 Fore
 Refer: 1047 -1 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Iomacron
+Encoding: 65695 -1 1373
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 372 1045 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 300 2
+Refer: 139 168 S 1 0 0 1 -5 127 2
+Decomposition: "+BAEDBAAA"
+EndChar
+
+StartChar: iomacron
+Encoding: 65696 -1 1374
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 404 1077 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 150 2
+Refer: 139 168 S 1 0 0 1 0 -50 2
+Decomposition: "+BFEDBAAA"
+EndChar
+
+StartChar: Ecyrilrevmacron
+Encoding: 65697 -1 1375
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 396 1069 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 0 201 2
+Decomposition: "+BC0DBAAA"
+EndChar
+
+StartChar: ecyrilrevmacron
+Encoding: 65698 -1 1376
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 428 1101 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 0 0 2
+Decomposition: "+BE0DBAAA"
+EndChar
+
+StartChar: Iumacron
+Encoding: 65699 -1 1377
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 397 1070 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 -20 201 2
+Decomposition: "+BC4DBAAA"
+EndChar
+
+StartChar: iumacron
+Encoding: 65700 -1 1378
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 429 1102 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 -20 0 2
+Decomposition: "+BE4DBAAA"
+EndChar
+
+StartChar: Iamacron
+Encoding: 65701 -1 1379
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 398 1071 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 20 201 2
+Decomposition: "+BC8DBAAA"
+EndChar
+
+StartChar: iamacron
+Encoding: 65702 -1 1380
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 430 1103 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 20 0 2
+Decomposition: "+BE8DBAAA"
 EndChar
 EndChars
 EndSplineFont
