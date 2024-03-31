@@ -1256,7 +1256,7 @@ SplineSet
  467 405 461 454 451 496 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" zero.oldstyle
+Substitution2: "Old style numerals-1" zero.oldstyle
 Substitution2: "Non-slashed zero-1" zero.noslash
 EndChar
 
@@ -1278,7 +1278,7 @@ SplineSet
  366 740 l 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" one.oldstyle
+Substitution2: "Old style numerals-1" one.oldstyle
 EndChar
 
 StartChar: two
@@ -1308,7 +1308,7 @@ SplineSet
  102 625 l 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" two.oldstyle
+Substitution2: "Old style numerals-1" two.oldstyle
 EndChar
 
 StartChar: N
@@ -1362,7 +1362,7 @@ SplineSet
  367 608 l 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" four.oldstyle
+Substitution2: "Old style numerals-1" four.oldstyle
 EndChar
 
 StartChar: eight
@@ -1394,7 +1394,7 @@ SplineSet
  428 630 376 679 310 679 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" eight.oldstyle
+Substitution2: "Old style numerals-1" eight.oldstyle
 EndChar
 
 StartChar: five
@@ -1424,7 +1424,7 @@ SplineSet
  136 739 l 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" five.oldstyle
+Substitution2: "Old style numerals-1" five.oldstyle
 EndChar
 
 StartChar: S
@@ -2194,7 +2194,7 @@ SplineSet
  411 742 498 655 498 554 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" three.oldstyle
+Substitution2: "Old style numerals-1" three.oldstyle
 EndChar
 
 StartChar: D
@@ -2907,7 +2907,7 @@ SplineSet
  451 358 380 404 321 404 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" six.oldstyle
+Substitution2: "Old style numerals-1" six.oldstyle
 EndChar
 
 StartChar: nine
@@ -2940,7 +2940,7 @@ SplineSet
  172 395 236 341 302 341 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" nine.oldstyle
+Substitution2: "Old style numerals-1" nine.oldstyle
 EndChar
 
 StartChar: seven
@@ -2963,7 +2963,7 @@ SplineSet
  103 739 l 0
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" seven.oldstyle
+Substitution2: "Old style numerals-1" seven.oldstyle
 EndChar
 
 StartChar: W
@@ -6227,7 +6227,7 @@ SplineSet
  381 657 336 672 306 672 c 4
 EndSplineSet
 Validated: 1
-Substitution2: "Old style numeric-1" zero.oldstyle.noslash
+Substitution2: "Old style numerals-1" zero.oldstyle.noslash
 EndChar
 
 StartChar: .notdef
