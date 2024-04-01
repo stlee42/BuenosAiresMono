@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1711898802
+ModificationTime: 1711973044
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -91,7 +91,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65708 1412
+BeginChars: 65710 1438
 
 StartChar: a
 Encoding: 97 97 0
@@ -27627,6 +27627,270 @@ LayerCount: 2
 Fore
 Refer: 241 728 N 1 0 0 1 0 0 2
 Refer: 222 729 N 1 0 0 1 15 85 2
+EndChar
+
+StartChar: Tlinebelow
+Encoding: 7790 7790 1412
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 59 84 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: tlinebelow
+Encoding: 7791 7791 1413
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 116 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Hcedilla
+Encoding: 7720 7720 1414
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 12 72 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 -211 0 2
+EndChar
+
+StartChar: hcedilla
+Encoding: 7721 7721 1415
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 104 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 -192 0 2
+EndChar
+
+StartChar: Hbrevebelow
+Encoding: 7722 7722 1416
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 12 72 N 1 0 0 1 0 0 2
+Refer: 241 728 N 1 0 0 1 -150 -850 2
+EndChar
+
+StartChar: hbrevebelow
+Encoding: 7723 7723 1417
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 104 N 1 0 0 1 0 0 2
+Refer: 241 728 N 1 0 0 1 -150 -850 2
+EndChar
+
+StartChar: hlinebelow
+Encoding: 7830 7830 1418
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 14 104 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Klinebelow
+Encoding: 7732 7732 1419
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 84 75 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: klinebelow
+Encoding: 7733 7733 1420
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 68 107 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Dlinebelow
+Encoding: 7694 7694 1421
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 79 68 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: dlinebelow
+Encoding: 7695 7695 1422
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 100 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Zdotbelow
+Encoding: 7826 7826 1423
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 96 90 N 1 0 0 1 0 0 2
+Refer: 1406 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: zdotbelow
+Encoding: 7827 7827 1424
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 69 122 N 1 0 0 1 0 0 2
+Refer: 1406 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Gmacron
+Encoding: 7712 7712 1425
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 71 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 59 201 2
+EndChar
+
+StartChar: gmacron
+Encoding: 7713 7713 1426
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 13 103 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: tdieresis
+Encoding: 7831 7831 1427
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 116 N 1 0 0 1 0 0 2
+Refer: 139 168 N 1 0 0 1 15 99 2
+EndChar
+
+StartChar: Blinebelow
+Encoding: 7686 7686 1428
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 73 66 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: blinebelow
+Encoding: 7687 7687 1429
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 11 98 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Pmacron
+Encoding: 65708 -1 1430
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 35 201 2
+Refer: 85 80 N 1 0 0 1 0 0 2
+Decomposition: "P+AwQA"
+EndChar
+
+StartChar: pmacron
+Encoding: 65709 -1 1431
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 21 112 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 0 0 2
+Decomposition: "p+AwQA"
+EndChar
+
+StartChar: Zlinebelow
+Encoding: 7828 7828 1432
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 96 90 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: zlinebelow
+Encoding: 7829 7829 1433
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 69 122 N 1 0 0 1 0 0 2
+Refer: 1408 717 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0228
+Encoding: 552 552 1434
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 69 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0229
+Encoding: 553 553 1435
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecedillabreve
+Encoding: 7708 7708 1436
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 69 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 0 0 2
+Refer: 241 728 S 1 0 0 1 18 163 2
+EndChar
+
+StartChar: ecedillabreve
+Encoding: 7709 7709 1437
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 201 184 N 1 0 0 1 0 0 2
+Refer: 241 728 S 1 0 0 1 10 0 2
 EndChar
 EndChars
 EndSplineFont
