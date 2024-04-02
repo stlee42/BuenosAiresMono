@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1712065999
+ModificationTime: 1712067798
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -91,7 +91,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65717 1533
+BeginChars: 65725 1541
 
 StartChar: a
 Encoding: 97 97 0
@@ -27172,6 +27172,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 130 715 S 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rgrave.serif
 Decomposition: "r+AwAA"
 EndChar
 
@@ -27194,6 +27195,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 30 0 2
+Substitution2: "r with serif-1" rmacron.serif
 Decomposition: "r+AwQA"
 EndChar
 
@@ -27323,6 +27325,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1413 -1 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rdotbelow.serif
 EndChar
 
 StartChar: Rdotbelowmacron
@@ -27345,6 +27348,7 @@ Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1413 -1 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 30 0 2
+Substitution2: "r with serif-1" rdotbelowmacron.serif
 EndChar
 
 StartChar: Ldotbelow
@@ -27568,6 +27572,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1414 755 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rringbelow.serif
 Decomposition: "r+AyUA"
 EndChar
 
@@ -27592,6 +27597,7 @@ Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1414 755 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 30 0 2
+Substitution2: "r with serif-1" rringbelowmacron.serif
 Decomposition: "r+AyUDBAAA"
 EndChar
 
@@ -28466,6 +28472,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rdotaccent.serif
 EndChar
 
 StartChar: Rlinebelow
@@ -28486,6 +28493,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1415 717 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rlinebelow.serif
 EndChar
 
 StartChar: Sacutedotaccent
@@ -28874,6 +28882,88 @@ LayerCount: 2
 Fore
 Refer: 138 732 N 1 0 0 1 0 -850 2
 Decomposition: " +AzAA"
+EndChar
+
+StartChar: rgrave.serif
+Encoding: 65717 -1 1533
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 130 715 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rmacron.serif
+Encoding: 65718 -1 1534
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 30 0 2
+EndChar
+
+StartChar: rdotbelow.serif
+Encoding: 65719 -1 1535
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1413 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rdotbelowmacron.serif
+Encoding: 65720 -1 1536
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1413 -1 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 30 0 2
+EndChar
+
+StartChar: rringbelow.serif
+Encoding: 65721 -1 1537
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1414 755 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rringbelowmacron.serif
+Encoding: 65722 -1 1538
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1414 755 N 1 0 0 1 0 0 2
+Refer: 198 713 N 1 0 0 1 30 0 2
+EndChar
+
+StartChar: rdotaccent.serif
+Encoding: 65723 -1 1539
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 222 729 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rlinebelow.serif
+Encoding: 65724 -1 1540
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 1415 717 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
