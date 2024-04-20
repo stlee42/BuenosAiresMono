@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1712146692
+ModificationTime: 1713582094
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -48,10 +48,11 @@ Lookup: 1 0 0 "Livonian comma accent" { "Livonian comma accent-1"  } ['locl' ('l
 Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'BOS ' 'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "Bulgarian variant forms" { "Bulgarian variant forms-1" ("bg") } ['locl' ('cyrl' <'BGR ' > ) ]
 Lookup: 1 0 0 "Sami variant of Eng" { "Sami variant of Eng-1"  } ['locl' ('latn' <'ISM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Pinyin variant forms" { "Pinyin variant forms-1" ("pinyin") } ['locl' ('latn' <'ZHP ' > ) ]
+Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'ISM ' 'LIV ' 'LSM ' 'LVI ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "Bold Italic"
@@ -91,7 +92,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65607 1428
+BeginChars: 65629 1451
 
 StartChar: a
 Encoding: 97 97 0
@@ -119,6 +120,7 @@ SplineSet
  512 454 499 460 469 460 c 0
  400 460 214 332 190 167 c 0
 EndSplineSet
+Substitution2: "Pinyin variant forms-1" ascript
 EndChar
 
 StartChar: c
@@ -2906,6 +2908,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" aacute.pinyin
 EndChar
 
 StartChar: agrave
@@ -2983,6 +2986,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" eacute.pinyin
 EndChar
 
 StartChar: ecircumflex
@@ -3027,6 +3031,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" oacute.pinyin
 Substitution2: "Polish kreska forms-1" oacute.pl
 EndChar
 
@@ -3117,6 +3122,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" uacute.pinyin
 EndChar
 
 StartChar: ucircumflex
@@ -3199,6 +3205,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" iacute.pinyin
 EndChar
 
 StartChar: icircumflex
@@ -3861,6 +3868,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Pinyin variant forms-1" Aacute.pinyin
 EndChar
 
 StartChar: Acircumflex
@@ -3916,6 +3924,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Pinyin variant forms-1" Eacute.pinyin
 EndChar
 
 StartChar: Ecircumflex
@@ -3960,6 +3969,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Pinyin variant forms-1" Iacute.pinyin
 EndChar
 
 StartChar: Icircumflex
@@ -4004,6 +4014,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Pinyin variant forms-1" Oacute.pinyin
 Substitution2: "Polish kreska forms-1" Oacute.pl
 EndChar
 
@@ -4060,6 +4071,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Pinyin variant forms-1" Uacute.pinyin
 EndChar
 
 StartChar: Ucircumflex
@@ -4940,6 +4952,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 5 141 2
+Substitution2: "Pinyin variant forms-1" Nacute.pinyin
 Substitution2: "Polish kreska forms-1" Nacute.pl
 EndChar
 
@@ -5199,6 +5212,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" nacute.pinyin
 Substitution2: "Polish kreska forms-1" nacute.pl
 EndChar
 
@@ -20600,6 +20614,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 214 248 2
+Substitution2: "Pinyin variant forms-1" Ecircumflexacute.pinyin
 EndChar
 
 StartChar: ecircumflexacute
@@ -20610,6 +20625,7 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 153 110 2
+Substitution2: "Pinyin variant forms-1" ecircumflexacute.pinyin
 EndChar
 
 StartChar: Ecircumflexgrave
@@ -20620,6 +20636,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -165 246 2
+Substitution2: "Pinyin variant forms-1" Ecircumflexgrave.pinyin
 EndChar
 
 StartChar: ecircumflexgrave
@@ -20630,6 +20647,7 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 130 715 S 1 0 0 1 -157 109 2
+Substitution2: "Pinyin variant forms-1" ecircumflexgrave.pinyin
 EndChar
 
 StartChar: Ecircumflexhookabove
@@ -21644,6 +21662,7 @@ Fore
 Refer: 194 -1 N 1 0 0 1 32.8981 300 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 139 168 N 1 0 0 1 27.3935 127 2
+Substitution2: "Pinyin variant forms-1" Udieresisacute.pinyin
 EndChar
 
 StartChar: udieresisacute
@@ -21655,6 +21674,7 @@ Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 139 168 N 1 0 0 1 -8.81635 -50 2
 Refer: 194 -1 N 1 0 0 1 4.8621 141 2
+Substitution2: "Pinyin variant forms-1" udieresisacute.pinyin
 EndChar
 
 StartChar: Udieresiscaron
@@ -26937,6 +26957,7 @@ LayerCount: 2
 Fore
 Refer: 51 77 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 5 141 2
+Substitution2: "Pinyin variant forms-1" Macute.pinyin
 EndChar
 
 StartChar: macute
@@ -26947,6 +26968,7 @@ LayerCount: 2
 Fore
 Refer: 2 109 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" macute.pinyin
 EndChar
 
 StartChar: Nlinebelow
@@ -27616,6 +27638,249 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 130 715 N 1 0 0 1 -30 0 2
+EndChar
+
+StartChar: ascript
+Encoding: 593 593 1428
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Aacute.pinyin
+Encoding: 65607 -1 1429
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 71 65 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 4.8621 141 2
+EndChar
+
+StartChar: Eacute.pinyin
+Encoding: 65608 -1 1430
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 69 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 24.8621 141 2
+EndChar
+
+StartChar: Iacute.pinyin
+Encoding: 65609 -1 1431
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 73 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 24.8621 141 2
+EndChar
+
+StartChar: Oacute.pinyin
+Encoding: 65610 -1 1432
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 79 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 24.8621 141 2
+EndChar
+
+StartChar: Uacute.pinyin
+Encoding: 65611 -1 1433
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 63 85 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 24.8621 141 2
+EndChar
+
+StartChar: Udieresisacute.pinyin
+Encoding: 65612 -1 1434
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 63 85 N 1 0 0 1 0 0 2
+Refer: 139 168 N 1 0 0 1 27.3935 127 2
+Refer: 1442 -1 N 1 0 0 1 32.8981 300 2
+EndChar
+
+StartChar: aacute.pinyin
+Encoding: 65613 -1 1435
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1428 593 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: eacute.pinyin
+Encoding: 65614 -1 1436
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iacute.pinyin
+Encoding: 65615 -1 1437
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 305 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: oacute.pinyin
+Encoding: 65616 -1 1438
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uacute.pinyin
+Encoding: 65617 -1 1439
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 15 117 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: udieresisacute.pinyin
+Encoding: 65618 -1 1440
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 15 117 N 1 0 0 1 0 0 2
+Refer: 139 168 N 1 0 0 1 -8.81635 -50 2
+Refer: 1442 -1 N 1 0 0 1 4.8621 141 2
+EndChar
+
+StartChar: acute.pinyin
+Encoding: 65619 -1 1441
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+433 584 m 1
+ 343 652 l 1
+ 513 836 l 1
+ 588 785 l 1
+ 433 584 l 1
+EndSplineSet
+EndChar
+
+StartChar: acute.cap.pinyin
+Encoding: 65620 -1 1442
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+369 639 m 1
+ 320 720 l 1
+ 564 803 l 1
+ 593 730 l 1
+ 369 639 l 1
+EndSplineSet
+EndChar
+
+StartChar: Nacute.pinyin
+Encoding: 65621 -1 1443
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 46 78 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 4.8621 141 2
+EndChar
+
+StartChar: nacute.pinyin
+Encoding: 65622 -1 1444
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 6 110 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Macute.pinyin
+Encoding: 65623 -1 1445
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 51 77 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 4.8621 141 2
+EndChar
+
+StartChar: macute.pinyin
+Encoding: 65624 -1 1446
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 109 N 1 0 0 1 0 0 2
+Refer: 1441 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflexacute.pinyin
+Encoding: 65625 -1 1447
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 170 202 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 52.8981 300 2
+EndChar
+
+StartChar: ecircumflexacute.pinyin
+Encoding: 65626 -1 1448
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1442 -1 N 1 0 0 1 24.8621 141 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -8.81635 -50 2
+EndChar
+
+StartChar: Ecircumflexgrave.pinyin
+Encoding: 65627 -1 1449
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 170 202 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 21.8981 300 2
+EndChar
+
+StartChar: ecircumflexgrave.pinyin
+Encoding: 65628 -1 1450
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6.1379 141 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -8.81635 -50 2
 EndChar
 EndChars
 EndSplineFont
