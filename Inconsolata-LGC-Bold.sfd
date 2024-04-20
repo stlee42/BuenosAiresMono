@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1713581897
+ModificationTime: 1713584784
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -92,7 +92,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65635 1457
+BeginChars: 65639 1461
 
 StartChar: a
 Encoding: 97 97 0
@@ -20268,7 +20268,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 165 194 N 1 0 0 1 0 0 2
-Refer: 194 -1 S 1 0 0 1 170 248 2
+Refer: 1457 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: acircumflexacute
@@ -20278,7 +20278,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 110 226 N 1 0 0 1 0 0 2
-Refer: 107 180 N 1 0 0 1 134 110 2
+Refer: 1458 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Acircumflexgrave
@@ -20288,7 +20288,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 165 194 N 1 0 0 1 0 0 2
-Refer: 195 -1 N 1 0 0 1 -208 246 2
+Refer: 1459 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: acircumflexgrave
@@ -20297,8 +20297,8 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -176 109 2
 Refer: 110 226 N 1 0 0 1 0 0 2
+Refer: 1460 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Acircumflexhookabove
@@ -20337,8 +20337,9 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 110 226 N 1 0 0 1 0 0 2
-Refer: 138 732 S 1 0 0 1 -5 150 2
+Refer: 138 732 N 1 0 0 1 -12 150 2
+Refer: 0 97 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 0 -25 2
 EndChar
 
 StartChar: Acircumflexdotbelow
@@ -20527,7 +20528,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
-Refer: 194 -1 S 1 0 0 1 170 248 2
+Refer: 1457 -1 N 1 0 0 1 0 0 2
 Substitution2: "Pinyin variant forms-1" Ecircumflexacute.pinyin
 EndChar
 
@@ -20538,7 +20539,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
-Refer: 107 180 S 1 0 0 1 134 110 2
+Refer: 1458 -1 N 1 0 0 1 0 0 2
 Substitution2: "Pinyin variant forms-1" ecircumflexacute.pinyin
 EndChar
 
@@ -20549,7 +20550,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
-Refer: 195 -1 S 1 0 0 1 -208 246 2
+Refer: 1459 -1 N 1 0 0 1 0 0 2
 Substitution2: "Pinyin variant forms-1" Ecircumflexgrave.pinyin
 EndChar
 
@@ -20560,7 +20561,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
-Refer: 130 715 S 1 0 0 1 -176 109 2
+Refer: 1460 -1 N 1 0 0 1 0 0 2
 Substitution2: "Pinyin variant forms-1" ecircumflexgrave.pinyin
 EndChar
 
@@ -20600,8 +20601,9 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 116 234 N 1 0 0 1 0 0 2
-Refer: 138 732 S 1 0 0 1 -5 150 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 0 -25 2
+Refer: 138 732 N 1 0 0 1 -12 150 2
 EndChar
 
 StartChar: Ecircumflexdotbelow
@@ -20711,7 +20713,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 178 212 N 1 0 0 1 0 0 2
-Refer: 194 -1 S 1 0 0 1 170 248 2
+Refer: 1457 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ocircumflexacute
@@ -20721,7 +20723,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 120 244 N 1 0 0 1 0 0 2
-Refer: 107 180 S 1 0 0 1 134 110 2
+Refer: 1458 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ocircumflexgrave
@@ -20731,7 +20733,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 178 212 N 1 0 0 1 0 0 2
-Refer: 195 -1 S 1 0 0 1 -208 246 2
+Refer: 1459 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ocircumflexgrave
@@ -20741,7 +20743,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 120 244 N 1 0 0 1 0 0 2
-Refer: 130 715 S 1 0 0 1 -176 109 2
+Refer: 1460 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Ocircumflexhookabove
@@ -20780,8 +20782,9 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 120 244 N 1 0 0 1 0 0 2
-Refer: 138 732 S 1 0 0 1 -5 150 2
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 0 -25 2
+Refer: 138 732 N 1 0 0 1 -12 150 2
 EndChar
 
 StartChar: Ocircumflexdotbelow
@@ -27949,7 +27952,7 @@ LayerCount: 2
 Fore
 Refer: 1448 -1 N 1 0 0 1 0 141 2
 Refer: 9 101 N 1 0 0 1 0 0 2
-Refer: 190 -1 N 1 0 0 1 0 -50 2
+Refer: 190 -1 N 1 0 0 1 0 -30 2
 EndChar
 
 StartChar: Ecircumflexgrave.pinyin
@@ -27970,7 +27973,67 @@ LayerCount: 2
 Fore
 Refer: 195 -1 N 1 0 0 1 -31 141 2
 Refer: 9 101 N 1 0 0 1 0 0 2
-Refer: 190 -1 N 1 0 0 1 0 -50 2
+Refer: 190 -1 N 1 0 0 1 0 -30 2
+EndChar
+
+StartChar: acute.cap.vietstack
+Encoding: 65635 -1 1457
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+461 1031 m 1
+ 563 963 l 1
+ 486 864 l 1
+ 402 915 l 1
+ 461 1031 l 1
+EndSplineSet
+EndChar
+
+StartChar: acute.vietstack
+Encoding: 65636 -1 1458
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+485 946 m 1
+ 587 878 l 1
+ 480 740.3515625 l 1
+ 396 791.3515625 l 1
+ 485 946 l 1
+EndSplineSet
+EndChar
+
+StartChar: grave.cap.vietstack
+Encoding: 65637 -1 1459
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+152 1031 m 1
+ 211 915 l 1
+ 127 864 l 1
+ 50 963 l 1
+ 152 1031 l 1
+EndSplineSet
+EndChar
+
+StartChar: grave.vietstack
+Encoding: 65638 -1 1460
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+128 945 m 1
+ 217 791.3515625 l 1
+ 132 740.3515625 l 1
+ 26 877 l 1
+ 128 945 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
