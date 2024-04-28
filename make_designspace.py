@@ -2,13 +2,14 @@
 
 import os, re
 from sys import argv
-from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, AxisLabelDescriptor
+from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, DiscreteAxisDescriptor, SourceDescriptor, InstanceDescriptor, AxisLabelDescriptor
 
 root = os.getcwd()
 doc = DesignSpaceDocument()
 
 familyName = "Inconsolata LGC"
 isItalic = bool(re.search('Italic', argv[1]))
+italicValue = 1 if isItalic else 0
 
 weightList = [
 	(100, "Thin"),
@@ -32,6 +33,7 @@ a1.minimum = 0
 a1.default = 400
 a1.name = "Weight"
 a1.tag = "wght"
+a1.axisOrdering = 1
 a1.axisLabels = []
 
 for weight in weightList:
@@ -40,11 +42,27 @@ for weight in weightList:
 		userValue = weight[0],
 	)
 	if weight[0] == 400:
-		l1.elidable = True
+		l1.elidable = isItalic
 		l1.linkedUserValue = 700
 	a1.axisLabels = a1.axisLabels + [l1]
 
+a2 = DiscreteAxisDescriptor()
+a2.values = [italicValue]
+a2.default = italicValue
+a2.name = "Italic"
+a2.tag = "ital"
+a2.axisOrdering = 2
+if isItalic:
+	a2.axisLabels = [
+		AxisLabelDescriptor(name = "Italic", userValue = 1, elidable = False)
+	]
+else:
+	a2.axisLabels = [
+		AxisLabelDescriptor(name = "Roman", userValue = 0, elidable = True)
+	]
+
 doc.addAxis(a1)
+doc.addAxis(a2)
 
 #---------
 # masters
@@ -65,7 +83,7 @@ for source in sourceList:
 	s0.styleName = source[0] + (" Italic" if isItalic else "")
 	if s0.styleName == "Regular Italic":
 		s0.styleName = "Italic"
-	s0.location = dict(Weight=source[2])
+	s0.location = dict(Weight=source[2], Italic=italicValue)
 	if source[2] == a1.default:
 		s0.copyLib = True
 		s0.copyInfo = True
@@ -87,7 +105,7 @@ for weight in weightList:
 	i1.name = i1.familyName + " " + i1.styleName
 	i1.postscriptFontName = (i1.familyName + "-" + i1.styleName).replace(" ", "")
 	i1.path = i1.postscriptFontName + ".ufo"
-	i1.designLocation = dict(Weight=weight[0])
+	i1.designLocation = dict(Weight=weight[0], Italic=italicValue)
 	doc.addInstance(i1)
 
 
