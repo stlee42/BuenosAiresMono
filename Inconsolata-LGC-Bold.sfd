@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1713600907
+ModificationTime: 1714707135
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -93,7 +93,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65639 1461
+BeginChars: 65642 1464
 
 StartChar: a
 Encoding: 97 97 0
@@ -2926,6 +2926,7 @@ LayerCount: 2
 Fore
 Refer: 130 715 S 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" agrave.pinyin
 EndChar
 
 StartChar: acircumflex
@@ -9932,6 +9933,7 @@ LayerCount: 2
 Fore
 Refer: 198 713 S 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" amacron.pinyin
 EndChar
 
 StartChar: iogonek
@@ -21455,6 +21457,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 143 711 N 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" acaron.pinyin
 EndChar
 
 StartChar: Icaron
@@ -28035,6 +28038,36 @@ SplineSet
  26 877 l 1
  128 945 l 1
 EndSplineSet
+EndChar
+
+StartChar: amacron.pinyin
+Encoding: 65639 -1 1461
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 0 0 2
+Refer: 1434 593 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: acaron.pinyin
+Encoding: 65640 -1 1462
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 0 0 2
+Refer: 1434 593 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: agrave.pinyin
+Encoding: 65641 -1 1463
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 0 0 2
+Refer: 1434 593 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
