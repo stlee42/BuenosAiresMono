@@ -125,6 +125,24 @@ of N.
 Lowered position of umlaut to fit to ascenders.
 
 
+Variable font
+-------------
+As of version 1.5.1, variable font package is available along with
+conventional single-master font package. The variable font has 2 axes: weight
+and italicization. The former is interpolatable but the latter is not.
+
+Note that weight less than 400 (regular) and greater than 700 (bold) are of
+extrapolation: expect issues such as stroke width disharmony or unexpected
+bump for such weight.
+
+### Known issues on the variable font ###
+- For KDE font manager on Linux:
+  - Extra-light italic font is recognized as of separate font family
+    _Inconsolata LGC Italic_.
+  - A subfamily with empty name is listed. This occurs other variable fonts
+    too.
+
+
 Build-time dependencies
 -----------------------
 * [FontForge](https://fontforge.org/) with both Python and classic scripting
