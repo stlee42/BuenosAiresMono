@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1714708158
+ModificationTime: 1714733482
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -53,9 +53,11 @@ Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onu
 Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "Bold Italic"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -92,7 +94,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65633 1455
+BeginChars: 65636 1458
 
 StartChar: a
 Encoding: 97 97 0
@@ -3902,6 +3904,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 12.9201 147 2
+Substitution2: "German alternative umlaut-1" Adieresis.alt
 EndChar
 
 StartChar: Egrave
@@ -4049,6 +4052,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 20.9201 147 2
+Substitution2: "German alternative umlaut-1" Odieresis.alt
 EndChar
 
 StartChar: Ugrave
@@ -4094,6 +4098,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 30.9201 147 2
+Substitution2: "German alternative umlaut-1" Udieresis.alt
 EndChar
 
 StartChar: Yacute
@@ -27941,6 +27946,66 @@ SplineSet
  263 740 l 1
  181 877 l 1
  295 945 l 1
+EndSplineSet
+EndChar
+
+StartChar: Adieresis.alt
+Encoding: 65633 -1 1455
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 163 18 2
+Refer: 222 729 N 1 0 0 1 -197 18 2
+Refer: 71 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Odieresis.alt
+Encoding: 65634 -1 1456
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 214 18 2
+Refer: 222 729 N 1 0 0 1 -212 18 2
+Refer: 42 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Udieresis.alt
+Encoding: 65635 -1 1457
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+359 796 m 0
+ 401 796 429 762 422 720 c 0
+ 415 678 375 644 333 644 c 0
+ 291 644 263 678 270 720 c 0
+ 277 762 317 796 359 796 c 0
+538 796 m 0
+ 580 796 608 762 601 720 c 0
+ 594 678 554 644 512 644 c 0
+ 470 644 442 678 449 720 c 0
+ 456 762 496 796 538 796 c 0
+164 625 m 1
+ 283 625 l 1
+ 287 611 287 611 286 605 c 0
+ 284 592 273 582 271 580 c 0
+ 268 577 269 578 268 574 c 0
+ 213 261 l 0
+ 207 226 202 194 212 163 c 0
+ 227 114 273 88 326 88 c 0
+ 378 88 432 113 466 162 c 0
+ 488 195 496 228 502 264 c 0
+ 565 625 l 1
+ 674 625 l 1
+ 610 263 l 0
+ 601 211 591 158 552 105 c 0
+ 493 25 397 -13 307 -13 c 0
+ 215 -13 134 26 104 105 c 0
+ 84 157 91 209 100 259 c 0
+ 164 625 l 1
 EndSplineSet
 EndChar
 EndChars

@@ -121,6 +121,9 @@ The glyph was included but not used in the original Inconsolata.
 Uppercase _Eng_ can have glyphs derived from either upper- or lowercase
 of N.
 
+### `ss01`: German alternate umlaut ###
+Lowered position of umlaut to fit to ascenders.
+
 
 Build-time dependencies
 -----------------------

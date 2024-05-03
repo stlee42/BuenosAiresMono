@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1714708187
+ModificationTime: 1714732498
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -53,9 +53,11 @@ Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onu
 Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'ISM ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -92,7 +94,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65642 1464
+BeginChars: 65645 1467
 
 StartChar: a
 Encoding: 97 97 0
@@ -3905,6 +3907,7 @@ LayerCount: 2
 Fore
 Refer: 139 168 S 1 0 0 1 -13 147 2
 Refer: 71 65 N 1 0 0 1 0 0 2
+Substitution2: "German alternative umlaut-1" Adieresis.alt
 EndChar
 
 StartChar: Egrave
@@ -4052,6 +4055,7 @@ LayerCount: 2
 Fore
 Refer: 139 168 S 1 0 0 1 -5 147 2
 Refer: 42 79 N 1 0 0 1 0 0 2
+Substitution2: "German alternative umlaut-1" Odieresis.alt
 EndChar
 
 StartChar: Ugrave
@@ -4097,6 +4101,7 @@ LayerCount: 2
 Fore
 Refer: 139 168 S 1 0 0 1 5 147 2
 Refer: 63 85 N 1 0 0 1 0 0 2
+Substitution2: "German alternative umlaut-1" Udieresis.alt
 EndChar
 
 StartChar: Yacute
@@ -28065,6 +28070,66 @@ LayerCount: 2
 Fore
 Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 1434 593 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Adieresis.alt
+Encoding: 65642 -1 1464
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 160 18 2
+Refer: 222 729 N 1 0 0 1 -200 18 2
+Refer: 71 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Odieresis.alt
+Encoding: 65643 -1 1465
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 211 18 2
+Refer: 222 729 N 1 0 0 1 -215 18 2
+Refer: 42 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Udieresis.alt
+Encoding: 65644 -1 1466
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+219 796 m 0
+ 261 796 295 762 295 720 c 0
+ 295 678 261 644 219 644 c 0
+ 177 644 143 678 143 720 c 0
+ 143 762 177 796 219 796 c 0
+398 796 m 0
+ 440 796 474 762 474 720 c 0
+ 474 678 440 644 398 644 c 0
+ 356 644 322 678 322 720 c 0
+ 322 762 356 796 398 796 c 0
+54 625 m 1
+ 173 625 l 1
+ 179 611 179 611 179 605 c 0
+ 179 592 171 582 169 580 c 0
+ 167 577 167 578 167 574 c 0
+ 167 261 l 0
+ 167 226 168 194 183 163 c 0
+ 207 114 257 88 310 88 c 0
+ 362 88 412 113 437 162 c 0
+ 453 195 455 228 455 264 c 0
+ 455 625 l 1
+ 564 625 l 1
+ 564 263 l 0
+ 564 211 563 158 533 105 c 0
+ 488 25 399 -13 309 -13 c 0
+ 217 -13 129 26 85 105 c 0
+ 56 157 54 209 54 259 c 0
+ 54 625 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
