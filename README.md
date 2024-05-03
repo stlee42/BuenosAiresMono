@@ -42,6 +42,9 @@ feature for Romanian is included for compatibility: Romanian
 language-specific _font itself_ is _not_ included in TTC. Use codepoints in
 Latin Extended B.
 
+In addition, D with cedilla will be replaced with D with comma below since it
+was used for pre-1904 spelling. It is now spelt with Z.
+
 ### Bulgarian variant ###
 ![Differences between Russian and Bulgarian variants](doc/Bulgarian_variant.png)
 
