@@ -18,10 +18,10 @@ PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-TTC.tar.xz In
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
-TTFPKGCMD=rm -rf $*; mkdir $*; cp ${FONTS} ${DOCUMENTS} $*
-OTFPKGCMD=rm -rf $*; mkdir $*; cp ${OTFONTS} ${DOCUMENTS} $*
-TTCPKGCMD=rm -rf $*; mkdir $*; cp ${TTCFONTS} ${DOCUMENTS} $*
-VTTFPKGCMD=rm -rf $*; mkdir $*; cp ${VARFONTS} ${DOCUMENTS} $*
+TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
+OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
+TTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${TTCFONTS} ${DOCUMENTS} $*
+VTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
 all: ttf otf ttc variable
