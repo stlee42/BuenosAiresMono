@@ -34,16 +34,19 @@ is intended for use in apps which do not support `locl` feature.
 
 Polish _kreska_ looks steeper than acute accent.
 
+For legacy apps, use **Inconsolata LGC Polish** in the TTC.
+
 ### Romanian comma accent ###
 ![Differences between default and Romanian variants](doc/Romanian_comma_accent.png)
 
 Romanian alphabet has S and T with comma below, not with cedilla. The `locl`
-feature for Romanian is included for compatibility: Romanian
-language-specific _font itself_ is _not_ included in TTC. Use codepoints in
-Latin Extended B.
+feature for Romanian is included for compatibility: using codepoints in
+Latin Extended B is recommended.
 
 In addition, D with cedilla will be replaced with D with comma below since it
 was used for pre-1904 spelling. It is now spelt with Z.
+
+For legacy apps, use **Inconsolata LGC Romanian** in the TTC.
 
 ### Bulgarian variant ###
 ![Differences between Russian and Bulgarian variants](doc/Bulgarian_variant.png)
@@ -52,6 +55,8 @@ Bulgarian Cyrillic alphabet overall looks more round than Russian one. Some
 of them look like italic forms made upright. _El_ looks like uppercase lambda
 and uppercase _De_ like delta with descender. Lowercase _ve_, _zhe_, _ka_,
 and _yu_ have ascenders and _ze_ has descender.
+
+For legacy apps, use **Inconsolata LGC Bulgarian** in the TTC.
 
 ### Serbian and Macedonian italic ###
 ![Differences between Russian and Serbian italic](doc/Serbian_italic.png)
@@ -65,10 +70,33 @@ Lowercase _de_ looks like g. In some fonts, Russian one looks like round d,
 but Inconsolata LGC is not designed so.
 Delta-like _be_ also applies in Roman (non-italic) fonts.
 
+For legacy apps, use **Inconsolata LGC Yugoslav** in the TTC.
+
+### Livonian comma accent ###
+Livonian alphabet has D and T with comma below, not with cedilla. However,
+since there is not an OpenType language system tag, `locl` feature is not
+available for Livonian.
+
+Use **Inconsolata LGC Livonian** in the TTC.
+
 ### Sami _Eng_ ###
 In Sami languages, uppercase Eng should use that derived from uppercase N.
 Default glyph in this font is that from lowercase n.
-TTC version is not ready for Sami languages.
+This feature is not activated for Kildin Sami since it is usually written
+in Cyrillic.
+
+For legacy apps, use **Inconsolata LGC Sami** in the TTC.
+
+### Pinyin variants ###
+In Chinese fonts, acute accent (2nd tone or _yangping_) usually looks
+pointing upwards, unlike that of Western languages which is pointing
+downwards.
+Also, single-story lowercase _a_ is used when a tone mark is above it.
+
+However since Inconsolata is not a Chinese font, _Hanzi_ is not included.
+The OpenType language system tag is `ZHP ` (note the trailing space).
+
+For legacy apps, use **Inconsolata LGC Pinyin** in the TTC.
 
 
 Miscellaneous variants
