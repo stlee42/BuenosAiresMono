@@ -10,8 +10,6 @@ Inconsolata-LGC-Yugoslav.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb mkd < $< > $@
 Inconsolata-LGC-Livonian.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb liv < $< > $@
-Inconsolata-LGC-Livonian.sfd: Inconsolata-LGC.sfd regional.rb
-	./regional.rb liv < $< > $@
 Inconsolata-LGC-Sami.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb smi < $< > $@
 Inconsolata-LGC-Pinyin.sfd: Inconsolata-LGC.sfd regional.rb
