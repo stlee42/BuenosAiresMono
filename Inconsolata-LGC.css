@@ -1,0 +1,72 @@
+/*
+Use this stylesheet to use Inconsolata LGC as webfont
+
+Replace url() values with the path to the font installed in your server
+
+Usage in your hypertexts:
+	<link rel="stylesheet" type="text/css" href="Inconsolata-LGC.css" />
+
+For Romanian, Polish, Bulgarian, Macedonian, Serbian and Bosnian languages
+`locl` feature shall be automatically activated through "lang" attribute.
+	<pre lang="bg">...</pre>
+
+Usage in your stylesheets:
+	font-family: "Inconsolata LGC";
+	font-language-override: "ZHP";
+	font-variant-alternates: styleset(alternative-umlaut);
+	font-variant-alternates: character-variant(zero-no-slash);
+	font-variant-alternates: character-variant(r-with-serif);
+	font-variant-alternates: character-variant(eng-descender);
+	font-variant-alternates: character-variant(eng-uppercase);
+	font-variant-numeric: oldstyle-nums;
+*/
+
+@font-face {
+	font-family: "Inconsolata LGC";
+	font-weight: regular;
+	font-style: normal;
+	src: url("Inconsolata-LGC.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Inconsolata LGC";
+	font-weight: regular;
+	font-style: italic;
+	src: url("Inconsolata-LGC-Italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Inconsolata LGC";
+	font-weight: bold;
+	font-style: normal;
+	src: url("Inconsolata-LGC-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Inconsolata LGC";
+	font-weight: bold;
+	font-style: italic;
+	src: url("Inconsolata-LGC-BoldItalic.woff2") format("woff2");
+}
+
+@font-feature-values "Inconsolata LGC" {
+	@styleset {
+		alternative-umlaut: 1;
+	}
+	@character-variant {
+		zero-no-slash: 1 1;
+		r-with-serif: 2 1;
+		eng-descender: 3 1;
+		eng-uppercase: 3 2;
+	}
+}
+
+/* Uncomment to enable the font at parts where you may want */
+/*
+pre, code, kbd, var, samp {
+	font-family: "Inconsolata LGC";
+}
+pre[lang|="zh"], code[lang|="zh"], kbd[lang|="zh"], var[lang|="zh"], samp[lang|="zh"] {
+	font-language-override: "ZHP";
+}
+pre[lang|="liv"], code[lang|="liv"], kbd[lang|="liv"], var[lang|="liv"], samp[lang|="liv"] {
+	font-language-override: "ROM";
+}
+*/

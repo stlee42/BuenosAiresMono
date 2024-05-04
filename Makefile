@@ -8,25 +8,29 @@ EXTRAPOLATES=Inconsolata-LGC-Minimum.sfd \
              Inconsolata-LGC-Maximum.sfd \
              Inconsolata-LGC-MinimumItalic.sfd \
              Inconsolata-LGC-MaximumItalic.sfd
+CSS=Inconsolata-LGC.css
 OTFONTS=${FONTS:.ttf=.otf}
 TTCFONTS=${FONTS:.ttf=.ttc}
+WOFFFONTS=${FONTS:.ttf=.woff}
+WOFF2FONTS=${FONTS:.ttf=.woff2}
 UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 DOC_ASSET_DIR=doc
 DOCUMENTS=README.md ChangeLog LICENSE $(wildcard ${DOC_ASSET_DIR}/*.png)
-PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
+PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
+WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
 TTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${TTCFONTS} ${DOCUMENTS} $*
 VTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
-all: ttf otf ttc variable
+all: ttf otf ttc woff2 variable
 
-.SUFFIXES: .sfd .ttf .otf .ufo
+.SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
 include Inconsolata-LGC.mk
 include Inconsolata-LGC-Bold.mk
@@ -44,15 +48,21 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	${FFCMD}
 .sfd.otf:
 	${FFCMD}
+.sfd.woff:
+	${FFCMD}
+.sfd.woff2:
+	${FFCMD}
 .sfd.ufo:
 	${FFCMD}
 	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
 	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
 
-.PHONY: ttf otf ttc variable
+.PHONY: ttf otf ttc woff woff2 variable
 ttf: ${FONTS}
 otf: ${OTFONTS}
 ttc: ${TTCFONTS}
+woff: ${WOFFFONTS}
+woff2: ${WOFF2FONTS}
 variable: ${VARFONTS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip
@@ -96,6 +106,15 @@ InconsolataLGC-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
 InconsolataLGC-OT.zip: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; zip -9r $@ $*
 
+InconsolataLGC-WOFF2.tar.xz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${WOFF2PKGCMD}; tar cfvJ $@ $*
+InconsolataLGC-WOFF2.tar.gz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${WOFF2PKGCMD}; tar cfvz $@ $*
+InconsolataLGC-WOFF2.tar.bz2: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${WOFF2PKGCMD}; tar cfvj $@ $*
+InconsolataLGC-WOFF2.zip: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
+	${WOFF2PKGCMD}; zip -9r $@ $*
+
 InconsolataLGC-TTC.tar.xz: ${TTCFONTS} ${DOCUMENTS}
 	${TTCPKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-TTC.tar.gz: ${TTCFONTS} ${DOCUMENTS}
@@ -119,7 +138,7 @@ ChangeLog: .git # GIT
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS} ${OTFONTS} ${TTCFONTS} ${VARFONTS} ChangeLog
+	-rm -f ${FONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
 	-rm -f ${FONTS:.ttf=-Livonian.sfd} ${FONTS:.ttf=-Sami.sfd} ${FONTS:.ttf=-Pinyin.sfd}
 	-rm -f Inconsolata-LGC-Bold.mk Inconsolata-LGC-Italic.mk Inconsolata-LGC-BoldItalic.mk
