@@ -88,6 +88,8 @@ in Cyrillic.
 For legacy apps, use **Inconsolata LGC Sami** in the TTC.
 
 ### Pinyin variants ###
+![Differences between regular and Chinese variants](doc/Pinyin_variants.png)
+
 In Chinese fonts, acute accent (2nd tone or _yangping_) usually looks
 pointing upwards, unlike that of Western languages which is pointing
 downwards.
@@ -103,6 +105,8 @@ Miscellaneous variants
 ----------------------
 
 ### `onum`: old style numerals ###
+![Differences between lining and old-style numerics](doc/old_style_numeric.png)
+
 Old style numerals are “lowercase” of numerals: 0, 1, and 2 are of x-height,
 6 and 8 have ascenders, and the others have descenders. They are also known
 as text figures.
@@ -110,18 +114,26 @@ On the other hand, lining (or titling) numerals are “uppercase” to which
 this font defaults.
 
 ### `cv01`: zero without slash ###
+![Differences between slashed and unslashed zero followed by uppercase O](doc/unslashed_zero.png)
+
 The glyph was included but not used in the original Inconsolata. Feature
 tag `zero` is inappropriate here because zero is slashed by default in this
 font.
 
 ### `cv02`: _r_ with serif ###
+![Differences between regular and alternative r](doc/r_with_serif.png)
+
 The glyph was included but not used in the original Inconsolata.
 
 ### `cv03`: variants of _Eng_ ###
+![Variants of uppercase Eng](doc/eng_variant.png)
+
 Uppercase _Eng_ can have glyphs derived from either upper- or lowercase
 of N.
 
 ### `ss01`: German alternate umlaut ###
+![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
+
 Lowered position of umlaut to fit to ascenders.
 
 
