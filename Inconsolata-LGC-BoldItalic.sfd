@@ -27952,7 +27952,7 @@ EndChar
 StartChar: Adieresis.alt
 Encoding: 65633 -1 1455
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 222 729 N 1 0 0 1 163 18 2
@@ -27963,7 +27963,7 @@ EndChar
 StartChar: Odieresis.alt
 Encoding: 65634 -1 1456
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 222 729 N 1 0 0 1 214 18 2
@@ -27974,7 +27974,7 @@ EndChar
 StartChar: Udieresis.alt
 Encoding: 65635 -1 1457
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
