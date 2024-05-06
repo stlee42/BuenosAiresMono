@@ -28612,19 +28612,6 @@ Encoding: 11799 11799 1488
 Width: 613
 Flags: W
 LayerCount: 2
-Back
-SplineSet
-194 471 m 0
- 421 554 l 0
- 421 475 l 0
- 194 392 l 0
- 194 471 l 0
-194 271 m 0
- 421 354 l 0
- 421 275 l 0
- 194 192 l 0
- 194 271 l 0
-EndSplineSet
 Fore
 SplineSet
 194 496 m 1
