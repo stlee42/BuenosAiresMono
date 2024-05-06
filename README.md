@@ -100,6 +100,14 @@ The OpenType language system tag is `ZHP ` (note the trailing space).
 
 For legacy apps, use **Inconsolata LGC Pinyin** in the TTC.
 
+### Ewe f-hook ###
+U+0192 is both used as a letter in Ewe and as florin sign. For the latter
+usage, it is always in italic and this font already includes U+0192 as florin
+sign like many other fonts. On the other hand, Roman (non-italic) version of
+f-hook is required for Ewe text.
+
+For legacy apps, use **Inconsolata LGC African** in the TTC.
+
 
 Miscellaneous variants
 ----------------------

@@ -28,6 +28,7 @@ t = {
 		"Tcommaaccent" => "Tcedilla",
 		"tcommaaccent" => "tcedilla",
 	}},
+	"ewe" => {namesuffix: "African",   swap: {"florin" => "fscript.ewe"}},
 }
 
 f.each {|l|
