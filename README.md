@@ -101,6 +101,8 @@ The OpenType language system tag is `ZHP ` (note the trailing space).
 For legacy apps, use **Inconsolata LGC Pinyin** in the TTC.
 
 ### Ewe f-hook ###
+![Differences of U+0192 between that as a sign and as a letter](doc/variants_of_f_hook.png)
+
 U+0192 is both used as a letter in Ewe and as florin sign. For the latter
 usage, it is always in italic and this font already includes U+0192 as florin
 sign like many other fonts. On the other hand, Roman (non-italic) version of
@@ -139,6 +141,9 @@ The glyph was included but not used in the original Inconsolata.
 Uppercase _Eng_ can have glyphs derived from either upper- or lowercase
 of N.
 
+- `cv03` = 1: _Eng_ with descender derived from enlarged lowercase n
+- `cv03` = 2: _Eng_ with descender derived from uppercase N
+
 ### `cv04`: alternative dollar signs ###
 ![Alternative dollar signs](doc/alternative_dollar_signs.png)
 
@@ -151,7 +156,7 @@ preferred for the local currencies.
 - `cv04` = 2: dollar sign with two vertical bars, also known as _cifrão_ in
   Portuguese
 
-### `ss01`: German alternate umlaut ###
+### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
 Lowered position of umlaut to fit to ascenders.
