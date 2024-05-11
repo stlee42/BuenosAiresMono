@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715424843
+ModificationTime: 1715426208
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -98,7 +98,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65644 1548
+BeginChars: 65644 1549
 
 StartChar: a
 Encoding: 97 97 0
@@ -880,6 +880,7 @@ SplineSet
  107 335 l 1
  125 438 l 1
 EndSplineSet
+Substitution2: "Superscripts-1" minussuperior
 EndChar
 
 StartChar: equal
@@ -30490,6 +30491,22 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1534 -1 N 1 0 0 1 -85 -483 2
+EndChar
+
+StartChar: minussuperior
+Encoding: 8315 8315 1548
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+216 579 m 1
+ 600 579 l 1
+ 587 506 l 1
+ 203 506 l 1
+ 216 579 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
