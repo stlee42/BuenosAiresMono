@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715419575
+ModificationTime: 1715423522
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,6 +51,8 @@ Lookup: 1 0 0 "Sami variant of Eng" { "Sami variant of Eng-1"  } ['locl' ('latn'
 Lookup: 1 0 0 "Pinyin variant forms" { "Pinyin variant forms-1" ("pinyin") } ['locl' ('latn' <'ZHP ' > ) ]
 Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'LEF ' 'WCI ' > ) ]
 Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -100,7 +102,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65651 1545
+BeginChars: 65653 1557
 
 StartChar: a
 Encoding: 97 97 0
@@ -312,6 +314,7 @@ SplineSet
  91 0 l 4
 EndSplineSet
 Validated: 1
+Substitution2: "Superscripts-1" nsuperior
 EndChar
 
 StartChar: l
@@ -1265,6 +1268,8 @@ SplineSet
  467 405 461 454 451 496 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" zeroinferior
+Substitution2: "Superscripts-1" zerosuperior
 Substitution2: "Old style numerals-1" zero.oldstyle
 AlternateSubs2: "Variants of zero-1" zero.noslash zero.dotted
 EndChar
@@ -1287,6 +1292,8 @@ SplineSet
  366 740 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" oneinferior
+Substitution2: "Superscripts-1" onesuperior
 Substitution2: "Old style numerals-1" one.oldstyle
 EndChar
 
@@ -1317,6 +1324,8 @@ SplineSet
  102 625 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" twoinferior
+Substitution2: "Superscripts-1" twosuperior
 Substitution2: "Old style numerals-1" two.oldstyle
 EndChar
 
@@ -1371,6 +1380,8 @@ SplineSet
  367 608 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" fourinferior
+Substitution2: "Superscripts-1" foursuperior
 Substitution2: "Old style numerals-1" four.oldstyle
 EndChar
 
@@ -1403,6 +1414,8 @@ SplineSet
  428 630 376 679 310 679 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" eightinferior
+Substitution2: "Superscripts-1" eightsuperior
 Substitution2: "Old style numerals-1" eight.oldstyle
 EndChar
 
@@ -1433,6 +1446,8 @@ SplineSet
  136 739 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" fiveinferior
+Substitution2: "Superscripts-1" fivesuperior
 Substitution2: "Old style numerals-1" five.oldstyle
 EndChar
 
@@ -2204,6 +2219,8 @@ SplineSet
  411 742 498 655 498 554 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" threeinferior
+Substitution2: "Superscripts-1" threesuperior
 Substitution2: "Old style numerals-1" three.oldstyle
 EndChar
 
@@ -2917,6 +2934,8 @@ SplineSet
  451 358 380 404 321 404 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" sixinferior
+Substitution2: "Superscripts-1" sixsuperior
 Substitution2: "Old style numerals-1" six.oldstyle
 EndChar
 
@@ -2950,6 +2969,8 @@ SplineSet
  172 395 236 341 302 341 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" nineinferior
+Substitution2: "Superscripts-1" ninesuperior
 Substitution2: "Old style numerals-1" nine.oldstyle
 EndChar
 
@@ -2973,6 +2994,8 @@ SplineSet
  103 739 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" seveninferior
+Substitution2: "Superscripts-1" sevensuperior
 Substitution2: "Old style numerals-1" seven.oldstyle
 EndChar
 
@@ -6258,6 +6281,8 @@ SplineSet
  381 657 336 672 306 672 c 4
 EndSplineSet
 Validated: 1
+Substitution2: "Subscripts-1" zeroinferior.noslash
+Substitution2: "Superscripts-1" zerosuperior.noslash
 Substitution2: "Old style numerals-1" zero.oldstyle.noslash
 EndChar
 
@@ -30931,6 +30956,8 @@ SplineSet
  378 62 467 141 467 348 c 0
  467 548 389 672 307 672 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" zeroinferior.dotted
+Substitution2: "Superscripts-1" zerosuperior.dotted
 Substitution2: "Old style numerals-1" zero.oldstyle.dotted
 EndChar
 
@@ -30987,6 +31014,123 @@ SplineSet
  70 438 168 554 307 554 c 0
  439 554 544 446 544 271 c 0
 EndSplineSet
+EndChar
+
+StartChar: zeroinferior
+Encoding: 8320 8320 1545
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 560 8304 S 1 0 0 1 0 -483 2
+AlternateSubs2: "Variants of zero-1" zeroinferior.noslash zeroinferior.dotted
+EndChar
+
+StartChar: oneinferior
+Encoding: 8321 8321 1546
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: twoinferior
+Encoding: 8322 8322 1547
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 157 178 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: threeinferior
+Encoding: 8323 8323 1548
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 204 179 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: fourinferior
+Encoding: 8324 8324 1549
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 271 8308 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: fiveinferior
+Encoding: 8325 8325 1550
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 561 8309 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: sixinferior
+Encoding: 8326 8326 1551
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 562 8310 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: seveninferior
+Encoding: 8327 8327 1552
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 563 8311 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: eightinferior
+Encoding: 8328 8328 1553
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 564 8312 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: nineinferior
+Encoding: 8329 8329 1554
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 565 8313 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: zeroinferior.noslash
+Encoding: 65651 -1 1555
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1218 -1 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: zeroinferior.dotted
+Encoding: 65652 -1 1556
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1543 -1 N 1 0 0 1 0 -483 2
 EndChar
 EndChars
 EndSplineFont
