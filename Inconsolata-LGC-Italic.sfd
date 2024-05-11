@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715417687
+ModificationTime: 1715420083
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ Lookup: 1 0 0 "Sami variant of Eng" { "Sami variant of Eng-1"  } ['locl' ('latn'
 Lookup: 1 0 0 "Pinyin variant forms" { "Pinyin variant forms-1" ("pinyin") } ['locl' ('latn' <'ZHP ' > ) ]
 Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'LEF ' 'WCI ' > ) ]
 Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -96,7 +96,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65639 1533
+BeginChars: 65642 1536
 
 StartChar: a
 Encoding: 97 97 0
@@ -1215,7 +1215,7 @@ SplineSet
  538 405 541 454 539 496 c 1
 EndSplineSet
 Substitution2: "Old style numerals-1" zero.oldstyle
-Substitution2: "Non-slashed zero-1" zero.noslash
+AlternateSubs2: "Variants of zero-1" zero.noslash zero.dotted
 EndChar
 
 StartChar: one
@@ -11001,7 +11001,7 @@ SplineSet
  314 372 342 354 373 354 c 0
  420 354 496 398 518 521 c 0
 EndSplineSet
-Substitution2: "Non-slashed zero-1" zerosuperior.noslash
+AlternateSubs2: "Variants of zero-1" zerosuperior.noslash zerosuperior.dotted
 EndChar
 
 StartChar: fivesuperior
@@ -25173,7 +25173,7 @@ SplineSet
  520 300 517 345 509 382 c 1
  232 93 l 1
 EndSplineSet
-Substitution2: "Non-slashed zero-1" zero.oldstyle.noslash
+AlternateSubs2: "Variants of zero-1" zero.oldstyle.noslash zero.oldstyle.dotted
 EndChar
 
 StartChar: one.oldstyle
@@ -30281,6 +30281,87 @@ SplineSet
  190 111 223 62 312 62 c 0
  391 62 481 129 505 265 c 0
  531 415 460 481 382 481 c 0
+EndSplineSet
+EndChar
+
+StartChar: zero.dotted
+Encoding: 65639 -1 1533
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+443 362 m 0
+ 436 325 399 294 360 294 c 0
+ 321 294 295 325 302 362 c 0
+ 309 399 345 430 384 430 c 0
+ 423 430 450 399 443 362 c 0
+439 744 m 0
+ 553 744 651 609 607 357 c 0
+ 562 103 414 -13 308 -13 c 0
+ 191 -13 92 125 134 364 c 0
+ 176 601 322 744 439 744 c 0
+425 672 m 0
+ 352 672 247 567 214 378 c 0
+ 184 210 231 62 324 62 c 0
+ 389 62 492 141 528 348 c 0
+ 563 548 507 672 425 672 c 0
+EndSplineSet
+Substitution2: "Old style numerals-1" zero.oldstyle.dotted
+EndChar
+
+StartChar: zerosuperior.dotted
+Encoding: 65640 -1 1534
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+455 532 m 0
+ 450 504 422 481 393 481 c 0
+ 364 481 345 504 350 532 c 0
+ 355 560 382 583 411 583 c 0
+ 440 583 460 560 455 532 c 0
+208 531 m 0
+ 234 678 348 769 444 769 c 0
+ 537 769 620 683 592 527 c 0
+ 564 370 449 296 361 296 c 0
+ 265 296 182 383 208 531 c 0
+433 712 m 0
+ 380 712 302 653 282 540 c 0
+ 266 448 299 354 373 354 c 0
+ 420 354 496 398 518 521 c 0
+ 539 638 494 712 433 712 c 0
+EndSplineSet
+EndChar
+
+StartChar: zero.oldstyle.dotted
+Encoding: 65641 -1 1535
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+415 264 m 0
+ 410 233 377 206 344 206 c 0
+ 311 206 291 233 296 264 c 0
+ 301 295 332 322 365 322 c 0
+ 398 322 420 295 415 264 c 0
+389 481 m 0
+ 360 481 309 473 268 428 c 0
+ 234 391 207 338 194 266 c 0
+ 185 214 190 157 215 117 c 0
+ 235 84 269 62 319 62 c 0
+ 349 62 397 71 438 111 c 0
+ 481 153 506 220 513 261 c 0
+ 521 308 519 380 488 429 c 0
+ 468 460 437 481 389 481 c 0
+592 271 m 0
+ 562 102 440 -13 303 -13 c 0
+ 178 -13 85 84 116 259 c 0
+ 148 438 266 554 405 554 c 0
+ 537 554 623 446 592 271 c 0
 EndSplineSet
 EndChar
 EndChars

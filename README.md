@@ -123,12 +123,15 @@ as text figures.
 On the other hand, lining (or titling) numerals are “uppercase” to which
 this font defaults.
 
-### `cv01`: zero without slash ###
-![Differences between slashed and unslashed zero followed by uppercase O](doc/unslashed_zero.png)
+### `cv01`: variants of zero ###
+![Variants of zero](doc/variants_of_zero.png)
 
 The glyph was included but not used in the original Inconsolata. Feature
 tag `zero` is inappropriate here because zero is slashed by default in this
-font.
+font. Some programming fonts include dotted zero in lieu of slashed zero.
+
+1. plain zero (without slash)
+2. dotted zero
 
 ### `cv02`: _r_ with serif ###
 ![Differences between regular and alternative r](doc/r_with_serif.png)
