@@ -18,6 +18,9 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(r-with-serif);
 	font-variant-alternates: character-variant(eng-descender);
 	font-variant-alternates: character-variant(eng-uppercase);
+	font-variant-alternates: character-variant(dollar-open);
+	font-variant-alternates: character-variant(dollar-oldstyle);
+	font-variant-alternates: character-variant(dollar-cifrao);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -55,6 +58,9 @@ Usage in your stylesheets:
 		r-with-serif: 2 1;
 		eng-descender: 3 1;
 		eng-uppercase: 3 2;
+		dollar-open: 4 1;
+		dollar-oldstyle: 4 2;
+		dollar-cifrao: 4 2;
 	}
 }
 

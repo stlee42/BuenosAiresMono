@@ -139,6 +139,18 @@ The glyph was included but not used in the original Inconsolata.
 Uppercase _Eng_ can have glyphs derived from either upper- or lowercase
 of N.
 
+### `cv04`: alternative dollar signs ###
+![Alternative dollar signs](doc/alternative_dollar_signs.png)
+
+Dollar sign has glyph variant with either one or two vertical bars. There is
+another variant with a vertical bar without the middle part found in some
+console fonts. In Brazil and Cape Verde, the double-stroke variant is
+preferred for the local currencies.
+
+- `cv04` = 1: dollar sign without the middle part of the vertical bar
+- `cv04` = 2: dollar sign with two vertical bars, also known as _cifrão_ in
+  Portuguese
+
 ### `ss01`: German alternate umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 

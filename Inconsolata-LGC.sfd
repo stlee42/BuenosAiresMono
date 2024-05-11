@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715189476
+ModificationTime: 1715395271
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,7 @@ Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onu
 Lookup: 1 0 0 "Non-slashed zero" { "Non-slashed zero-1" ("noslash") } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -99,7 +100,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65646 1533
+BeginChars: 65648 1535
 
 StartChar: a
 Encoding: 97 97 0
@@ -1999,6 +2000,7 @@ SplineSet
  259 442 274 434 289 428 c 1
 EndSplineSet
 Validated: 1
+MultipleSubs2: "Alternative dollar sign-1" dollar.var1 dollar.var2
 EndChar
 
 StartChar: A
@@ -30631,6 +30633,92 @@ SplineSet
  191 182 77 303 77 466 c 0
  77 629 190 748 349 748 c 0
  436 748 509 711 552 648 c 0
+EndSplineSet
+EndChar
+
+StartChar: dollar.var1
+Encoding: 65646 -1 1533
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+289 772 m 1
+ 366 772 l 2
+ 367 771 366 769 366 768 c 0
+ 366 759 358 759 358 748 c 2
+ 358 702 l 1
+ 423 696 488 667 535 611 c 1
+ 483 547 l 2
+ 480 548 477 550 477 555 c 0
+ 477 558 478 561 476 565 c 0
+ 475 566 475 568 471 572 c 0
+ 436 615 376 635 320 635 c 0
+ 249 635 183 602 183 539 c 0
+ 183 513 195 479 247 449 c 0
+ 306 414 384 398 437 375 c 0
+ 462 364 556 323 556 215 c 0
+ 556 105 466 35 358 19 c 1
+ 358 -55 l 1
+ 289 -55 l 1
+ 289 17 l 1
+ 214 22 137 52 81 112 c 1
+ 132 182 l 1
+ 138 179 137 172 137 171 c 0
+ 137 166 136 163 141 158 c 0
+ 189 107 253 85 313 85 c 0
+ 401 85 478 133 478 210 c 0
+ 478 234 469 274 419 301 c 0
+ 377 324 318 329 224 372 c 0
+ 124 419 104 486 104 529 c 0
+ 104 623 189 686 289 700 c 1
+ 289 772 l 1
+EndSplineSet
+EndChar
+
+StartChar: dollar.var2
+Encoding: 65647 -1 1534
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+359 772 m 1
+ 436 772 l 1
+ 437 771 436 769 436 768 c 0
+ 436 759 428 759 428 748 c 2
+ 428 -55 l 1
+ 359 -55 l 1
+ 359 772 l 1
+229 772 m 1
+ 306 772 l 1
+ 307 771 306 769 306 768 c 0
+ 306 759 298 759 298 748 c 2
+ 298 -55 l 1
+ 229 -55 l 1
+ 229 772 l 1
+557 611 m 1
+ 509 547 l 1
+ 506 548 502 550 502 555 c 0
+ 502 558 503 561 501 565 c 0
+ 500 566 499 568 495 572 c 0
+ 455 615 386 635 321 635 c 0
+ 239 635 162 602 162 539 c 0
+ 162 513 177 479 237 449 c 0
+ 305 414 391 398 449 375 c 0
+ 477 364 580 323 580 215 c 0
+ 580 89 450 16 309 16 c 0
+ 219 16 124 46 57 112 c 1
+ 103 182 l 1
+ 110 179 110 172 110 171 c 0
+ 110 166 108 163 114 158 c 0
+ 170 107 243 85 312 85 c 0
+ 414 85 503 133 503 210 c 0
+ 503 234 493 274 435 301 c 0
+ 387 324 318 329 215 372 c 0
+ 105 419 83 486 83 529 c 0
+ 83 635 202 703 330 703 c 0
+ 411 703 498 675 557 611 c 1
 EndSplineSet
 EndChar
 EndChars
