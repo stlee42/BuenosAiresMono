@@ -3041,6 +3041,7 @@ SplineSet
  356 829 l 4
 EndSplineSet
 Validated: 1
+Substitution2: "Pinyin variant forms-1" acute.pinyin
 EndChar
 
 StartChar: aacute
@@ -31940,6 +31941,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 107 180 N 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" acute.pinyin
 EndChar
 
 StartChar: verticallinelowmod
