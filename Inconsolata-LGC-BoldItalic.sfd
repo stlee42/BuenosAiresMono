@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715695785
+ModificationTime: 1715701850
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -98,7 +98,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65645 1616
+BeginChars: 65670 1692
 
 StartChar: a
 Encoding: 97 97 0
@@ -32192,6 +32192,1023 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 51 77 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: circle.encl
+Encoding: 65645 -1 1616
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+674 368 m 0
+ 663 303 641 211 582 132 c 0
+ 508 34 402 -11 310 -11 c 0
+ 180 -11 19 80 70 371 c 0
+ 121 662 316 748 443 748 c 0
+ 535 748 626 703 665 608 c 0
+ 697 529 686 437 674 368 c 0
+429 684 m 0
+ 325 684 176 612 135 382 c 0
+ 92 138 214 56 324 56 c 0
+ 391 56 472 86 530 161 c 0
+ 582 227 599 307 608 357 c 0
+ 620 423 629 496 607 561 c 0
+ 578 651 498 684 429 684 c 0
+EndSplineSet
+EndChar
+
+StartChar: onecircle
+Encoding: 9312 9312 1617
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 149 185 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: twocircle
+Encoding: 9313 9313 1618
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 157 178 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: threecircle
+Encoding: 9314 9314 1619
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 204 179 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: fourcircle
+Encoding: 9315 9315 1620
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 271 8308 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: fivecircle
+Encoding: 9316 9316 1621
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 563 8309 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: sixcircle
+Encoding: 9317 9317 1622
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 564 8310 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: sevencircle
+Encoding: 9318 9318 1623
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 565 8311 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: eightcircle
+Encoding: 9319 9319 1624
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 566 8312 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: ninecircle
+Encoding: 9320 9320 1625
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 567 8313 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: tencircle
+Encoding: 9321 9321 1626
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1667 -1 N 1 0 0 1 90 0 2
+AlternateSubs2: "Variants of zero-1" tencircle.noslash tencircle.dotted
+EndChar
+
+StartChar: elevencircle
+Encoding: 9322 9322 1627
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -70 0 2
+Refer: 1668 -1 N 1 0 0 1 130 0 2
+EndChar
+
+StartChar: twelvecircle
+Encoding: 9323 9323 1628
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1669 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: thirteencircle
+Encoding: 9324 9324 1629
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1670 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: fourteencircle
+Encoding: 9325 9325 1630
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1671 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: fifteencircle
+Encoding: 9326 9326 1631
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1672 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: sixteencircle
+Encoding: 9327 9327 1632
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1673 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: seventeencircle
+Encoding: 9328 9328 1633
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1674 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: eighteencircle
+Encoding: 9329 9329 1634
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1675 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: nineteencircle
+Encoding: 9330 9330 1635
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1676 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: twentycircle
+Encoding: 9331 9331 1636
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1667 -1 N 1 0 0 1 100 0 2
+AlternateSubs2: "Variants of zero-1" twentycircle.noslash twentycircle.dotted
+EndChar
+
+StartChar: twentyonecircle
+Encoding: 12881 12881 1637
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1668 -1 N 1 0 0 1 130 0 2
+EndChar
+
+StartChar: twentytwocircle
+Encoding: 12882 12882 1638
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1669 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentythreecircle
+Encoding: 12883 12883 1639
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1670 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentyfourcircle
+Encoding: 12884 12884 1640
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1671 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentyfivecircle
+Encoding: 12885 12885 1641
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1672 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentysixcircle
+Encoding: 12886 12886 1642
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1673 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentysevencircle
+Encoding: 12887 12887 1643
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1674 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentyeightcircle
+Encoding: 12888 12888 1644
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1675 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentyninecircle
+Encoding: 12889 12889 1645
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1676 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtycircle
+Encoding: 12890 12890 1646
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1667 -1 N 1 0 0 1 100 0 2
+AlternateSubs2: "Variants of zero-1" thirtycircle.noslash thirtycircle.dotted
+EndChar
+
+StartChar: thirtyonecircle
+Encoding: 12891 12891 1647
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1668 -1 N 1 0 0 1 130 0 2
+EndChar
+
+StartChar: thirtytwocircle
+Encoding: 12892 12892 1648
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1669 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtythreecircle
+Encoding: 12893 12893 1649
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1670 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtyfourcircle
+Encoding: 12894 12894 1650
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1671 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtyfivecircle
+Encoding: 12895 12895 1651
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1672 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtysixcircle
+Encoding: 12977 12977 1652
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1673 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtysevencircle
+Encoding: 12978 12978 1653
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1674 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtyeightcircle
+Encoding: 12979 12979 1654
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1675 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtyninecircle
+Encoding: 12980 12980 1655
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1676 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortycircle
+Encoding: 12981 12981 1656
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1667 -1 N 1 0 0 1 100 0 2
+AlternateSubs2: "Variants of zero-1" fortycircle.noslash fortycircle.dotted
+EndChar
+
+StartChar: fortyonecircle
+Encoding: 12982 12982 1657
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1668 -1 N 1 0 0 1 130 0 2
+EndChar
+
+StartChar: fortytwocircle
+Encoding: 12983 12983 1658
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1669 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortythreecircle
+Encoding: 12984 12984 1659
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1670 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortyfourcircle
+Encoding: 12985 12985 1660
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1671 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortyfivecircle
+Encoding: 12986 12986 1661
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1672 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortysixcircle
+Encoding: 12987 12987 1662
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1673 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortysevencircle
+Encoding: 12988 12988 1663
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1674 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortyeightcircle
+Encoding: 12989 12989 1664
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1675 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortyninecircle
+Encoding: 12990 12990 1665
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1676 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fiftycircle
+Encoding: 12991 12991 1666
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1672 -1 N 1 0 0 1 -100 0 2
+Refer: 1667 -1 N 1 0 0 1 100 0 2
+AlternateSubs2: "Variants of zero-1" fiftycircle.noslash fiftycircle.dotted
+EndChar
+
+StartChar: zero.smallnarrow
+Encoding: 65646 -1 1667
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+273 398 m 0
+ 297 533 364 620 417 620 c 0
+ 469 620 505 538 480 394 c 0
+ 451 229 382 146 334 146 c 0
+ 281 146 245 242 273 398 c 0
+333 364 m 1
+ 420 504 l 1
+ 416 526 409 533 401 533 c 0
+ 385 533 355 493 340 406 c 0
+ 337 391 334 377 333 364 c 1
+415 388 m 0
+ 418 405 421 422 422 436 c 1
+ 332 273 l 1
+ 335 246 342 235 350 235 c 0
+ 364 235 394 271 415 388 c 0
+EndSplineSet
+EndChar
+
+StartChar: one.smallnarrow
+Encoding: 65647 -1 1668
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+437 601 m 1
+ 357 150 l 1
+ 278 150 l 1
+ 338 487 l 1
+ 293 459 l 1
+ 288 520 l 1
+ 385 601 l 1
+ 437 601 l 1
+EndSplineSet
+EndChar
+
+StartChar: two.smallnarrow
+Encoding: 65648 -1 1669
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+303 487 m 1
+ 326 538 366 606 421 606 c 0
+ 471 606 498 548 485 475 c 0
+ 475 419 446 381 436 367 c 0
+ 407 327 370 299 339 245 c 1
+ 427 245 l 2
+ 427 245 428 245 428 246 c 0
+ 433 254 440 260 450 251 c 1
+ 432 150 l 1
+ 251 150 l 1
+ 264 223 l 1
+ 300 291 359 351 386 390 c 0
+ 403 415 416 438 420 463 c 0
+ 424 488 421 514 402 514 c 0
+ 387 514 369 493 358 470 c 8
+ 352 456 352 450 345 433 c 1
+ 303 487 l 1
+EndSplineSet
+EndChar
+
+StartChar: three.smallnarrow
+Encoding: 65649 -1 1670
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+423 607 m 0
+ 471 607 498 552 486 483 c 0
+ 480 451 466 423 450 405 c 1
+ 466 384 472 345 464 300 c 0
+ 448 210 390 148 340 148 c 0
+ 302 148 278 178 261 240 c 1
+ 326 324 l 1
+ 332 292 326 288 328 280 c 0
+ 329 275 336 245 355 245 c 0
+ 375 245 395 277 400 307 c 0
+ 402 320 407 357 375 357 c 0
+ 369 357 364 355 356 353 c 1
+ 373 446 l 9
+ 378 445 380 444 386 444 c 16
+ 413 444 421 464 423 476 c 0
+ 426 493 421 514 403 514 c 0
+ 390 514 373 500 350 450 c 1
+ 317 517 l 1
+ 343 562 385 607 423 607 c 0
+EndSplineSet
+EndChar
+
+StartChar: four.smallnarrow
+Encoding: 65650 -1 1671
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+444 611 m 1
+ 478 611 l 1
+ 432 351 l 1
+ 470 351 l 1
+ 455 264 l 1
+ 417 264 l 1
+ 396 149 l 1
+ 342 149 l 1
+ 363 265 l 1
+ 260 265 l 1
+ 271 327 l 1
+ 444 611 l 1
+392 430 m 1
+ 344 351 l 1
+ 378 351 l 1
+ 392 430 l 1
+EndSplineSet
+EndChar
+
+StartChar: five.smallnarrow
+Encoding: 65651 -1 1672
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+285 382 m 1
+ 337 611 l 1
+ 505 611 l 1
+ 489 523 l 1
+ 375 523 l 1
+ 365 478 l 1
+ 375 484 384 486 393 486 c 0
+ 432 486 483 427 464 318 c 0
+ 444 204 386 146 332 146 c 0
+ 270 146 254 210 246 243 c 1
+ 313 296 l 1
+ 316 289 317 275 319 264 c 0
+ 321 254 329 234 345 234 c 0
+ 365 234 386 264 396 319 c 0
+ 406 376 394 405 374 405 c 0
+ 366 405 352 405 328 360 c 1
+ 285 382 l 1
+EndSplineSet
+EndChar
+
+StartChar: six.smallnarrow
+Encoding: 65652 -1 1673
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+316 512 m 0
+ 350 590 398 622 436 622 c 0
+ 476 622 490 592 505 561 c 1
+ 443 495 l 1
+ 434 510 438 517 436 521 c 0
+ 434 525 428 534 418 534 c 0
+ 406 534 382 527 363 464 c 1
+ 376 480 389 488 403 488 c 0
+ 437 488 483 428 464 320 c 0
+ 445 213 389 147 340 147 c 0
+ 312 147 287 168 275 214 c 0
+ 263 264 269 327 279 381 c 0
+ 286 420 298 470 316 512 c 0
+401 316 m 0
+ 412 380 401 401 386 401 c 0
+ 373 401 355 381 342 354 c 1
+ 341 351 342 349 341 345 c 0
+ 329 279 337 235 357 235 c 0
+ 372 235 391 259 401 316 c 0
+EndSplineSet
+EndChar
+
+StartChar: seven.smallnarrow
+Encoding: 65653 -1 1674
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+310 520 m 1
+ 326 611 l 1
+ 513 611 l 1
+ 504 563 l 1
+ 504 561 452 457 418 378 c 0
+ 382 293 365 241 332 154 c 17
+ 267 154 l 1
+ 305 251 328 306 370 403 c 16
+ 387 442 405 482 423 520 c 1
+ 310 520 l 1
+EndSplineSet
+EndChar
+
+StartChar: eight.smallnarrow
+Encoding: 65654 -1 1675
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+311 502 m 0
+ 324 574 373 623 421 623 c 0
+ 467 623 500 577 487 506 c 0
+ 480 466 460 431 437 408 c 1
+ 457 381 466 340 458 292 c 0
+ 443 205 387 147 333 147 c 0
+ 281 147 244 204 259 289 c 0
+ 268 338 295 380 325 406 c 1
+ 311 429 304 463 311 502 c 0
+394 293 m 0
+ 399 319 393 355 370 373 c 1
+ 348 355 331 322 326 296 c 0
+ 321 268 330 236 351 236 c 0
+ 372 236 389 267 394 293 c 0
+421 485 m 0
+ 425 505 420 531 403 531 c 0
+ 387 531 372 507 369 489 c 0
+ 364 460 380 430 387 421 c 1
+ 405 440 418 466 421 485 c 0
+EndSplineSet
+EndChar
+
+StartChar: nine.smallnarrow
+Encoding: 65655 -1 1676
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+440 264 m 0
+ 406 183 357 147 319 147 c 0
+ 279 147 264 178 248 209 c 1
+ 310 274 l 1
+ 320 260 316 253 318 248 c 0
+ 320 244 327 236 337 236 c 0
+ 351 236 367 250 381 286 c 1
+ 384 293 391 311 398 341 c 1
+ 385 326 371 318 358 318 c 0
+ 324 318 278 375 294 467 c 0
+ 310 559 366 622 416 622 c 0
+ 450 622 482 594 488 525 c 0
+ 491 495 487 458 478 407 c 0
+ 464 330 450 287 440 264 c 0
+357 469 m 0
+ 349 426 359 405 375 405 c 0
+ 387 405 403 419 415 439 c 1
+ 416 445 416 446 417 450 c 0
+ 427 504 416 534 398 534 c 0
+ 382 534 365 512 357 469 c 0
+EndSplineSet
+EndChar
+
+StartChar: zero.noslash.smallnarrow
+Encoding: 65656 -1 1677
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+273 398 m 0
+ 297 533 364 620 417 620 c 0
+ 469 620 505 538 480 394 c 0
+ 451 229 382 146 334 146 c 0
+ 281 146 245 242 273 398 c 0
+340 406 m 0
+ 320 295 331 235 350 235 c 0
+ 364 235 394 271 415 388 c 0
+ 432 482 421 533 401 533 c 0
+ 385 533 355 493 340 406 c 0
+EndSplineSet
+EndChar
+
+StartChar: zero.dotted.smallnarrow
+Encoding: 65657 -1 1678
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+410 397 m 0
+ 404 363 385 335 367 335 c 0
+ 349 335 340 363 346 397 c 0
+ 352 431 371 460 389 460 c 0
+ 407 460 416 431 410 397 c 0
+273 398 m 0
+ 297 533 364 620 417 620 c 0
+ 469 620 505 538 480 394 c 0
+ 451 229 382 146 334 146 c 0
+ 281 146 245 242 273 398 c 0
+401 533 m 0
+ 385 533 355 493 340 406 c 0
+ 318 280 335 235 350 235 c 0
+ 364 235 394 271 415 388 c 0
+ 432 487 417 533 401 533 c 0
+EndSplineSet
+EndChar
+
+StartChar: zerocircle
+Encoding: 9450 9450 1679
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 562 8304 N 1 0 0 1 -26 -150 2
+AlternateSubs2: "Variants of zero-1" zerocircle.noslash zerocircle.dotted
+EndChar
+
+StartChar: zerocircle.noslash
+Encoding: 65658 -1 1680
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1213 -1 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: zerocircle.dotted
+Encoding: 65659 -1 1681
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1534 -1 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: tencircle.noslash
+Encoding: 65660 -1 1682
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1677 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: tencircle.dotted
+Encoding: 65661 -1 1683
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1678 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: twentycircle.noslash
+Encoding: 65662 -1 1684
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1677 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: twentycircle.dotted
+Encoding: 65663 -1 1685
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1678 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtycircle.noslash
+Encoding: 65664 -1 1686
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1677 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtycircle.dotted
+Encoding: 65665 -1 1687
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1678 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortycircle.noslash
+Encoding: 65666 -1 1688
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1677 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortycircle.dotted
+Encoding: 65667 -1 1689
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1678 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fiftycircle.noslash
+Encoding: 65668 -1 1690
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1672 -1 N 1 0 0 1 -100 0 2
+Refer: 1677 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fiftycircle.dotted
+Encoding: 65669 -1 1691
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1672 -1 N 1 0 0 1 -100 0 2
+Refer: 1678 -1 N 1 0 0 1 100 0 2
 EndChar
 EndChars
 EndSplineFont
