@@ -16,6 +16,7 @@ Usage in your stylesheets:
 	font-variant-alternates: styleset(alternative-umlaut);
 	font-variant-alternates: character-variant(zero-plain);
 	font-variant-alternates: character-variant(zero-dotted);
+	font-variant-alternates: character-variant(zero-longslash);
 	font-variant-alternates: character-variant(r-with-serif);
 	font-variant-alternates: character-variant(eng-descender);
 	font-variant-alternates: character-variant(eng-uppercase);
@@ -57,6 +58,7 @@ Usage in your stylesheets:
 	@character-variant {
 		zero-plain: 1 1;
 		zero-dotted: 1 2;
+		zero-longslash: 1 3;
 		r-with-serif: 2 1;
 		eng-descender: 3 1;
 		eng-uppercase: 3 2;

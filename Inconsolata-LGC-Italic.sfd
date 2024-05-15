@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715701755
+ModificationTime: 1715780351
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -98,7 +98,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65670 1692
+BeginChars: 65681 1703
 
 StartChar: a
 Encoding: 97 97 0
@@ -1221,7 +1221,7 @@ EndSplineSet
 Substitution2: "Subscripts-1" zeroinferior
 Substitution2: "Superscripts-1" zerosuperior
 Substitution2: "Old style numerals-1" zero.oldstyle
-AlternateSubs2: "Variants of zero-1" zero.noslash zero.dotted
+AlternateSubs2: "Variants of zero-1" zero.noslash zero.dotted zero.longslash
 EndChar
 
 StartChar: one
@@ -11028,7 +11028,7 @@ SplineSet
  314 372 342 354 373 354 c 0
  420 354 496 398 518 521 c 0
 EndSplineSet
-AlternateSubs2: "Variants of zero-1" zerosuperior.noslash zerosuperior.dotted
+AlternateSubs2: "Variants of zero-1" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
 EndChar
 
 StartChar: fivesuperior
@@ -25200,7 +25200,7 @@ SplineSet
  520 300 517 345 509 382 c 1
  232 93 l 1
 EndSplineSet
-AlternateSubs2: "Variants of zero-1" zero.oldstyle.noslash zero.oldstyle.dotted
+AlternateSubs2: "Variants of zero-1" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
 EndChar
 
 StartChar: one.oldstyle
@@ -30402,7 +30402,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 566 8304 S 1 0 0 1 -85 -483 2
-AlternateSubs2: "Variants of zero-1" zeroinferior.noslash zeroinferior.dotted
+AlternateSubs2: "Variants of zero-1" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
 EndChar
 
 StartChar: oneinferior
@@ -32334,7 +32334,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1668 -1 N 1 0 0 1 -80 0 2
 Refer: 1667 -1 N 1 0 0 1 90 0 2
-AlternateSubs2: "Variants of zero-1" tencircle.noslash tencircle.dotted
+AlternateSubs2: "Variants of zero-1" tencircle.noslash tencircle.dotted tencircle.longslash
 EndChar
 
 StartChar: elevencircle
@@ -32445,7 +32445,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1669 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" twentycircle.noslash twentycircle.dotted
+AlternateSubs2: "Variants of zero-1" twentycircle.noslash twentycircle.dotted twentycircle.longslash
 EndChar
 
 StartChar: twentyonecircle
@@ -32556,7 +32556,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1670 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" thirtycircle.noslash thirtycircle.dotted
+AlternateSubs2: "Variants of zero-1" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
 EndChar
 
 StartChar: thirtyonecircle
@@ -32667,7 +32667,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1671 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" fortycircle.noslash fortycircle.dotted
+AlternateSubs2: "Variants of zero-1" fortycircle.noslash fortycircle.dotted fortycircle.longslash
 EndChar
 
 StartChar: fortyonecircle
@@ -32778,7 +32778,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1672 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" fiftycircle.noslash fiftycircle.dotted
+AlternateSubs2: "Variants of zero-1" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
 EndChar
 
 StartChar: zero.smallnarrow
@@ -33102,7 +33102,7 @@ LayerCount: 2
 Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 566 8304 N 1 0 0 1 -26 -150 2
-AlternateSubs2: "Variants of zero-1" zerocircle.noslash zerocircle.dotted
+AlternateSubs2: "Variants of zero-1" zerocircle.noslash zerocircle.dotted zerocircle.longslash
 EndChar
 
 StartChar: zerocircle.noslash
@@ -33233,6 +33233,191 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1672 -1 N 1 0 0 1 -100 0 2
 Refer: 1678 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: zero.longslash
+Encoding: 65670 -1 1692
+AltUni2: 002205.00fe00.0
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+83 -15 m 25
+ 597 788 l 25
+ 661 753 l 25
+ 147 -50 l 25
+ 83 -15 l 25
+439 744 m 0
+ 553 744 651 609 607 357 c 0
+ 562 103 414 -13 308 -13 c 0
+ 191 -13 92 125 134 364 c 0
+ 176 601 322 744 439 744 c 0
+425 672 m 0
+ 352 672 247 567 214 378 c 0
+ 184 210 231 62 324 62 c 0
+ 389 62 492 141 528 348 c 0
+ 563 548 507 672 425 672 c 0
+EndSplineSet
+Substitution2: "Old style numerals-1" zero.oldstyle.longslash
+Substitution2: "Superscripts-1" zerosuperior.longslash
+Substitution2: "Subscripts-1" zeroinferior.longslash
+EndChar
+
+StartChar: zerosuperior.longslash
+Encoding: 65671 -1 1693
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+138 296 m 1
+ 614 818 l 29
+ 667 769 l 29
+ 192 248 l 1
+ 138 296 l 1
+208 531 m 0
+ 234 678 348 769 444 769 c 0
+ 537 769 620 683 592 527 c 0
+ 564 370 449 296 361 296 c 0
+ 265 296 182 383 208 531 c 0
+433 712 m 0
+ 380 712 302 653 282 540 c 0
+ 266 448 299 354 373 354 c 0
+ 420 354 496 398 518 521 c 0
+ 539 638 494 712 433 712 c 0
+EndSplineSet
+EndChar
+
+StartChar: zero.oldstyle.longslash
+Encoding: 65672 -1 1694
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 -6 m 1
+ 581 598 l 25
+ 639 554 l 25
+ 147 -50 l 1
+ 90 -6 l 1
+389 481 m 0
+ 360 481 309 473 268 428 c 0
+ 234 391 207 338 194 266 c 0
+ 185 214 190 157 215 117 c 0
+ 235 84 269 62 319 62 c 0
+ 349 62 397 71 438 111 c 0
+ 481 153 506 220 513 261 c 0
+ 521 308 519 380 488 429 c 0
+ 468 460 437 481 389 481 c 0
+592 271 m 0
+ 562 102 440 -13 303 -13 c 0
+ 178 -13 85 84 116 259 c 0
+ 148 438 266 554 405 554 c 0
+ 537 554 623 446 592 271 c 0
+EndSplineSet
+EndChar
+
+StartChar: zeroinferior.longslash
+Encoding: 65673 -1 1695
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1693 -1 N 1 0 0 1 -85 -483 2
+EndChar
+
+StartChar: zero.longslash.smallnarrow
+Encoding: 65674 -1 1696
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+223 146 m 1
+ 487 668 l 25
+ 529 619 l 25
+ 265 98 l 1
+ 223 146 l 1
+278 381 m 0
+ 304 528 369 619 417 619 c 0
+ 463 619 498 533 470 377 c 0
+ 442 220 379 146 335 146 c 0
+ 287 146 252 233 278 381 c 0
+407 562 m 0
+ 387 562 352 503 332 390 c 0
+ 316 298 317 204 345 204 c 0
+ 363 204 395 248 417 371 c 0
+ 438 488 429 562 407 562 c 0
+EndSplineSet
+EndChar
+
+StartChar: zerocircle.longslash
+Encoding: 65675 -1 1697
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1693 -1 N 1 0 0 1 -26 -150 2
+EndChar
+
+StartChar: tencircle.longslash
+Encoding: 65676 -1 1698
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1668 -1 N 1 0 0 1 -80 0 2
+Refer: 1696 -1 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: twentycircle.longslash
+Encoding: 65677 -1 1699
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1669 -1 N 1 0 0 1 -100 0 2
+Refer: 1696 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: thirtycircle.longslash
+Encoding: 65678 -1 1700
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1670 -1 N 1 0 0 1 -100 0 2
+Refer: 1696 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fortycircle.longslash
+Encoding: 65679 -1 1701
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1671 -1 N 1 0 0 1 -100 0 2
+Refer: 1696 -1 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: fiftycircle.longslash
+Encoding: 65680 -1 1702
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1616 -1 N 1 0 0 1 0 0 2
+Refer: 1672 -1 N 1 0 0 1 -100 0 2
+Refer: 1696 -1 N 1 0 0 1 100 0 2
 EndChar
 EndChars
 EndSplineFont
