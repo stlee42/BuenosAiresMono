@@ -132,6 +132,7 @@ font. Some programming fonts include dotted zero in lieu of slashed zero.
 
 1. plain zero (without slash)
 2. dotted zero
+3. zero with long slash
 
 ### `cv02`: _r_ with serif ###
 ![Differences between regular and alternative r](doc/r_with_serif.png)
