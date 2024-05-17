@@ -23,6 +23,8 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(dollar-open);
 	font-variant-alternates: character-variant(dollar-oldstyle);
 	font-variant-alternates: character-variant(dollar-cifrao);
+	font-variant-alternates: character-variant(ezh-no-descender);
+	font-variant-alternates: character-variant(ezh-reversed-sigma);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -65,6 +67,8 @@ Usage in your stylesheets:
 		dollar-open: 4 1;
 		dollar-oldstyle: 4 2;
 		dollar-cifrao: 4 2;
+		ezh-no-descender: 5 1;
+		ezh-reversed-sigma: 5 2;
 	}
 }
 

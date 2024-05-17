@@ -159,6 +159,14 @@ preferred for the local currencies.
 1. dollar sign without the middle part of the vertical bar
 2. dollar sign with two vertical bars, also known as _cifrão_ in Portuguese
 
+### `cv05`: variants of _Ezh_ ###
+![Variants of uppercase Ezh](doc/ezh_variant.png)
+
+Uppercase _Ezh_ has reversed-Sigma variant.
+
+1. _Ezh_ without descender
+2. reversed Sigma
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
