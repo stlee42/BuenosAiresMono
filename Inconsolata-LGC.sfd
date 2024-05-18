@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1715957398
+ModificationTime: 1716025667
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -103,7 +103,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65694 1716
+BeginChars: 65700 1735
 
 StartChar: a
 Encoding: 97 97 0
@@ -34087,6 +34087,239 @@ LayerCount: 2
 Fore
 Refer: 1713 -1 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 0 146 2
+EndChar
+
+StartChar: onethird
+Encoding: 8531 8531 1716
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: twothirds
+Encoding: 8532 8532 1717
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 157 178 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: onefifth
+Encoding: 8533 8533 1718
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 561 8309 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: twofifths
+Encoding: 8534 8534 1719
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 157 178 N 0.8 0 0 0.8 -110 203 2
+Refer: 561 8309 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: threefifths
+Encoding: 8535 8535 1720
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 204 179 N 0.8 0 0 0.8 -110 203 2
+Refer: 561 8309 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: fourfifths
+Encoding: 8536 8536 1721
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 271 8308 N 0.8 0 0 0.8 -110 203 2
+Refer: 561 8309 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: onesixth
+Encoding: 8537 8537 1722
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 562 8310 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: fivesixths
+Encoding: 8538 8538 1723
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 561 8309 N 0.8 0 0 0.8 -110 203 2
+Refer: 562 8310 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2150
+Encoding: 8528 8528 1724
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 563 8311 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2151
+Encoding: 8529 8529 1725
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 565 8313 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2152
+Encoding: 8530 8530 1726
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1676 -1 N 0.8 0 0 0.8 279 -202 2
+Refer: 1677 -1 N 0.8 0 0 0.8 149 -198 2
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 274 8260 N 1 0 0 1 0 0 2
+AlternateSubs2: "Variants of zero-1" uni2152.noslash uni2152.dotted uni2152.longslash
+EndChar
+
+StartChar: onenumerator
+Encoding: 8543 8543 1727
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 274 8260 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2152.noslash
+Encoding: 65694 -1 1728
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1686 -1 N 0.8 0 0 0.8 279 -202 2
+Refer: 1677 -1 N 0.8 0 0 0.8 149 -198 2
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 274 8260 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2152.dotted
+Encoding: 65695 -1 1729
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1687 -1 N 0.8 0 0 0.8 279 -202 2
+Refer: 1677 -1 N 0.8 0 0 0.8 149 -198 2
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 274 8260 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2152.longslash
+Encoding: 65696 -1 1730
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1705 -1 N 0.8 0 0 0.8 279 -202 2
+Refer: 1677 -1 N 0.8 0 0 0.8 149 -198 2
+Refer: 149 185 N 0.8 0 0 0.8 -110 203 2
+Refer: 274 8260 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2189
+Encoding: 8585 8585 1731
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 560 8304 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+AlternateSubs2: "Variants of zero-1" uni2189.noslash uni2189.dotted uni2189.longslash
+EndChar
+
+StartChar: uni2189.noslash
+Encoding: 65697 -1 1732
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1218 -1 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2189.dotted
+Encoding: 65698 -1 1733
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1543 -1 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2189.longslash
+Encoding: 65699 -1 1734
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1702 -1 N 0.8 0 0 0.8 -110 203 2
+Refer: 204 179 N 0.8 0 0 0.8 203 -321 2
+Refer: 274 8260 S 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
