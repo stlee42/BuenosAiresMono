@@ -167,6 +167,15 @@ Uppercase _Ezh_ has reversed-Sigma variant.
 1. _Ezh_ without descender
 2. reversed Sigma
 
+### `cv06`: text form triangles ###
+![Block and text forms of triangles](doc/text_form_triangles.png)
+
+Triangles at U+25E2 to U+25E5 used to be implemented of the same size with
+other geometric shapes like circles and squares. As a result of that
+additional mosaic characters are added at version 1.9, the triangles are now
+rendered of the size of block elements. Conventional glyphs can be accessed
+through the OpenType feature.
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 

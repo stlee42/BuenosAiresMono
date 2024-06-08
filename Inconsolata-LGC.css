@@ -25,6 +25,7 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(dollar-cifrao);
 	font-variant-alternates: character-variant(ezh-no-descender);
 	font-variant-alternates: character-variant(ezh-reversed-sigma);
+	font-variant-alternates: character-variant(triangle-text-form);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -69,6 +70,7 @@ Usage in your stylesheets:
 		dollar-cifrao: 4 2;
 		ezh-no-descender: 5 1;
 		ezh-reversed-sigma: 5 2;
+		triangle-text-form: 6 1;
 	}
 }
 
