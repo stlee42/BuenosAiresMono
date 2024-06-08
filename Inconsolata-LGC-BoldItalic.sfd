@@ -58,8 +58,8 @@ Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AV
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "Bold Italic"
