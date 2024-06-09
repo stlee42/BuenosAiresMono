@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1717911045
+ModificationTime: 1717931671
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -100,7 +100,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114270 1945
+BeginChars: 1114271 1946
 
 StartChar: a
 Encoding: 97 97 0
@@ -7698,6 +7698,7 @@ SplineSet
  269 82 l 1
  158 108 30 199 59 361 c 0
 EndSplineSet
+Substitution2: "Bulgarian variant forms-1" Ef.bg
 EndChar
 
 StartChar: Kha
@@ -37702,6 +37703,38 @@ LayerCount: 2
 Fore
 Refer: 1939 8714 N 1 0 0 1 0 0 2
 Refer: 31 95 N 1 0 0 1 -16 -89 2
+EndChar
+
+StartChar: Ef.bg
+Encoding: 1114270 -1 1945
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+365 -5 m 1
+ 348 -103 l 1
+ 231 -103 l 1
+ 248 -3 l 1
+ 140 25 33 132 75 371 c 0
+ 117 610 263 713 379 740 c 1
+ 397 840 l 1
+ 525 840 l 1
+ 524 836 525 827 524 822 c 0
+ 523 814 520 809 515 804 c 0
+ 509 799 507 797 506 793 c 2
+ 497 742 l 1
+ 604 717 711 612 668 368 c 0
+ 625 123 482 19 365 -5 c 1
+385 108 m 1
+ 450 128 522 190 552 358 c 0
+ 579 510 530 591 476 623 c 1
+ 385 108 l 1
+360 627 m 1
+ 295 602 216 533 189 381 c 0
+ 160 219 211 143 269 114 c 1
+ 360 627 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
