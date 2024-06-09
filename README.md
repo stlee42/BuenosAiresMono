@@ -110,6 +110,14 @@ f-hook is required for Ewe text.
 
 For legacy apps, use **Inconsolata LGC African** in the TTC.
 
+### Chuvash _śă_ ###
+![Differences between Bashkir and Chuvash variants](doc/Chuvash_sja.png)
+
+U+04AA and U+04AB are used in several languages in Russia; in Chuvash, unlike
+Bashkir, looks like C with cedilla.
+
+For legacy apps, use **Inconsolata LGC Chuvash** in the TTC.
+
 
 Miscellaneous variants
 ----------------------

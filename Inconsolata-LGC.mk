@@ -1,5 +1,6 @@
 .INTERMEDIATE: Inconsolata-LGC-Romanian.sfd Inconsolata-LGC-Polish.sfd Inconsolata-LGC-Bulgarian.sfd Inconsolata-LGC-Yugoslav.sfd
 .INTERMEDIATE: Inconsolata-LGC-Livonian.sfd Inconsolata-LGC-Sami.sfd Inconsolata-LGC-Pinyin.sfd Inconsolata-LGC-African.sfd
+.INTERMEDIATE: Inconsolata-LGC-Chuvash.sfd
 Inconsolata-LGC-Romanian.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb ro < $< > $@
 Inconsolata-LGC-Polish.sfd: Inconsolata-LGC.sfd regional.rb
@@ -16,8 +17,11 @@ Inconsolata-LGC-Pinyin.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb zhp < $< > $@
 Inconsolata-LGC-African.sfd: Inconsolata-LGC.sfd regional.rb
 	./regional.rb ewe < $< > $@
+Inconsolata-LGC-Chuvash.sfd: Inconsolata-LGC.sfd regional.rb
+	./regional.rb cv < $< > $@
 
 Inconsolata-LGC.ttc: Inconsolata-LGC.sfd \
-Inconsolata-LGC-Romanian.sfd Inconsolata-LGC-Polish.sfd Inconsolata-LGC-Bulgarian.sfd Inconsolata-LGC-Yugoslav.sfd\
-Inconsolata-LGC-Livonian.sfd Inconsolata-LGC-Sami.sfd Inconsolata-LGC-Pinyin.sfd Inconsolata-LGC-African.sfd
+Inconsolata-LGC-Romanian.sfd Inconsolata-LGC-Polish.sfd Inconsolata-LGC-Bulgarian.sfd Inconsolata-LGC-Yugoslav.sfd \
+Inconsolata-LGC-Livonian.sfd Inconsolata-LGC-Sami.sfd Inconsolata-LGC-Pinyin.sfd Inconsolata-LGC-African.sfd \
+Inconsolata-LGC-Chuvash.sfd
 	./makettc.py $@ $^
