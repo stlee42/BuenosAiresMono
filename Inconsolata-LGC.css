@@ -26,6 +26,9 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(ezh-no-descender);
 	font-variant-alternates: character-variant(ezh-reversed-sigma);
 	font-variant-alternates: character-variant(triangle-text-form);
+	font-variant-alternates: character-variant(el-with-hook-old);
+	font-variant-alternates: character-variant(qa-enlarged-lowercase);
+	font-variant-alternates: character-variant(qa-reversed-p);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -71,6 +74,9 @@ Usage in your stylesheets:
 		ezh-no-descender: 5 1;
 		ezh-reversed-sigma: 5 2;
 		triangle-text-form: 6 1;
+		el-with-hook-old: 7 1;
+		qa-enlarged-lowercase: 8 1;
+		qa-reversed-p: 8 2;
 	}
 }
 

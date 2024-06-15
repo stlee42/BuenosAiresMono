@@ -184,6 +184,20 @@ additional mosaic characters are added at version 1.9, the triangles are now
 rendered of the size of block elements. Conventional glyphs can be accessed
 through the OpenType feature.
 
+### `cv07`: variants of _El with hook_ ###
+![Variants of El with hook](doc/variants_of_el_with_hook.png)
+
+_El with hook_ has two variant forms.
+
+### `cv08`: variants of uppercase _Qa_ ###
+![Variants of uppercase Qa](doc/variants_of_uppercase_qa.png)
+
+Uppercase _Qa_ usually looks identical to Latin letter _Q_, but there also
+some variant forms.
+
+1. enlarged lowercase
+2. reversed _P_
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
