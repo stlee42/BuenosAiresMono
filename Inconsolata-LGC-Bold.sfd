@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1718442369
+ModificationTime: 1718452602
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -62,6 +62,9 @@ Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'EWE 
 Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Variants of El with hook" { "Variants of El with hook-1"  } ['cv07' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Qa variants" { "Qa variants-1"  } ['cv08' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -103,7 +106,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114286 1981
+BeginChars: 1114296 1991
 
 StartChar: a
 Encoding: 97 97 0
@@ -23363,6 +23366,7 @@ SplineSet
  177 229 89 268 45 348 c 0
  16 401 14 453 14 504 c 2
 EndSplineSet
+AlternateSubs2: "Che with hook-1" Chertdes.var1 Chertdes.var2
 EndChar
 
 StartChar: chertdes
@@ -23396,6 +23400,7 @@ SplineSet
  198 151 125 191 91 266 c 0
  69 313 69 361 69 409 c 2
 EndSplineSet
+AlternateSubs2: "Che with hook-1" chertdes.var1 chertdes.var2
 EndChar
 
 StartChar: Chevertbar
@@ -24677,6 +24682,7 @@ SplineSet
  174 637 l 1
  174 90 l 1
 EndSplineSet
+AlternateSubs2: "Ge with hook-1" uni04F6.var1 uni04F6.var2
 EndChar
 
 StartChar: uni04F7
@@ -24699,6 +24705,7 @@ SplineSet
  155 -0 l 1
  88 -0 l 1
 EndSplineSet
+AlternateSubs2: "Ge with hook-1" uni04F7.var1 uni04F7.var2
 EndChar
 
 StartChar: uni0524
@@ -37848,6 +37855,7 @@ SplineSet
  147 300 l 1
  32 300 l 1
 EndSplineSet
+Substitution2: "Ge with stroke and descender-1" uni04FA.var
 EndChar
 
 StartChar: uni04FB
@@ -37884,6 +37892,7 @@ SplineSet
  143 226 l 1
  32 226 l 1
 EndSplineSet
+Substitution2: "Ge with stroke and descender-1" uni04FB.var
 EndChar
 
 StartChar: uni04FC
@@ -38507,6 +38516,325 @@ SplineSet
  219 89 209 55 191 28 c 0
  170 -3 120 -8 95 -8 c 0
  56 -8 30 9 2 47 c 1
+EndSplineSet
+EndChar
+
+StartChar: Chertdes.var1
+Encoding: 1114286 -1 1981
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+54 505 m 2
+ 54 739 l 1
+ 173 739 l 1
+ 177 731 179 726 179 718 c 0
+ 179 708 174 699 169 694 c 0
+ 166 691 167 692 167 688 c 2
+ 167 505 l 2
+ 167 470 168 439 183 407 c 0
+ 207 358 257 331 310 331 c 0
+ 362 331 412 357 437 406 c 0
+ 453 439 455 471 455 508 c 2
+ 455 739 l 1
+ 564 739 l 1
+ 564 63 l 2
+ 564 12 563 -45 532 -100 c 0
+ 494 -169 411 -206 337 -206 c 0
+ 285 -206 211 -189 147 -110 c 1
+ 219 -21 l 1
+ 239 -37 229 -44 240 -55 c 0
+ 249 -64 290 -103 339 -103 c 0
+ 351 -103 402 -99 427 -63 c 0
+ 450 -31 455 12 455 55 c 2
+ 455 270 l 1
+ 411 243 361 229 309 229 c 0
+ 217 229 129 269 85 349 c 0
+ 56 402 54 454 54 505 c 2
+EndSplineSet
+EndChar
+
+StartChar: chertdes.var1
+Encoding: 1114287 -1 1982
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 409 m 2
+ 70 542 l 1
+ 195 542 l 1
+ 197 535 198 529 198 524 c 0
+ 198 512 186 512 186 496 c 2
+ 186 411 l 2
+ 186 376 187 339 204 307 c 0
+ 223 271 257 252 294 252 c 0
+ 339 252 383 281 405 320 c 0
+ 422 349 425 376 425 415 c 2
+ 425 542 l 1
+ 542 542 l 1
+ 542 47 l 2
+ 542 11 537 -43 512 -90 c 0
+ 472 -168 392 -207 310 -207 c 0
+ 241 -207 177 -181 126 -116 c 1
+ 198 -20 l 1
+ 226 -44 215 -44 225 -59 c 0
+ 233 -70 264 -103 315 -103 c 0
+ 356 -103 393 -82 410 -44 c 0
+ 421 -20 425 14 425 32 c 2
+ 426 217 l 1
+ 386 175 331 151 274 151 c 0
+ 198 151 126 192 91 266 c 0
+ 71 309 70 355 70 409 c 2
+EndSplineSet
+EndChar
+
+StartChar: Chertdes.var2
+Encoding: 1114288 -1 1983
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-4 505 m 2
+ -4 739 l 1
+ 115 739 l 1
+ 119 731 121 726 121 718 c 0
+ 121 708 116 699 111 694 c 0
+ 108 691 109 692 109 688 c 2
+ 109 505 l 2
+ 109 470 110 439 125 407 c 0
+ 149 358 199 331 252 331 c 0
+ 304 331 354 357 379 406 c 0
+ 395 439 397 471 397 508 c 2
+ 397 739 l 1
+ 506 739 l 1
+ 506 85 l 1
+ 617 85 l 1
+ 617 36 l 2
+ 617 -11 614 -67 588 -116 c 0
+ 556 -178 501 -208 446 -208 c 0
+ 397 -208 366 -191 326 -152 c 1
+ 381 -55 l 1
+ 398 -62 406 -67 414 -82 c 0
+ 418 -89 430 -97 445 -97 c 0
+ 459 -97 476 -91 489 -63 c 0
+ 498 -45 503 -22 505 0 c 1
+ 397 0 l 1
+ 397 270 l 1
+ 353 243 303 229 251 229 c 0
+ 159 229 71 269 27 349 c 0
+ -2 402 -4 454 -4 505 c 2
+EndSplineSet
+EndChar
+
+StartChar: chertdes.var2
+Encoding: 1114289 -1 1984
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 409 m 2
+ 30 542 l 1
+ 155 542 l 1
+ 157 535 158 529 158 524 c 0
+ 158 512 146 512 146 496 c 2
+ 146 411 l 2
+ 146 376 147 339 164 307 c 0
+ 183 271 217 252 254 252 c 0
+ 299 252 343 281 365 320 c 0
+ 382 349 385 376 385 415 c 2
+ 385 542 l 1
+ 502 542 l 1
+ 502 85 l 1
+ 613 85 l 1
+ 613 36 l 2
+ 613 -11 610 -67 584 -116 c 0
+ 552 -178 497 -208 442 -208 c 0
+ 393 -208 362 -191 322 -152 c 1
+ 377 -55 l 1
+ 394 -62 402 -67 410 -82 c 0
+ 414 -89 426 -97 441 -97 c 0
+ 455 -97 472 -91 485 -63 c 0
+ 494 -45 499 -23 501 -1 c 1
+ 385 -1 l 1
+ 386 217 l 1
+ 346 175 291 151 234 151 c 0
+ 158 151 86 192 51 266 c 0
+ 31 309 30 355 30 409 c 2
+EndSplineSet
+EndChar
+
+StartChar: uni04F6.var1
+Encoding: 1114290 -1 1985
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -152 m 1
+ 55 -55 l 1
+ 72 -62 80 -67 88 -82 c 0
+ 92 -89 104 -97 119 -97 c 0
+ 133 -97 150 -91 163 -63 c 0
+ 178 -31 180 9 180 43 c 2
+ 180 740 l 1
+ 599 740 l 1
+ 599 636 l 1
+ 289 636 l 1
+ 289 85 l 1
+ 290 36 l 2
+ 290 -15 291 -67 266 -116 c 0
+ 234 -178 175 -208 120 -208 c 0
+ 71 -208 40 -191 0 -152 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni04F7.var1
+Encoding: 1114291 -1 1986
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -152 m 1
+ 55 -55 l 1
+ 72 -62 80 -67 88 -82 c 0
+ 92 -89 104 -97 119 -97 c 0
+ 133 -97 150 -91 163 -63 c 0
+ 178 -31 180 9 180 43 c 2
+ 180 544 l 1
+ 574 543 l 1
+ 574 443 l 1
+ 294 444 l 1
+ 294 36 l 2
+ 294 -15 291 -67 266 -116 c 0
+ 234 -178 175 -208 120 -208 c 0
+ 71 -208 40 -191 0 -152 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni04F6.var2
+Encoding: 1114292 -1 1987
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+65 0 m 1
+ 65 740 l 1
+ 549 740 l 1
+ 549 636 l 1
+ 174 636 l 1
+ 174 85 l 1
+ 285 85 l 1
+ 285 36 l 2
+ 285 -11 282 -67 256 -116 c 0
+ 224 -178 169 -208 114 -208 c 0
+ 65 -208 34 -191 -6 -152 c 1
+ 49 -55 l 1
+ 66 -62 74 -67 82 -82 c 0
+ 86 -89 98 -97 113 -97 c 0
+ 127 -97 144 -91 157 -63 c 0
+ 166 -45 171 -22 173 0 c 1
+ 65 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni04F7.var2
+Encoding: 1114293 -1 1988
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+88 0 m 1
+ 88 544 l 1
+ 524 543 l 1
+ 524 443 l 1
+ 202 444 l 1
+ 202 85 l 1
+ 313 85 l 1
+ 313 36 l 2
+ 313 -11 310 -67 284 -116 c 0
+ 252 -178 197 -208 142 -208 c 0
+ 93 -208 62 -191 22 -152 c 1
+ 77 -55 l 1
+ 94 -62 102 -67 110 -82 c 0
+ 114 -89 126 -97 141 -97 c 0
+ 155 -97 172 -91 185 -63 c 0
+ 194 -45 200 -22 202 0 c 1
+ 88 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni04FA.var
+Encoding: 1114294 -1 1989
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+32 300 m 1
+ 32 405 l 1
+ 147 405 l 1
+ 147 740 l 1
+ 549 740 l 1
+ 549 637 l 1
+ 256 637 l 1
+ 256 405 l 1
+ 462 405 l 1
+ 462 300 l 1
+ 256 300 l 1
+ 256 101 l 1
+ 339 101 l 1
+ 339 -172 l 1
+ 226 -172 l 1
+ 226 0 l 1
+ 147 0 l 1
+ 147 300 l 1
+ 32 300 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni04FB.var
+Encoding: 1114295 -1 1990
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+32 226 m 1
+ 32 330 l 1
+ 143 330 l 1
+ 143 543 l 1
+ 522 541 l 1
+ 522 444 l 1
+ 256 445 l 1
+ 256 330 l 1
+ 421 330 l 1
+ 421 226 l 1
+ 256 226 l 1
+ 256 101 l 1
+ 323 101 l 1
+ 323 -172 l 1
+ 210 -172 l 1
+ 210 0 l 1
+ 143 0 l 1
+ 143 226 l 1
+ 32 226 l 1
 EndSplineSet
 EndChar
 EndChars

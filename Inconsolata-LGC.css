@@ -29,6 +29,11 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(el-with-hook-old);
 	font-variant-alternates: character-variant(qa-enlarged-lowercase);
 	font-variant-alternates: character-variant(qa-reversed-p);
+	font-variant-alternates: character-variant(che-with-hook);
+	font-variant-alternates: character-variant(che-with-hook-alt);
+	font-variant-alternates: character-variant(ge-with-hook);
+	font-variant-alternates: character-variant(ge-with-hook-alt);
+	font-variant-alternates: character-variant(ge-with-stroke-and-descender);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -77,6 +82,11 @@ Usage in your stylesheets:
 		el-with-hook-old: 7 1;
 		qa-enlarged-lowercase: 8 1;
 		qa-reversed-p: 8 2;
+		che-with-hook: 9 1;
+		che-with-hook-alt: 9 2;
+		ge-with-hook: 10 1;
+		ge-with-hook-alt: 10 2;
+		ge-with-stroke-and-descender: 11 1;
 	}
 }
 

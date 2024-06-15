@@ -199,6 +199,30 @@ some variant forms.
 1. enlarged lowercase
 2. reversed _P_
 
+### `cv09`: _Che_ with hook ###
+![Che with descender (leftmost) and che with hook (right two)](doc/che_with_hook.png)
+
+_Che with hook_ is an allograph of _che with descender_ (U+04B6 and U+04B7)
+and has two variants.
+
+1. variant with lengthened stem
+2. variant with attached hook
+
+### `cv10`: _Ge_ with hook ###
+![Ge with descender (leftmost) ge with hook (right two)](doc/ge_with_hook.png)
+
+_Ge with hook_ is an allograph of _ge with descender_ (U+04F6 and U+04F7) and
+has two variants.
+
+1. variant with lengthened stem
+2. variant with attached hook
+
+### `cv11`: _Ge_ with stroke and descender ###
+![Ge with stroke and hook (left) and ge with hook and descender (right)](doc/ge_with_stroke_and_descender.png)
+
+_Ge with stroke and descender_ is a variant of _ge with stroke and hook_
+(U+04FA and U+04FB).
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
