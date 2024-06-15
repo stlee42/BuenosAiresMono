@@ -134,9 +134,10 @@ this font defaults.
 ### `cv01`: variants of zero ###
 ![Variants of zero](doc/variants_of_zero.png)
 
-The glyph was included but not used in the original Inconsolata. Feature
-tag `zero` is inappropriate here because zero is slashed by default in this
-font. Some programming fonts include dotted zero in lieu of slashed zero.
+The zero without slash was included but not used in the original Inconsolata.
+Feature tag `zero` is inappropriate here because zero is slashed by default
+in this font. Some programming fonts include dotted zero in lieu of slashed
+zero.
 
 1. plain zero (without slash)
 2. dotted zero
