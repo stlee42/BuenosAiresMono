@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1719617989
+ModificationTime: 1719619160
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -30119,7 +30119,23 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 362 931 N 1 0 0 1 0 0 2
+SplineSet
+240 362 m 1
+ 72 681 l 0
+ 71 739 l 0
+ 528 739 l 0
+ 528 665 l 0
+ 169 665 l 0
+ 328 361 l 1
+ 169 74 l 0
+ 518 74 l 0
+ 532 74 539 81 550 81 c 0
+ 551 81 553 81 554 81 c 0
+ 554 0 l 0
+ 65 0 l 0
+ 65 50 l 0
+ 240 362 l 1
+EndSplineSet
 EndChar
 
 StartChar: esh
