@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1720346724
+ModificationTime: 1726490182
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -66,10 +66,12 @@ Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BO
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -106,7 +108,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114296 1993
+BeginChars: 1114326 2161
 
 StartChar: a
 Encoding: 97 97 0
@@ -38916,6 +38918,1797 @@ SplineSet
  257 243 l 1
  257 103 l 1
 EndSplineSet
+EndChar
+
+StartChar: alphalenis
+Encoding: 7936 7936 1993
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaasper
+Encoding: 7937 7937 1994
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphalenisgrave
+Encoding: 7938 7938 1995
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: alphaaspergrave
+Encoding: 7939 7939 1996
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: alphalenisacute
+Encoding: 7940 7940 1997
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: alphaasperacute
+Encoding: 7941 7941 1998
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: alphaleniscircumflex
+Encoding: 7942 7942 1999
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphaleniscircumflex.alt
+EndChar
+
+StartChar: alphaaspercircumflex
+Encoding: 7943 7943 2000
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphaaspercircumflex.alt
+EndChar
+
+StartChar: alphagrave
+Encoding: 8048 8048 2001
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: alphaacute
+Encoding: 8049 8049 2002
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: alphaiotasublenis
+Encoding: 8064 8064 2003
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubasper
+Encoding: 8065 8065 2004
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasublenisgrave
+Encoding: 8066 8066 2005
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubaspergrave
+Encoding: 8067 8067 2006
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasublenisacute
+Encoding: 8068 8068 2007
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubasperacute
+Encoding: 8069 8069 2008
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubleniscircumflex
+Encoding: 8070 8070 2009
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 -20 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubleniscircumflex.alt
+EndChar
+
+StartChar: alphaiotasubaspercircumflex
+Encoding: 8071 8071 2010
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 -20 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubaspercircumflex.alt
+EndChar
+
+StartChar: alphabreve
+Encoding: 8112 8112 2011
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 241 728 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphamacron
+Encoding: 8113 8113 2012
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 198 713 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubgrave
+Encoding: 8114 8114 2013
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 -40 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasub
+Encoding: 8115 8115 2014
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2114 890 N 1 0 0 1 -20 0 2
+Refer: 294 945 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: alphaiotasubacute
+Encoding: 8116 8116 2015
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 -40 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphacircumflex
+Encoding: 8118 8118 2016
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2118 8128 S 1 0 0 1 -40 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphacircumflex.alt
+EndChar
+
+StartChar: alphaiotasubcircumflex
+Encoding: 8119 8119 2017
+Width: 613
+Flags: W
+HStem: -198 44<321.542 361>
+VStem: 276 44<-150.434 -57>
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2118 8128 S 1 0 0 1 -40 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubcircumflex.alt
+EndChar
+
+StartChar: epsilonlenis
+Encoding: 7952 7952 2018
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: epsilonasper
+Encoding: 7953 7953 2019
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: epsilonlenisgrave
+Encoding: 7954 7954 2020
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: epsilonaspergrave
+Encoding: 7955 7955 2021
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: epsilonlenisacute
+Encoding: 7956 7956 2022
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: epsilonasperacute
+Encoding: 7957 7957 2023
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: epsilongrave
+Encoding: 8050 8050 2024
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: epsilonacute
+Encoding: 8051 8051 2025
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 298 949 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: etalenis
+Encoding: 7968 7968 2026
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaasper
+Encoding: 7969 7969 2027
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etalenisgrave
+Encoding: 7970 7970 2028
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaaspergrave
+Encoding: 7971 7971 2029
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etalenisacute
+Encoding: 7972 7972 2030
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaasperacute
+Encoding: 7973 7973 2031
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaleniscircumflex
+Encoding: 7974 7974 2032
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etaleniscircumflex.alt
+EndChar
+
+StartChar: etaaspercircumflex
+Encoding: 7975 7975 2033
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etaaspercircumflex.alt
+EndChar
+
+StartChar: etagrave
+Encoding: 8052 8052 2034
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaacute
+Encoding: 8053 8053 2035
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaiotasublenis
+Encoding: 8080 8080 2036
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubasper
+Encoding: 8081 8081 2037
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasublenisgrave
+Encoding: 8082 8082 2038
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubaspergrave
+Encoding: 8083 8083 2039
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasublenisacute
+Encoding: 8084 8084 2040
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubasperacute
+Encoding: 8085 8085 2041
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubleniscircumflex
+Encoding: 8086 8086 2042
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubleniscircumflex.alt
+EndChar
+
+StartChar: etaiotasubaspercircumflex
+Encoding: 8087 8087 2043
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubaspercircumflex.alt
+EndChar
+
+StartChar: etaiotasubgrave
+Encoding: 8130 8130 2044
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasub
+Encoding: 8131 8131 2045
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2114 890 N 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubacute
+Encoding: 8132 8132 2046
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etacircumflex
+Encoding: 8134 8134 2047
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etacircumflex.alt
+EndChar
+
+StartChar: etaiotasubcircumflex
+Encoding: 8135 8135 2048
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubcircumflex.alt
+EndChar
+
+StartChar: iotalenis
+Encoding: 7984 7984 2049
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaasper
+Encoding: 7985 7985 2050
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotalenisgrave
+Encoding: 7986 7986 2051
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaaspergrave
+Encoding: 7987 7987 2052
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotalenisacute
+Encoding: 7988 7988 2053
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaasperacute
+Encoding: 7989 7989 2054
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaleniscircumflex
+Encoding: 7990 7990 2055
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" iotaleniscircumflex.alt
+EndChar
+
+StartChar: iotaaspercircumflex
+Encoding: 7991 7991 2056
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" iotaaspercircumflex.alt
+EndChar
+
+StartChar: iotagrave
+Encoding: 8054 8054 2057
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaacute
+Encoding: 8055 8055 2058
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotabreve
+Encoding: 8144 8144 2059
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 241 728 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotamacron
+Encoding: 8145 8145 2060
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 198 713 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotadieresisgrave
+Encoding: 8146 8146 2061
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2126 8173 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotadieresisacute
+Encoding: 8147 8147 2062
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2127 8174 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotacircumflex
+Encoding: 8150 8150 2063
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" iotacircumflex.alt
+EndChar
+
+StartChar: iotadieresiscircumflex
+Encoding: 8151 8151 2064
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2119 8129 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" iotadieresiscircumflex.alt
+EndChar
+
+StartChar: omicronlenis
+Encoding: 8000 8000 2065
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronasper
+Encoding: 8001 8001 2066
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronlenisgrave
+Encoding: 8002 8002 2067
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronaspergrave
+Encoding: 8003 8003 2068
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronlenisacute
+Encoding: 8004 8004 2069
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronasperacute
+Encoding: 8005 8005 2070
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicrongrave
+Encoding: 8056 8056 2071
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omicronacute
+Encoding: 8057 8057 2072
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 308 959 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rholenis
+Encoding: 8164 8164 2073
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 310 961 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rhoasper
+Encoding: 8165 8165 2074
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 310 961 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonlenis
+Encoding: 8016 8016 2075
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonasper
+Encoding: 8017 8017 2076
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: upsilonlenisgrave
+Encoding: 8018 8018 2077
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonaspergrave
+Encoding: 8019 8019 2078
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonlenisacute
+Encoding: 8020 8020 2079
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonasperacute
+Encoding: 8021 8021 2080
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonleniscircumflex
+Encoding: 8022 8022 2081
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" upsilonleniscircumflex.alt
+EndChar
+
+StartChar: upsilonaspercircumflex
+Encoding: 8023 8023 2082
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" upsilonaspercircumflex.alt
+EndChar
+
+StartChar: upsilongrave
+Encoding: 8058 8058 2083
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonacute
+Encoding: 8059 8059 2084
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonbreve
+Encoding: 8160 8160 2085
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 241 728 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonmacron
+Encoding: 8161 8161 2086
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 198 713 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilondieresisgrave
+Encoding: 8162 8162 2087
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2126 8173 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilondieresisacute
+Encoding: 8163 8163 2088
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2127 8174 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsiloncircumflex
+Encoding: 8166 8166 2089
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" upsiloncircumflex.alt
+EndChar
+
+StartChar: upsilondieresiscircumflex
+Encoding: 8167 8167 2090
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2119 8129 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" upsilondieresiscircumflex.alt
+EndChar
+
+StartChar: omegalenis
+Encoding: 8032 8032 2091
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaasper
+Encoding: 8033 8033 2092
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: omegalenisgrave
+Encoding: 8034 8034 2093
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaaspergrave
+Encoding: 8035 8035 2094
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegalenisacute
+Encoding: 8036 8036 2095
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaasperacute
+Encoding: 8037 8037 2096
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaleniscircumflex
+Encoding: 8038 8038 2097
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegaleniscircumflex.alt
+EndChar
+
+StartChar: omegaaspercircumflex
+Encoding: 8039 8039 2098
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 -20 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegaaspercircumflex.alt
+EndChar
+
+StartChar: omegagrave
+Encoding: 8060 8060 2099
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaacute
+Encoding: 8061 8061 2100
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasublenis
+Encoding: 8096 8096 2101
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubasper
+Encoding: 8097 8097 2102
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasublenisgrave
+Encoding: 8098 8098 2103
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2120 8141 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubaspergrave
+Encoding: 8099 8099 2104
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2123 8157 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasublenisacute
+Encoding: 8100 8100 2105
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2121 8142 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubasperacute
+Encoding: 8101 8101 2106
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2124 8158 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubleniscircumflex
+Encoding: 8102 8102 2107
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2122 8143 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubleniscircumflex.alt
+EndChar
+
+StartChar: omegaiotasubaspercircumflex
+Encoding: 8103 8103 2108
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2125 8159 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubaspercircumflex.alt
+EndChar
+
+StartChar: omegaiotasubgrave
+Encoding: 8178 8178 2109
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2128 8175 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasub
+Encoding: 8179 8179 2110
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2114 890 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubacute
+Encoding: 8180 8180 2111
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2129 8189 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegacircumflex
+Encoding: 8182 8182 2112
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegacircumflex.alt
+EndChar
+
+StartChar: omegaiotasubcircumflex
+Encoding: 8183 8183 2113
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2118 8128 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubcircumflex.alt
+EndChar
+
+StartChar: ypogegrammeni
+Encoding: 890 890 2114
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+281 -27 m 1
+ 355 -27 l 1
+ 355 -111 l 2
+ 355 -120 364.307692308 -124 396 -124 c 1
+ 396 -198 l 1
+ 383 -198 371 -198 360 -198 c 0
+ 336.808166818 -198 281 -196.745575272 281 -111 c 2
+ 281 -27 l 1
+EndSplineSet
+EndChar
+
+StartChar: koronis
+Encoding: 8125 8125 2115
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2117 8127 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: prosgegrammeni
+Encoding: 8126 8126 2116
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+256 298 m 1
+ 356 298 l 1
+ 356 145 l 0
+ 356 97 369 77 437 77 c 1
+ 437 -13 l 1
+ 419.207339773 -13 402 -14 380 -14 c 16
+ 307.93043007 -14 256 6.7691522452 256 146 c 2
+ 256 298 l 1
+EndSplineSet
+EndChar
+
+StartChar: psili
+Encoding: 8127 8127 2117
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+202 601 m 1
+ 201 662 l 1
+ 285 662 l 2
+ 317 662 342 688 342 716 c 0
+ 342 726 337 740 330 740 c 3
+ 322 740 316 734 312 730 c 0
+ 306 724 292 709 265 709 c 0
+ 232 709 203 733 203 764 c 0
+ 203 802 237 837 287 837 c 0
+ 357 837 415 782 415 716 c 0
+ 415 650 357 601 287 601 c 2
+ 202 601 l 1
+EndSplineSet
+EndChar
+
+StartChar: perispomeni
+Encoding: 8128 8128 2118
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1209 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polytonic Greek alternative circumflex-1" perispomeni.alt
+EndChar
+
+StartChar: dialytikaperispomeni
+Encoding: 8129 8129 2119
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2118 8128 N 1 0 0 1 0 158 2
+Refer: 139 168 N 1 0 0 1 0 -50 2
+Substitution2: "Polytonic Greek alternative circumflex-1" dialytikaperispomeni.alt
+EndChar
+
+StartChar: psilivaria
+Encoding: 8141 8141 2120
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2128 8175 N 1 0 0 1 100 0 2
+Refer: 2117 8127 N 1 0 0 1 -100 0 2
+EndChar
+
+StartChar: psilioxia
+Encoding: 8142 8142 2121
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2129 8189 N 1 0 0 1 75 0 2
+Refer: 2117 8127 N 1 0 0 1 -100 0 2
+EndChar
+
+StartChar: psiliperispomeni
+Encoding: 8143 8143 2122
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2118 8128 N 1 0 0 1 -10 158 2
+Refer: 2117 8127 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" psiliperispomeni.alt
+EndChar
+
+StartChar: dasiavaria
+Encoding: 8157 8157 2123
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2130 8190 N 1 0 0 1 -100 0 2
+Refer: 2128 8175 N 1 0 0 1 100 0 2
+EndChar
+
+StartChar: dasiaoxia
+Encoding: 8158 8158 2124
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2130 8190 N 1 0 0 1 -100 0 2
+Refer: 2129 8189 N 1 0 0 1 75 0 2
+EndChar
+
+StartChar: dasiaperispomeni
+Encoding: 8159 8159 2125
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2118 8128 N 1 0 0 1 0 158 2
+Refer: 2130 8190 N 1 0 0 1 0 0 2
+Substitution2: "Polytonic Greek alternative circumflex-1" dasiaperispomeni.alt
+EndChar
+
+StartChar: dialytikavaria
+Encoding: 8173 8173 2126
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 0 -50 2
+Refer: 195 -1 N 1 0 0 1 -31 141 2
+EndChar
+
+StartChar: dialytikaoxia
+Encoding: 8174 8174 2127
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 0 -50 2
+Refer: 194 -1 N 1 0 0 1 -20 141 2
+EndChar
+
+StartChar: varia
+Encoding: 8175 8175 2128
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 715 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oxia
+Encoding: 8189 8189 2129
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 107 180 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dasia
+Encoding: 8190 8190 2130
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+411 601 m 1
+ 326 601 l 2
+ 256 601 198 650 198 716 c 0
+ 198 782 256 837 326 837 c 0
+ 376 837 410 802 410 764 c 0
+ 410 733 381 709 348 709 c 0
+ 321 709 307 724 301 730 c 0
+ 297 734 291 740 283 740 c 3
+ 276 740 271 726 271 716 c 0
+ 271 688 296 662 328 662 c 2
+ 412 662 l 1
+ 411 601 l 1
+EndSplineSet
+EndChar
+
+StartChar: alphaleniscircumflex.alt
+Encoding: 1114296 -1 2131
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaaspercircumflex.alt
+Encoding: 1114297 -1 2132
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubleniscircumflex.alt
+Encoding: 1114298 -1 2133
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphaiotasubaspercircumflex.alt
+Encoding: 1114299 -1 2134
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: alphacircumflex.alt
+Encoding: 1114300 -1 2135
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2157 -1 S 1 0 0 1 -40 0 2
+EndChar
+
+StartChar: alphaiotasubcircumflex.alt
+Encoding: 1114301 -1 2136
+Width: 613
+Flags: W
+HStem: -198 44<321.542 361>
+VStem: 276 44<-150.434 -57>
+LayerCount: 2
+Fore
+Refer: 294 945 N 1 0 0 1 0 0 3
+Refer: 2157 -1 S 1 0 0 1 -40 0 2
+Refer: 2114 890 S 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: etaleniscircumflex.alt
+Encoding: 1114302 -1 2137
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaaspercircumflex.alt
+Encoding: 1114303 -1 2138
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaiotasubleniscircumflex.alt
+Encoding: 1114304 -1 2139
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etaiotasubaspercircumflex.alt
+Encoding: 1114305 -1 2140
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: etacircumflex.alt
+Encoding: 1114306 -1 2141
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etaiotasubcircumflex.alt
+Encoding: 1114307 -1 2142
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 300 951 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 -155 0 2
+EndChar
+
+StartChar: iotaleniscircumflex.alt
+Encoding: 1114308 -1 2143
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotaaspercircumflex.alt
+Encoding: 1114309 -1 2144
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotacircumflex.alt
+Encoding: 1114310 -1 2145
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: iotadieresiscircumflex.alt
+Encoding: 1114311 -1 2146
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 302 953 N 1 0 0 1 0 0 3
+Refer: 2158 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonleniscircumflex.alt
+Encoding: 1114312 -1 2147
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilonaspercircumflex.alt
+Encoding: 1114313 -1 2148
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: upsiloncircumflex.alt
+Encoding: 1114314 -1 2149
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: upsilondieresiscircumflex.alt
+Encoding: 1114315 -1 2150
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 313 965 N 1 0 0 1 0 0 3
+Refer: 2158 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaleniscircumflex.alt
+Encoding: 1114316 -1 2151
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaaspercircumflex.alt
+Encoding: 1114317 -1 2152
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubleniscircumflex.alt
+Encoding: 1114318 -1 2153
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2159 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubaspercircumflex.alt
+Encoding: 1114319 -1 2154
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2160 -1 N 1 0 0 1 -20 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegacircumflex.alt
+Encoding: 1114320 -1 2155
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: omegaiotasubcircumflex.alt
+Encoding: 1114321 -1 2156
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 350 969 N 1 0 0 1 0 0 3
+Refer: 2157 -1 N 1 0 0 1 0 0 2
+Refer: 2114 890 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: perispomeni.alt
+Encoding: 1114322 -1 2157
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dialytikaperispomeni.alt
+Encoding: 1114323 -1 2158
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2157 -1 N 1 0 0 1 0 158 2
+Refer: 139 168 N 1 0 0 1 0 -50 2
+EndChar
+
+StartChar: psiliperispomeni.alt
+Encoding: 1114324 -1 2159
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2157 -1 N 1 0 0 1 0 158 2
+Refer: 2117 8127 N 1 0 0 1 0 -20 2
+EndChar
+
+StartChar: dasiaperispomeni.alt
+Encoding: 1114325 -1 2160
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2157 -1 N 1 0 0 1 0 158 2
+Refer: 2130 8190 N 1 0 0 1 0 -20 2
 EndChar
 EndChars
 EndSplineFont

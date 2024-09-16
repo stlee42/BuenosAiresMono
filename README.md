@@ -228,6 +228,11 @@ _Ge with stroke and descender_ is a variant of _ge with stroke and hook_
 
 Lowered position of umlaut to fit to ascenders.
 
+### `ss02`: Polytonic Greek alternative circumflex ###
+Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
+Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
+is activated.
+
 
 Variable font
 -------------
