@@ -118,6 +118,15 @@ Bashkir, looks like C with cedilla.
 
 For legacy apps, use **Inconsolata LGC Chuvash** in the TTC.
 
+### Dutch accented IJ ###
+![Dutch accented IJ feature](doc/Dutch_accented_ij.png)
+
+In Dutch, acute accent is used to mark stress like _vóórkomen_ vs _voorkómen_,
+or _één_ vs _een_. When _ij_ is stressed, both _i_ and _j_ should be accented.
+
+This Dutch and Flemish language-specific feature works for a _J_ preceded by
+an _I_, or a _j_ preceded by an _i_.
+
 
 Miscellaneous variants
 ----------------------
