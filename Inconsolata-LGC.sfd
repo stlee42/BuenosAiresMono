@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1739708696
+ModificationTime: 1740183175
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -126,7 +126,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114328 2164
+BeginChars: 1114328 2175
 
 StartChar: a
 Encoding: 97 97 0
@@ -41320,6 +41320,307 @@ SplineSet
  257 469 l 25
  47 469 l 25
  47 543 l 25
+EndSplineSet
+EndChar
+
+StartChar: uni27A6
+Encoding: 10150 10150 2164
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+582 338 m 1
+ 403 133 l 1
+ 378 133 l 1
+ 378 268 l 1
+ 162 268 l 2
+ 62 268 31 133 31 133 c 1
+ 31 311 l 1
+ 31 311 62 446 162 446 c 2
+ 378 446 l 1
+ 378 585 l 1
+ 403 585 l 1
+ 582 363 l 1
+ 582 338 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni26A1
+Encoding: 9889 9889 2165
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+450 748 m 1
+ 268 419 l 1
+ 531 277 l 1
+ 162 -94 l 1
+ 345 235 l 1
+ 82 377 l 1
+ 450 748 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2699
+Encoding: 9881 9881 2166
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+181 327 m 0
+ 181 258 237 201 306 201 c 0
+ 375 201 432 258 432 327 c 0
+ 432 396 375 452 306 452 c 0
+ 237 452 181 396 181 327 c 0
+240 327 m 0
+ 240 364 269 393 306 393 c 0
+ 343 393 373 364 373 327 c 0
+ 373 290 343 261 306 261 c 0
+ 269 261 240 290 240 327 c 0
+267 132 m 1
+ 241 137 217 147 196 161 c 1
+ 146 111 l 1
+ 90 167 l 1
+ 140 217 l 1
+ 126 238 116 262 111 288 c 1
+ 40 288 l 1
+ 40 366 l 1
+ 111 366 l 1
+ 116 392 126 416 140 437 c 1
+ 90 487 l 1
+ 146 543 l 1
+ 196 493 l 1
+ 217 507 241 517 267 522 c 1
+ 267 593 l 1
+ 346 593 l 1
+ 346 522 l 1
+ 372 517 395 507 416 493 c 1
+ 467 543 l 1
+ 523 487 l 1
+ 473 437 l 1
+ 487 416 497 392 502 366 c 1
+ 572 366 l 1
+ 572 288 l 1
+ 502 288 l 1
+ 497 262 487 238 473 217 c 1
+ 523 167 l 1
+ 467 111 l 1
+ 416 161 l 1
+ 395 147 372 137 346 132 c 1
+ 346 61 l 1
+ 267 61 l 1
+ 267 132 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlinebranch
+Encoding: 57504 57504 2167
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+65 347 m 1
+ 65 740 l 1
+ 163 740 l 1
+ 163 739 165 738 165 737 c 0
+ 165 731 160 727 157 724 c 0
+ 153 720 152 717 152 713 c 2
+ 152 390 l 9
+ 65 347 l 1
+65 0 m 1
+ 65 171 l 1
+ 65 259 l 1
+ 152 302 l 17
+ 358 403 l 1
+ 358 589 l 1
+ 319 543 l 1
+ 268 585 l 1
+ 391 740 l 1
+ 417 740 l 1
+ 532 583 l 1
+ 472 543 l 1
+ 437 588 l 1
+ 437 354 l 1
+ 152 214 l 1
+ 152 0 l 1
+ 65 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlineLN
+Encoding: 57505 57505 2168
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 740 m 1
+ 136 740 l 1
+ 138 726 141 718 134 708 c 0
+ 132 704 132 708 132 706 c 0
+ 132 436 l 1
+ 312 436 l 1
+ 312 370 l 1
+ 60 370 l 1
+ 60 740 l 1
+295 0 m 1
+ 295 370 l 1
+ 360 370 l 1
+ 490 138 l 1
+ 490 370 l 1
+ 564 370 l 1
+ 568 350 568 354 562 342 c 0
+ 560 338 562 341 562 340 c 0
+ 562 -0 l 1
+ 504 -0 l 1
+ 366 247 l 1
+ 366 0 l 1
+ 295 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlinelock
+Encoding: 57506 57506 2169
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+107 548 m 0
+ 107 658 196 747 306 747 c 0
+ 416 747 506 658 506 548 c 0
+ 506 546 506 544 506 542 c 1
+ 531 542 l 1
+ 531 0 l 1
+ 82 0 l 1
+ 82 542 l 1
+ 107 542 l 1
+ 107 544 107 546 107 548 c 0
+432 542 m 2
+ 432 544 432 546 432 548 c 0
+ 432 617 375 673 306 673 c 0
+ 237 673 181 617 181 548 c 0
+ 181 546 181 544 181 542 c 2
+ 432 542 l 2
+337 268 m 1
+ 358 279 373 301 373 327 c 0
+ 373 364 343 393 306 393 c 0
+ 269 393 240 364 240 327 c 0
+ 240 301 254 279 275 268 c 1
+ 240 125 l 1
+ 373 125 l 1
+ 337 268 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlinerightblock
+Encoding: 57520 57520 2170
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 840 m 1
+ 613 328 l 1
+ 0 -184 l 1
+ 0 840 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlinerightsep
+Encoding: 57521 57521 2171
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+62 -184 m 1
+ -62 -184 l 1
+ 551 328 l 1
+ -62 840 l 1
+ 62 840 l 1
+ 675 328 l 1
+ 62 -184 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlineleftblock
+Encoding: 57522 57522 2172
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+613 840 m 1
+ 613 -184 l 1
+ 0 328 l 1
+ 613 840 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlineleftsep
+Encoding: 57523 57523 2173
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+675 -184 m 1
+ 551 -184 l 1
+ -62 328 l 1
+ 551 840 l 1
+ 675 840 l 1
+ 62 328 l 1
+ 675 -184 l 1
+EndSplineSet
+EndChar
+
+StartChar: powerlineCN
+Encoding: 57507 57507 2174
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 742 m 0
+ 209 742 289 752 333 646 c 1
+ 272 617 l 1
+ 262 624 256 626 256 640 c 0
+ 256 644 256 644 256 644 c 0
+ 256 643 257 642 256 644 c 0
+ 244 665 221 678 198 678 c 0
+ 158 678 116 641 116 556 c 0
+ 116 470 160 430 202 430 c 0
+ 253 430 263 471 272 481 c 1
+ 329 445 l 1
+ 288 379 245 364 200 364 c 0
+ 130 364 44 414 44 552 c 0
+ 44 695 134 742 200 742 c 0
+295 0 m 1
+ 295 370 l 1
+ 360 370 l 1
+ 490 138 l 1
+ 490 370 l 1
+ 564 370 l 1
+ 568 350 568 354 562 342 c 0
+ 560 338 562 341 562 340 c 0
+ 562 -0 l 1
+ 504 -0 l 1
+ 366 247 l 1
+ 366 0 l 1
+ 295 0 l 1
 EndSplineSet
 EndChar
 EndChars
