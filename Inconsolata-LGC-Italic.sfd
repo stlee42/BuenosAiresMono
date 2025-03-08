@@ -43,10 +43,6 @@ HheadAOffset: 0
 HheadDescent: -210
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 3 0 0 "'aalt' Access All Alternates in Greek lookup 0" { "'aalt' Access All Alternates in Greek lookup 0 subtable"  } ['aalt' ('grek' <'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates in Cyrillic lookup 0" { "'aalt' Access All Alternates in Cyrillic lookup 0 subtable"  } ['aalt' ('cyrl' <'BOS ' 'MKD ' 'SRB ' 'BGR ' 'CHU ' 'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 0" { "'aalt' Access All Alternates in Latin lookup 0 subtable"  } ['aalt' ('latn' <'PLK ' 'MOL ' 'ROM ' 'ISM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'ZHP ' 'AVN ' 'EWE ' 'LEF ' 'WCI ' 'FLE ' 'NLD ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['locl' ('latn' <'PLK ' > ) ]
 Lookup: 1 0 0 "Romanian comma accent" { "Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'BOS ' 'MKD ' 'SRB ' > ) ]
@@ -88,8 +84,8 @@ ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
   SeqLookup: 1 "J with acute accent"
 EndFPST
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -154,7 +150,6 @@ SplineSet
  534 469 524 490 469 490 c 0
  389 490 207 345 175 161 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" ascript
 Substitution2: "Pinyin variant forms-1" ascript
 EndChar
 
@@ -328,10 +323,6 @@ SplineSet
  178 0 l 1
  91 0 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" nsuperior
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" nsuperior
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" nsuperior
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" nsuperior
 Substitution2: "Superscripts-1" nsuperior
 EndChar
 
@@ -605,7 +596,6 @@ SplineSet
  215 0 l 1
  128 0 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" r.serif
 Substitution2: "r with serif-1" r.serif
 EndChar
 
@@ -914,10 +904,6 @@ SplineSet
  123 335 l 29
  135 408 l 29
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" minussuperior
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" minussuperior
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" minussuperior
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" minussuperior
 Substitution2: "Superscripts-1" minussuperior
 EndChar
 
@@ -1256,10 +1242,6 @@ SplineSet
  389 62 492 141 528 348 c 0
  538 405 541 454 539 496 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zeroinferior zerosuperior zero.oldstyle zero.noslash zero.dotted zero.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zeroinferior zerosuperior zero.oldstyle zero.noslash zero.dotted zero.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zeroinferior zerosuperior zero.oldstyle zero.noslash zero.dotted zero.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zeroinferior zerosuperior zero.oldstyle zero.noslash zero.dotted zero.longslash
 Substitution2: "Subscripts-1" zeroinferior
 Substitution2: "Superscripts-1" zerosuperior
 Substitution2: "Old style numerals-1" zero.oldstyle
@@ -1283,10 +1265,6 @@ SplineSet
  439 740 l 0
  496 740 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" oneinferior onesuperior one.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" oneinferior onesuperior one.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" oneinferior onesuperior one.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" oneinferior onesuperior one.oldstyle
 Substitution2: "Subscripts-1" oneinferior
 Substitution2: "Superscripts-1" onesuperior
 Substitution2: "Old style numerals-1" one.oldstyle
@@ -1318,10 +1296,6 @@ SplineSet
  272 594 273 587 264 577 c 0
  213 625 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" twoinferior twosuperior two.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" twoinferior twosuperior two.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" twoinferior twosuperior two.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" twoinferior twosuperior two.oldstyle
 Substitution2: "Subscripts-1" twoinferior
 Substitution2: "Superscripts-1" twosuperior
 Substitution2: "Old style numerals-1" two.oldstyle
@@ -1376,10 +1350,6 @@ SplineSet
  416 278 l 0
  474 608 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" fourinferior foursuperior four.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" fourinferior foursuperior four.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" fourinferior foursuperior four.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" fourinferior foursuperior four.oldstyle
 Substitution2: "Subscripts-1" fourinferior
 Substitution2: "Superscripts-1" foursuperior
 Substitution2: "Old style numerals-1" four.oldstyle
@@ -1413,10 +1383,6 @@ SplineSet
  465 456 518 511 528 568 c 0
  539 630 496 679 430 679 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" eightinferior eightsuperior eight.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" eightinferior eightsuperior eight.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" eightinferior eightsuperior eight.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" eightinferior eightsuperior eight.oldstyle
 Substitution2: "Subscripts-1" eightinferior
 Substitution2: "Superscripts-1" eightsuperior
 Substitution2: "Old style numerals-1" eight.oldstyle
@@ -1448,10 +1414,6 @@ SplineSet
  175 364 l 0
  267 739 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" fiveinferior fivesuperior five.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" fiveinferior fivesuperior five.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" fiveinferior fivesuperior five.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" fiveinferior fivesuperior five.oldstyle
 Substitution2: "Subscripts-1" fiveinferior
 Substitution2: "Superscripts-1" fivesuperior
 Substitution2: "Old style numerals-1" five.oldstyle
@@ -1846,7 +1808,6 @@ SplineSet
  487 656 465 683 471 717 c 0
  477 751 509 778 543 778 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" jacute
 Substitution2: "J with acute accent-1" jacute
 EndChar
 
@@ -2002,10 +1963,6 @@ SplineSet
  273 513 279 478 326 448 c 0
  337 441 350 434 364 428 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" dollar.var1 dollar.var2
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" dollar.var1 dollar.var2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" dollar.var1 dollar.var2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" dollar.var1 dollar.var2
 MultipleSubs2: "Alternative dollar sign-1" dollar.var1 dollar.var2
 EndChar
 
@@ -2202,10 +2159,6 @@ SplineSet
  289 714 358 742 425 742 c 0
  542 742 613 655 595 554 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" threeinferior threesuperior three.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" threeinferior threesuperior three.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" threeinferior threesuperior three.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" threeinferior threesuperior three.oldstyle
 Substitution2: "Subscripts-1" threeinferior
 Substitution2: "Superscripts-1" threesuperior
 Substitution2: "Old style numerals-1" three.oldstyle
@@ -2343,7 +2296,6 @@ SplineSet
  332 670 l 0
  344 739 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Jacute
 Substitution2: "J with acute accent-1" Jacute
 EndChar
 
@@ -2898,10 +2850,6 @@ SplineSet
  397 61 471 115 491 230 c 0
  514 358 451 404 392 404 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" sixinferior sixsuperior six.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" sixinferior sixsuperior six.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" sixinferior sixsuperior six.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" sixinferior sixsuperior six.oldstyle
 Substitution2: "Subscripts-1" sixinferior
 Substitution2: "Superscripts-1" sixsuperior
 Substitution2: "Old style numerals-1" six.oldstyle
@@ -2936,10 +2884,6 @@ SplineSet
  352 673 280 613 261 505 c 0
  242 395 296 341 362 341 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" nineinferior ninesuperior nine.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" nineinferior ninesuperior nine.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" nineinferior ninesuperior nine.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" nineinferior ninesuperior nine.oldstyle
 Substitution2: "Subscripts-1" nineinferior
 Substitution2: "Superscripts-1" ninesuperior
 Substitution2: "Old style numerals-1" nine.oldstyle
@@ -2964,10 +2908,6 @@ SplineSet
  220 660 l 0
  234 739 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" seveninferior sevensuperior seven.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" seveninferior sevensuperior seven.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" seveninferior sevensuperior seven.oldstyle
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" seveninferior sevensuperior seven.oldstyle
 Substitution2: "Subscripts-1" seveninferior
 Substitution2: "Superscripts-1" sevensuperior
 Substitution2: "Old style numerals-1" seven.oldstyle
@@ -3012,7 +2952,6 @@ SplineSet
  367 655 l 4
  503 829 l 4
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" acute.pinyin
 Substitution2: "Pinyin variant forms-1" acute.pinyin
 EndChar
 
@@ -3025,7 +2964,6 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" aacute.pinyin
 Substitution2: "Pinyin variant forms-1" aacute.pinyin
 EndChar
 
@@ -3104,7 +3042,6 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" eacute.pinyin
 Substitution2: "Pinyin variant forms-1" eacute.pinyin
 EndChar
 
@@ -3150,7 +3087,6 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" oacute.pinyin oacute.pl
 Substitution2: "Pinyin variant forms-1" oacute.pinyin
 Substitution2: "Polish kreska forms-1" oacute.pl
 EndChar
@@ -3242,7 +3178,6 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" uacute.pinyin
 Substitution2: "Pinyin variant forms-1" uacute.pinyin
 EndChar
 
@@ -3326,7 +3261,6 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" iacute.pinyin
 Substitution2: "Pinyin variant forms-1" iacute.pinyin
 EndChar
 
@@ -3990,7 +3924,6 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Aacute.pinyin
 Substitution2: "Pinyin variant forms-1" Aacute.pinyin
 EndChar
 
@@ -4025,7 +3958,6 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 12.9201 147 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Adieresis.alt
 Substitution2: "German alternative umlaut-1" Adieresis.alt
 EndChar
 
@@ -4049,7 +3981,6 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Eacute.pinyin
 Substitution2: "Pinyin variant forms-1" Eacute.pinyin
 EndChar
 
@@ -4095,7 +4026,6 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Iacute.pinyin
 Substitution2: "Pinyin variant forms-1" Iacute.pinyin
 EndChar
 
@@ -4141,7 +4071,6 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Oacute.pinyin Oacute.pl
 Substitution2: "Pinyin variant forms-1" Oacute.pinyin
 Substitution2: "Polish kreska forms-1" Oacute.pl
 EndChar
@@ -4177,7 +4106,6 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 20.9201 147 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Odieresis.alt
 Substitution2: "German alternative umlaut-1" Odieresis.alt
 EndChar
 
@@ -4201,7 +4129,6 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Uacute.pinyin
 Substitution2: "Pinyin variant forms-1" Uacute.pinyin
 EndChar
 
@@ -4225,7 +4152,6 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 30.9201 147 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Udieresis.alt
 Substitution2: "German alternative umlaut-1" Udieresis.alt
 EndChar
 
@@ -4912,7 +4838,6 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Sacute.pl
 Substitution2: "Polish kreska forms-1" Sacute.pl
 EndChar
 
@@ -4925,7 +4850,6 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -38 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Scommaaccent
 Substitution2: "Romanian comma accent-1" Scommaaccent
 EndChar
 
@@ -4949,7 +4873,6 @@ LayerCount: 2
 Fore
 Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Zacute.pl
 Substitution2: "Polish kreska forms-1" Zacute.pl
 EndChar
 
@@ -5022,7 +4945,6 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 194 -1 N 1 0 0 1 29 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Cacute.pl
 Substitution2: "Polish kreska forms-1" Cacute.pl
 EndChar
 
@@ -5089,7 +5011,6 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Nacute.pinyin Nacute.pl
 Substitution2: "Pinyin variant forms-1" Nacute.pinyin
 Substitution2: "Polish kreska forms-1" Nacute.pl
 EndChar
@@ -5158,7 +5079,6 @@ LayerCount: 2
 Fore
 Refer: 59 84 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -45 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Tcommaaccent
 Substitution2: "Romanian comma accent-1" Tcommaaccent
 EndChar
 
@@ -5350,7 +5270,6 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" nacute.pinyin nacute.pl
 Substitution2: "Pinyin variant forms-1" nacute.pinyin
 Substitution2: "Polish kreska forms-1" nacute.pl
 EndChar
@@ -5383,7 +5302,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rcaron.serif
 Substitution2: "r with serif-1" rcaron.serif
 EndChar
 
@@ -5395,7 +5313,6 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" sacute.pl
 Substitution2: "Polish kreska forms-1" sacute.pl
 EndChar
 
@@ -5407,7 +5324,6 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -31 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" scommaaccent
 Substitution2: "Romanian comma accent-1" scommaaccent
 EndChar
 
@@ -5419,7 +5335,6 @@ LayerCount: 2
 Fore
 Refer: 8 116 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" tcommaaccent
 Substitution2: "Romanian comma accent-1" tcommaaccent
 EndChar
 
@@ -5807,7 +5722,6 @@ SplineSet
  158 0 l 0
  71 0 l 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Eng.var1 Eng.var2
 AlternateSubs2: "Eng variants-1" Eng.var1 Eng.var2
 Substitution2: "Sami variant of Eng-1" Eng.var2
 EndChar
@@ -5878,7 +5792,6 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 107 180 N 1 0 0 1 24 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" cacute.pl
 Substitution2: "Polish kreska forms-1" cacute.pl
 EndChar
 
@@ -5910,7 +5823,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" racute.serif
 Substitution2: "r with serif-1" racute.serif
 EndChar
 
@@ -5922,7 +5834,6 @@ LayerCount: 2
 Fore
 Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zacute.pl
 Substitution2: "Polish kreska forms-1" zacute.pl
 EndChar
 
@@ -5987,7 +5898,6 @@ SplineSet
  459 764 526 799 588 799 c 0
  639 799 683 776 709 736 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" fscript.ewe
 Substitution2: "Ewe f-hook-1" fscript.ewe
 EndChar
 
@@ -6103,10 +6013,6 @@ SplineSet
  529 430 530 527 516 582 c 4
  498 657 455 672 425 672 c 4
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zeroinferior.noslash zerosuperior.noslash zero.oldstyle.noslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zeroinferior.noslash zerosuperior.noslash zero.oldstyle.noslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zeroinferior.noslash zerosuperior.noslash zero.oldstyle.noslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zeroinferior.noslash zerosuperior.noslash zero.oldstyle.noslash
 Substitution2: "Subscripts-1" zeroinferior.noslash
 Substitution2: "Superscripts-1" zerosuperior.noslash
 Substitution2: "Old style numerals-1" zero.oldstyle.noslash
@@ -7537,7 +7443,6 @@ SplineSet
  355 538 293 262 232 115 c 0
  226 100 219 85 211 70 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" De.bg
 Substitution2: "Bulgarian variant forms-1" De.bg
 EndChar
 
@@ -7684,7 +7589,6 @@ SplineSet
  162 -1 118 -8 94 -8 c 0
  65 -8 40 7 25 37 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" El.bg
 Substitution2: "Bulgarian variant forms-1" El.bg
 EndChar
 
@@ -7818,7 +7722,6 @@ SplineSet
  285 83 l 1
  175 105 45 197 74 361 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" Ef.bg
 Substitution2: "Bulgarian variant forms-1" Ef.bg
 EndChar
 
@@ -8174,7 +8077,6 @@ SplineSet
  224 -14 161 20 130 86 c 0
  96 158 104 250 119 337 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" be.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" be.mkd
 EndChar
 
@@ -8212,7 +8114,6 @@ SplineSet
  392 483 365 482 335 466 c 0
  289 441 246 372 225 315 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" ve.bg
 Substitution2: "Bulgarian variant forms-1" ve.bg
 EndChar
 
@@ -8245,7 +8146,6 @@ SplineSet
  471 15 383 -12 301 -12 c 0
  153 -12 92 75 106 157 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" ge.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" ge.mkd
 EndChar
 
@@ -8256,7 +8156,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" de.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" de.mkd
 EndChar
 
@@ -8313,7 +8212,6 @@ SplineSet
  239 101 171 -13 104 -13 c 0
  51 -13 41 24 34 87 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zhe.bg
 Substitution2: "Bulgarian variant forms-1" zhe.bg
 EndChar
 
@@ -8345,7 +8243,6 @@ SplineSet
  540 65 469 -13 309 -13 c 0
  216 -13 129 17 87 73 c 9
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" ze.bg
 Substitution2: "Bulgarian variant forms-1" ze.bg
 EndChar
 
@@ -8376,7 +8273,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 260 312 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" ka.bg
 Substitution2: "Bulgarian variant forms-1" ka.bg
 EndChar
 
@@ -8410,7 +8306,6 @@ SplineSet
  162 -1 118 -8 94 -8 c 0
  65 -8 40 7 25 37 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" el.bg
 Substitution2: "Bulgarian variant forms-1" el.bg
 EndChar
 
@@ -8484,7 +8379,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" pecyril.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" pecyril.mkd
 EndChar
 
@@ -8515,7 +8409,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2 109 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" te.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" te.mkd
 EndChar
 
@@ -8745,7 +8638,6 @@ SplineSet
  284 245 l 25
  256 84 l 17
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" hard.bg
 Substitution2: "Bulgarian variant forms-1" hard.bg
 EndChar
 
@@ -8814,7 +8706,6 @@ SplineSet
  232 245 l 17
  204 84 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" soft.bg
 Substitution2: "Bulgarian variant forms-1" soft.bg
 EndChar
 
@@ -8871,7 +8762,6 @@ SplineSet
  543 414 515 481 477 481 c 0
  437 481 387 407 364 274 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" iu.bg
 Substitution2: "Bulgarian variant forms-1" iu.bg
 EndChar
 
@@ -9255,7 +9145,6 @@ LayerCount: 2
 Fore
 Refer: 402 1075 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" gje.mkd
 Substitution2: "Macedonian-Serbian Italic subtable" gje.mkd
 EndChar
 
@@ -9951,7 +9840,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rcommaaccent.serif
 Substitution2: "r with serif-1" rcommaaccent.serif
 EndChar
 
@@ -11167,10 +11055,6 @@ SplineSet
  314 372 342 354 373 354 c 0
  420 354 496 398 518 521 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
 AlternateSubs2: "Variants of zero-1" zerosuperior.noslash zerosuperior.dotted zerosuperior.longslash
 EndChar
 
@@ -20806,7 +20690,6 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1451 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Ecircumflexacute.pinyin
 Substitution2: "Pinyin variant forms-1" Ecircumflexacute.pinyin
 EndChar
 
@@ -20818,7 +20701,6 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 1452 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" ecircumflexacute.pinyin
 Substitution2: "Pinyin variant forms-1" ecircumflexacute.pinyin
 EndChar
 
@@ -20830,7 +20712,6 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1453 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Ecircumflexgrave.pinyin
 Substitution2: "Pinyin variant forms-1" Ecircumflexgrave.pinyin
 EndChar
 
@@ -20842,7 +20723,6 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 1454 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" ecircumflexgrave.pinyin
 Substitution2: "Pinyin variant forms-1" ecircumflexgrave.pinyin
 EndChar
 
@@ -21862,7 +21742,6 @@ Fore
 Refer: 194 -1 N 1 0 0 1 32.8981 300 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 139 168 N 1 0 0 1 27.3935 127 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Udieresisacute.pinyin
 Substitution2: "Pinyin variant forms-1" Udieresisacute.pinyin
 EndChar
 
@@ -21875,7 +21754,6 @@ Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 139 168 N 1 0 0 1 -8.81635 -50 2
 Refer: 194 -1 N 1 0 0 1 4.8621 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" udieresisacute.pinyin
 Substitution2: "Pinyin variant forms-1" udieresisacute.pinyin
 EndChar
 
@@ -23122,7 +23000,6 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 1165 -1 N 1 0 0 1 50 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" Escedilla.cv
 Substitution2: "Chuvash variant of The-1" Escedilla.cv
 EndChar
 
@@ -23135,7 +23012,6 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 1165 -1 N 1 0 0 1 50 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" escedilla.cv
 Substitution2: "Chuvash variant of The-1" escedilla.cv
 EndChar
 
@@ -23453,7 +23329,6 @@ SplineSet
  224 244 149 283 121 359 c 0
  103 410 110 460 119 512 c 2
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" Chertdes.var1 Chertdes.var2
 AlternateSubs2: "Che with hook-1" Chertdes.var1 Chertdes.var2
 EndChar
 
@@ -23489,7 +23364,6 @@ SplineSet
  141 324 150 373 158 420 c 0
  169 483 158 520 146 542 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" chertdes.var1 chertdes.var2
 AlternateSubs2: "Che with hook-1" chertdes.var1 chertdes.var2
 EndChar
 
@@ -24786,7 +24660,6 @@ SplineSet
  277 667 l 1
  172 71 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni04F6.var1 uni04F6.var2
 AlternateSubs2: "Ge with hook-1" uni04F6.var1 uni04F6.var2
 EndChar
 
@@ -24812,7 +24685,6 @@ SplineSet
  209 -56 150 -110 139 -136 c 1
  48 -137 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni04F7.var1 uni04F7.var2
 AlternateSubs2: "Ge with hook-1" uni04F7.var1 uni04F7.var2
 EndChar
 
@@ -25119,7 +24991,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1203 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rdblgrave.serif
 Substitution2: "r with serif-1" rdblgrave.serif
 EndChar
 
@@ -25141,7 +25012,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1205 -1 N 1 0 0 1 27 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rinvertedbreve.serif
 Substitution2: "r with serif-1" rinvertedbreve.serif
 EndChar
 
@@ -25357,10 +25227,6 @@ SplineSet
  520 300 517 345 509 382 c 1
  232 93 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
 AlternateSubs2: "Variants of zero-1" zero.oldstyle.noslash zero.oldstyle.dotted zero.oldstyle.longslash
 EndChar
 
@@ -25653,7 +25519,6 @@ LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -79 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Dcommaaccent
 Substitution2: "Romanian comma accent-1" Dcommaaccent
 EndChar
 
@@ -25665,7 +25530,6 @@ LayerCount: 2
 Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -45 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" dcommaaccent
 Substitution2: "Romanian comma accent-1" dcommaaccent
 EndChar
 
@@ -26226,7 +26090,6 @@ SplineSet
  545 665 l 1
  201 665 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Ezh.var1 Ezh.var2
 AlternateSubs2: "Ezh variants-1" Ezh.var1 Ezh.var2
 EndChar
 
@@ -26239,7 +26102,6 @@ LayerCount: 2
 Fore
 Refer: 191 -1 N 1 0 0 1 26 146 2
 Refer: 1273 439 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Ezhcaron.var1 Ezhcaron.var2
 AlternateSubs2: "Ezh variants-1" Ezhcaron.var1 Ezhcaron.var2
 EndChar
 
@@ -26355,7 +26217,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rdotbelow.serif
 Substitution2: "r with serif-1" rdotbelow.serif
 EndChar
 
@@ -26379,7 +26240,6 @@ Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 30 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rdotbelowmacron.serif
 Substitution2: "r with serif-1" rdotbelowmacron.serif
 EndChar
 
@@ -27177,7 +27037,6 @@ LayerCount: 2
 Fore
 Refer: 51 77 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 5 141 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" Macute.pinyin
 Substitution2: "Pinyin variant forms-1" Macute.pinyin
 EndChar
 
@@ -27189,7 +27048,6 @@ LayerCount: 2
 Fore
 Refer: 2 109 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" macute.pinyin
 Substitution2: "Pinyin variant forms-1" macute.pinyin
 EndChar
 
@@ -27359,7 +27217,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rdotaccent.serif
 Substitution2: "r with serif-1" rdotaccent.serif
 EndChar
 
@@ -27381,7 +27238,6 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1306 717 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" rlinebelow.serif
 Substitution2: "r with serif-1" rlinebelow.serif
 EndChar
 
@@ -30523,10 +30379,6 @@ SplineSet
  389 62 492 141 528 348 c 0
  563 548 507 672 425 672 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zeroinferior.dotted zerosuperior.dotted zero.oldstyle.dotted
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zeroinferior.dotted zerosuperior.dotted zero.oldstyle.dotted
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zeroinferior.dotted zerosuperior.dotted zero.oldstyle.dotted
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zeroinferior.dotted zerosuperior.dotted zero.oldstyle.dotted
 Substitution2: "Subscripts-1" zeroinferior.dotted
 Substitution2: "Superscripts-1" zerosuperior.dotted
 Substitution2: "Old style numerals-1" zero.oldstyle.dotted
@@ -30595,10 +30447,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 566 8304 S 1 0 0 1 -85 -483 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
 AlternateSubs2: "Variants of zero-1" zeroinferior.noslash zeroinferior.dotted zeroinferior.longslash
 EndChar
 
@@ -31528,7 +31376,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 107 180 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" acute.pinyin
 Substitution2: "Pinyin variant forms-1" acute.pinyin
 EndChar
 
@@ -32532,10 +32379,6 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1668 -1 N 1 0 0 1 -80 0 2
 Refer: 1667 -1 N 1 0 0 1 90 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" tencircle.noslash tencircle.dotted tencircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" tencircle.noslash tencircle.dotted tencircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" tencircle.noslash tencircle.dotted tencircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" tencircle.noslash tencircle.dotted tencircle.longslash
 AlternateSubs2: "Variants of zero-1" tencircle.noslash tencircle.dotted tencircle.longslash
 EndChar
 
@@ -32647,10 +32490,6 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1669 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" twentycircle.noslash twentycircle.dotted twentycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" twentycircle.noslash twentycircle.dotted twentycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" twentycircle.noslash twentycircle.dotted twentycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" twentycircle.noslash twentycircle.dotted twentycircle.longslash
 AlternateSubs2: "Variants of zero-1" twentycircle.noslash twentycircle.dotted twentycircle.longslash
 EndChar
 
@@ -32762,10 +32601,6 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1670 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
 AlternateSubs2: "Variants of zero-1" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
 EndChar
 
@@ -32877,10 +32712,6 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1671 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" fortycircle.noslash fortycircle.dotted fortycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" fortycircle.noslash fortycircle.dotted fortycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" fortycircle.noslash fortycircle.dotted fortycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" fortycircle.noslash fortycircle.dotted fortycircle.longslash
 AlternateSubs2: "Variants of zero-1" fortycircle.noslash fortycircle.dotted fortycircle.longslash
 EndChar
 
@@ -32992,10 +32823,6 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1672 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
 AlternateSubs2: "Variants of zero-1" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
 EndChar
 
@@ -33320,10 +33147,6 @@ LayerCount: 2
 Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 566 8304 N 1 0 0 1 -26 -150 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zerocircle.noslash zerocircle.dotted zerocircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zerocircle.noslash zerocircle.dotted zerocircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zerocircle.noslash zerocircle.dotted zerocircle.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zerocircle.noslash zerocircle.dotted zerocircle.longslash
 AlternateSubs2: "Variants of zero-1" zerocircle.noslash zerocircle.dotted zerocircle.longslash
 EndChar
 
@@ -33481,10 +33304,6 @@ SplineSet
  389 62 492 141 528 348 c 0
  563 548 507 672 425 672 c 0
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" zero.oldstyle.longslash zerosuperior.longslash zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" zero.oldstyle.longslash zerosuperior.longslash zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" zero.oldstyle.longslash zerosuperior.longslash zeroinferior.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" zero.oldstyle.longslash zerosuperior.longslash zeroinferior.longslash
 Substitution2: "Old style numerals-1" zero.oldstyle.longslash
 Substitution2: "Superscripts-1" zerosuperior.longslash
 Substitution2: "Subscripts-1" zeroinferior.longslash
@@ -33833,10 +33652,6 @@ Refer: 1667 -1 N 0.8 0 0 0.8 243 -202 2
 Refer: 1668 -1 N 0.8 0 0 0.8 114 -198 2
 Refer: 149 185 N 0.8 0 0 0.8 -74 203 2
 Refer: 274 8260 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" uni2152.noslash uni2152.dotted uni2152.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" uni2152.noslash uni2152.dotted uni2152.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni2152.noslash uni2152.dotted uni2152.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" uni2152.noslash uni2152.dotted uni2152.longslash
 AlternateSubs2: "Variants of zero-1" uni2152.noslash uni2152.dotted uni2152.longslash
 EndChar
 
@@ -33900,10 +33715,6 @@ Fore
 Refer: 566 8304 N 0.8 0 0 0.8 -74 203 2
 Refer: 204 179 N 0.8 0 0 0.8 146 -321 2
 Refer: 274 8260 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" uni2189.noslash uni2189.dotted uni2189.longslash
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" uni2189.noslash uni2189.dotted uni2189.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni2189.noslash uni2189.dotted uni2189.longslash
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" uni2189.noslash uni2189.dotted uni2189.longslash
 AlternateSubs2: "Variants of zero-1" uni2189.noslash uni2189.dotted uni2189.longslash
 EndChar
 
@@ -36473,10 +36284,6 @@ SplineSet
  613 -184 l 1
  0 -184 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" trianglesesld.text
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" trianglesesld.text
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" trianglesesld.text
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" trianglesesld.text
 Substitution2: "Text forms of triangles-1" trianglesesld.text
 EndChar
 
@@ -36493,10 +36300,6 @@ SplineSet
  613 -184 l 1
  0 -184 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" triangleswsld.text
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" triangleswsld.text
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" triangleswsld.text
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" triangleswsld.text
 Substitution2: "Text forms of triangles-1" triangleswsld.text
 EndChar
 
@@ -36513,10 +36316,6 @@ SplineSet
  0 -184 l 1
  0 840 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" tranglenwsld.text
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" tranglenwsld.text
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" tranglenwsld.text
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" tranglenwsld.text
 Substitution2: "Text forms of triangles-1" tranglenwsld.text
 EndChar
 
@@ -36533,10 +36332,6 @@ SplineSet
  0 840 l 1
  613 840 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" trianglenesld.text
-AlternateSubs2: "'aalt' Access All Alternates lookup 0 subtable" trianglenesld.text
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" trianglenesld.text
-AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0 subtable" trianglenesld.text
 Substitution2: "Text forms of triangles-1" trianglenesld.text
 EndChar
 
@@ -38072,7 +37867,6 @@ SplineSet
  218 315 l 1
  103 315 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni04FA.var
 Substitution2: "Ge with stroke and descender-1" uni04FA.var
 EndChar
 
@@ -38110,7 +37904,6 @@ SplineSet
  200 241 l 1
  89 241 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni04FB.var
 Substitution2: "Ge with stroke and descender-1" uni04FB.var
 EndChar
 
@@ -38331,7 +38124,6 @@ SplineSet
  162 -2 118 -8 94 -8 c 0
  65 -8 41 7 26 37 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni0512.var
 Substitution2: "Variants of El with hook-1" uni0512.var
 EndChar
 
@@ -38371,7 +38163,6 @@ SplineSet
  162 -1 118 -8 94 -8 c 0
  65 -8 40 7 25 37 c 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni0513.var
 Substitution2: "Variants of El with hook-1" uni0513.var
 EndChar
 
@@ -38463,7 +38254,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 97 81 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Cyrillic lookup 0 subtable" uni051A.var1 uni051A.var2
 AlternateSubs2: "Qa variants-1" uni051A.var1 uni051A.var2
 EndChar
 
@@ -39207,7 +38997,6 @@ LayerCount: 2
 Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphaleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphaleniscircumflex.alt
 EndChar
 
@@ -39219,7 +39008,6 @@ LayerCount: 2
 Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphaaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphaaspercircumflex.alt
 EndChar
 
@@ -39318,7 +39106,6 @@ Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 -20 0 2
 Refer: 2105 890 S 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphaiotasubleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubleniscircumflex.alt
 EndChar
 
@@ -39331,7 +39118,6 @@ Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 -20 0 2
 Refer: 2105 890 S 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphaiotasubaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubaspercircumflex.alt
 EndChar
 
@@ -39395,7 +39181,6 @@ LayerCount: 2
 Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2109 8128 S 1 0 0 1 -40 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphacircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphacircumflex.alt
 EndChar
 
@@ -39410,7 +39195,6 @@ Fore
 Refer: 294 945 N 1 0 0 1 0 0 3
 Refer: 2109 8128 S 1 0 0 1 -40 0 2
 Refer: 2105 890 S 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" alphaiotasubcircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" alphaiotasubcircumflex.alt
 EndChar
 
@@ -39562,7 +39346,6 @@ LayerCount: 2
 Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etaleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etaleniscircumflex.alt
 EndChar
 
@@ -39574,7 +39357,6 @@ LayerCount: 2
 Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etaaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etaaspercircumflex.alt
 EndChar
 
@@ -39673,7 +39455,6 @@ Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 -155 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etaiotasubleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubleniscircumflex.alt
 EndChar
 
@@ -39686,7 +39467,6 @@ Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 -155 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etaiotasubaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubaspercircumflex.alt
 EndChar
 
@@ -39730,7 +39510,6 @@ LayerCount: 2
 Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etacircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etacircumflex.alt
 EndChar
 
@@ -39743,7 +39522,6 @@ Fore
 Refer: 300 951 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 -155 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" etaiotasubcircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" etaiotasubcircumflex.alt
 EndChar
 
@@ -39815,7 +39593,6 @@ LayerCount: 2
 Fore
 Refer: 302 953 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" iotaleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" iotaleniscircumflex.alt
 EndChar
 
@@ -39827,7 +39604,6 @@ LayerCount: 2
 Fore
 Refer: 302 953 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" iotaaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" iotaaspercircumflex.alt
 EndChar
 
@@ -39899,7 +39675,6 @@ LayerCount: 2
 Fore
 Refer: 302 953 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" iotacircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" iotacircumflex.alt
 EndChar
 
@@ -39911,7 +39686,6 @@ LayerCount: 2
 Fore
 Refer: 302 953 N 1 0 0 1 0 0 3
 Refer: 2110 8129 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" iotadieresiscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" iotadieresiscircumflex.alt
 EndChar
 
@@ -40083,7 +39857,6 @@ LayerCount: 2
 Fore
 Refer: 313 965 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" upsilonleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" upsilonleniscircumflex.alt
 EndChar
 
@@ -40095,7 +39868,6 @@ LayerCount: 2
 Fore
 Refer: 313 965 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" upsilonaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" upsilonaspercircumflex.alt
 EndChar
 
@@ -40167,7 +39939,6 @@ LayerCount: 2
 Fore
 Refer: 313 965 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" upsiloncircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" upsiloncircumflex.alt
 EndChar
 
@@ -40179,7 +39950,6 @@ LayerCount: 2
 Fore
 Refer: 313 965 N 1 0 0 1 0 0 3
 Refer: 2110 8129 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" upsilondieresiscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" upsilondieresiscircumflex.alt
 EndChar
 
@@ -40251,7 +40021,6 @@ LayerCount: 2
 Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegaleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegaleniscircumflex.alt
 EndChar
 
@@ -40263,7 +40032,6 @@ LayerCount: 2
 Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 -20 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegaaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegaaspercircumflex.alt
 EndChar
 
@@ -40362,7 +40130,6 @@ Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2113 8143 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegaiotasubleniscircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubleniscircumflex.alt
 EndChar
 
@@ -40375,7 +40142,6 @@ Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2116 8159 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegaiotasubaspercircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubaspercircumflex.alt
 EndChar
 
@@ -40419,7 +40185,6 @@ LayerCount: 2
 Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegacircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegacircumflex.alt
 EndChar
 
@@ -40432,7 +40197,6 @@ Fore
 Refer: 350 969 N 1 0 0 1 0 0 3
 Refer: 2109 8128 N 1 0 0 1 0 0 2
 Refer: 2105 890 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" omegaiotasubcircumflex.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" omegaiotasubcircumflex.alt
 EndChar
 
@@ -40510,7 +40274,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1205 -1 N 1 0 0 1 0 0 3
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" perispomeni.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" perispomeni.alt
 EndChar
 
@@ -40522,7 +40285,6 @@ LayerCount: 2
 Fore
 Refer: 2109 8128 N 1 0 0 1 28 158 2
 Refer: 139 168 N 1 0 0 1 -9 -50 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" dialytikaperispomeni.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" dialytikaperispomeni.alt
 EndChar
 
@@ -40554,7 +40316,6 @@ LayerCount: 2
 Fore
 Refer: 2109 8128 N 1 0 0 1 18 158 2
 Refer: 2108 8127 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" psiliperispomeni.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" psiliperispomeni.alt
 EndChar
 
@@ -40586,7 +40347,6 @@ LayerCount: 2
 Fore
 Refer: 2109 8128 N 1 0 0 1 28 158 2
 Refer: 2121 8190 N 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates in Greek lookup 0 subtable" dasiaperispomeni.alt
 Substitution2: "Polytonic Greek alternative circumflex-1" dasiaperispomeni.alt
 EndChar
 
