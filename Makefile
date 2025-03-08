@@ -20,7 +20,6 @@ DOCUMENTS=README.md ChangeLog LICENSE $(wildcard ${DOC_ASSET_DIR}/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
-FFCMD=for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
 WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
@@ -44,16 +43,10 @@ Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
 
-.sfd.ttf:
-	${FFCMD}
-.sfd.otf:
-	${FFCMD}
-.sfd.woff:
-	${FFCMD}
-.sfd.woff2:
-	${FFCMD}
+.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2:
+	for i in $?;do fontforge -lang=py -c "font=fontforge.open(\"$$i\"); font.buildOrReplaceAALTFeatures(); font.generate(\"$@\"); font.close()";done
 .sfd.ufo:
-	${FFCMD}
+	for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
 	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
 
