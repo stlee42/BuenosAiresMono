@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1741423592
+ModificationTime: 1741437235
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -67,6 +67,7 @@ Lookup: 3 0 0 "Qa variants" { "Qa variants-1"  } ['cv08' ('cyrl' <'BGR ' 'BOS ' 
 Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
+Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -118,7 +119,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114328 2190
+BeginChars: 1114337 2199
 
 StartChar: a
 Encoding: 97 97 0
@@ -18398,6 +18399,7 @@ SplineSet
  82 594 l 1
  25 594 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" box
 EndChar
 
 StartChar: startofhead
@@ -18460,6 +18462,7 @@ SplineSet
  36 855 80 891 138 891 c 0
  138 891 181 904 236 843 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" startofhead.alt
 EndChar
 
 StartChar: starttext
@@ -18513,6 +18516,7 @@ SplineSet
  36 855 80 891 138 891 c 0
  138 891 181 904 236 843 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" perpendicular
 EndChar
 
 StartChar: endtext
@@ -18558,6 +18562,7 @@ SplineSet
  30 594 l 1
  30 890 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" endtext.alt
 EndChar
 
 StartChar: endtrans
@@ -18604,6 +18609,7 @@ SplineSet
  30 594 l 1
  30 890 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni2301
 EndChar
 
 StartChar: enquiry
@@ -18661,6 +18667,7 @@ SplineSet
  30 594 l 1
  30 890 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" enquiry.alt
 EndChar
 
 StartChar: acknowledge
@@ -18714,6 +18721,7 @@ SplineSet
  106 718 l 1
  151 718 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" check
 EndChar
 
 StartChar: bell
@@ -18772,6 +18780,7 @@ SplineSet
  146 727 133 727 118 727 c 0
  82 727 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni237E
 EndChar
 
 StartChar: backspace
@@ -18829,6 +18838,7 @@ SplineSet
  232 647 219 647 204 647 c 0
  168 647 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" backspace.alt
 EndChar
 
 StartChar: horiztab
@@ -18865,6 +18875,7 @@ SplineSet
  113 514 l 1
  113 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" lat
 EndChar
 
 StartChar: linefeed
@@ -18895,6 +18906,7 @@ SplineSet
  120 514 l 1
  120 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" equivalence
 EndChar
 
 StartChar: verttab
@@ -18922,6 +18934,7 @@ SplineSet
  204 512 l 1
  95 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni2A5B
 EndChar
 
 StartChar: formfeed
@@ -18954,6 +18967,7 @@ SplineSet
  125 514 l 1
  125 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" twoheaddownarrow
 EndChar
 
 StartChar: carriagereturn
@@ -18998,6 +19012,7 @@ SplineSet
  176 509 107 550 107 660 c 0
  107 774 180 812 232 812 c 0
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" smt
 EndChar
 
 StartChar: shiftout
@@ -19043,6 +19058,7 @@ SplineSet
  122 775 166 811 224 811 c 0
  224 811 267 824 322 763 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" shiftout.alt
 EndChar
 
 StartChar: shiftin
@@ -19087,6 +19103,7 @@ SplineSet
  122 775 166 811 224 811 c 0
  224 811 267 824 322 763 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" shiftin.alt
 EndChar
 
 StartChar: datalinkescape
@@ -19135,6 +19152,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" datalinkescape.alt
 EndChar
 
 StartChar: devcon1
@@ -19183,6 +19201,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F7
 EndChar
 
 StartChar: devcon2
@@ -19239,6 +19258,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F6
 EndChar
 
 StartChar: devcon3
@@ -19298,6 +19318,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F5
 EndChar
 
 StartChar: devcon4
@@ -19354,6 +19375,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F4
 EndChar
 
 StartChar: negacknowledge
@@ -19406,6 +19428,7 @@ SplineSet
  82 594 l 1
  25 594 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni237B
 EndChar
 
 StartChar: synch
@@ -19460,6 +19483,7 @@ SplineSet
  36 855 80 891 138 891 c 0
  138 891 181 904 236 843 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni238D
 EndChar
 
 StartChar: endtransblock
@@ -19518,6 +19542,7 @@ SplineSet
  30 594 l 1
  30 890 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" turnstileright
 EndChar
 
 StartChar: cancel
@@ -19568,6 +19593,7 @@ SplineSet
  90 589 21 630 21 740 c 0
  21 854 94 892 146 892 c 0
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni29D6
 EndChar
 
 StartChar: endmedium
@@ -19605,6 +19631,7 @@ SplineSet
  116 514 l 1
  116 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni237F
 EndChar
 
 StartChar: substitute
@@ -19680,6 +19707,7 @@ SplineSet
  36 855 80 891 138 891 c 0
  138 891 181 904 236 843 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" substitutetwo
 EndChar
 
 StartChar: escape
@@ -19738,6 +19766,7 @@ SplineSet
  30 594 l 1
  30 890 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" escape.alt
 EndChar
 
 StartChar: fileseparator
@@ -19780,6 +19809,7 @@ SplineSet
  125 514 l 1
  125 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F0
 EndChar
 
 StartChar: groupseparator
@@ -19829,6 +19859,7 @@ SplineSet
  173 510 105 549 105 658 c 0
  105 784 187 813 232 813 c 0
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F1
 EndChar
 
 StartChar: recordseparator
@@ -19880,6 +19911,7 @@ SplineSet
  235 753 226 754 214 754 c 0
  172 754 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F2
 EndChar
 
 StartChar: unitseparator
@@ -19929,6 +19961,7 @@ SplineSet
  113 578 111 600 111 619 c 0
  111 810 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" uni25F3
 EndChar
 
 StartChar: spaceliteral
@@ -19978,6 +20011,7 @@ SplineSet
  122 775 166 811 224 811 c 0
  224 811 267 824 322 763 c 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" triangle
 EndChar
 
 StartChar: delete
@@ -20026,6 +20060,7 @@ SplineSet
  139 836 125 837 107 837 c 0
  83 837 l 1
 EndSplineSet
+Substitution2: "Alternative glyphs for control characters-1" delete.alt
 EndChar
 
 StartChar: blankb
@@ -41448,6 +41483,244 @@ SplineSet
  220 276 198 311 198 352 c 0
  198 393 220 428 252 448 c 1
  252 774 l 1
+EndSplineSet
+EndChar
+
+StartChar: startofhead.alt
+Encoding: 1114328 -1 2190
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+48 108 m 1
+ 48 621 l 1
+ 566 621 l 1
+ 566 518 l 1
+ 154 518 l 1
+ 154 108 l 1
+ 48 108 l 1
+EndSplineSet
+EndChar
+
+StartChar: endtext.alt
+Encoding: 1114329 -1 2191
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+48 108 m 1
+ 48 211 l 1
+ 460 211 l 1
+ 460 621 l 1
+ 566 621 l 1
+ 566 108 l 1
+ 48 108 l 1
+EndSplineSet
+EndChar
+
+StartChar: enquiry.alt
+Encoding: 1114330 -1 2192
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+82 553 m 1
+ 532 553 l 1
+ 532 102 l 1
+ 82 102 l 1
+ 82 553 l 1
+210 481 m 1
+ 310 380 l 1
+ 412 481 l 1
+ 210 481 l 1
+461 424 m 1
+ 364 327 l 1
+ 461 229 l 1
+ 461 424 l 1
+412 174 m 1
+ 312 275 l 1
+ 211 174 l 1
+ 412 174 l 1
+154 223 m 1
+ 259 328 l 1
+ 154 434 l 1
+ 154 223 l 1
+EndSplineSet
+EndChar
+
+StartChar: backspace.alt
+Encoding: 1114331 -1 2193
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+159 501 m 1
+ 351 482 598 331 598 0 c 1
+ 498 0 l 1
+ 498 292 280 386 174 404 c 1
+ 213 358 l 1
+ 136 296 l 1
+ 13 437 l 1
+ 13 471 l 1
+ 136 626 l 1
+ 214 570 l 1
+ 159 501 l 1
+EndSplineSet
+EndChar
+
+StartChar: shiftout.alt
+Encoding: 1114332 -1 2194
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+41 328 m 0
+ 41 475 160 594 307 594 c 0
+ 454 594 573 475 573 328 c 0
+ 573 181 454 61 307 61 c 0
+ 160 61 41 181 41 328 c 0
+208 483 m 1
+ 311 380 l 1
+ 412 480 l 1
+ 382 500 346 512 307 512 c 0
+ 270 512 237 501 208 483 c 1
+155 433 m 1
+ 135 403 123 367 123 328 c 0
+ 123 289 135 253 155 223 c 1
+ 260 328 l 1
+ 155 433 l 1
+464 426 m 1
+ 365 327 l 1
+ 463 228 l 1
+ 481 257 492 291 492 328 c 0
+ 492 364 482 398 464 426 c 1
+412 176 m 1
+ 313 275 l 1
+ 209 171 l 1
+ 237 153 271 143 307 143 c 0
+ 346 143 382 155 412 176 c 1
+EndSplineSet
+EndChar
+
+StartChar: shiftin.alt
+Encoding: 1114333 -1 2195
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+385 322 m 0
+ 385 285 353 254 314 254 c 0
+ 275 254 244 285 244 322 c 0
+ 244 359 275 390 314 390 c 0
+ 353 390 385 359 385 322 c 0
+123 327 m 0
+ 123 225 204 143 306 143 c 0
+ 408 143 490 225 490 327 c 0
+ 490 429 408 511 306 511 c 0
+ 204 511 123 429 123 327 c 0
+41 327 m 0
+ 41 474 159 593 306 593 c 0
+ 453 593 572 474 572 327 c 0
+ 572 180 453 61 306 61 c 0
+ 159 61 41 180 41 327 c 0
+EndSplineSet
+EndChar
+
+StartChar: datalinkescape.alt
+Encoding: 1114334 -1 2196
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+82 552 m 1
+ 531 552 l 1
+ 531 102 l 1
+ 82 102 l 1
+ 82 552 l 1
+460 367 m 1
+ 460 480 l 1
+ 153 480 l 1
+ 153 367 l 1
+ 460 367 l 1
+460 289 m 1
+ 153 289 l 1
+ 153 174 l 1
+ 460 174 l 1
+ 460 289 l 1
+EndSplineSet
+EndChar
+
+StartChar: escape.alt
+Encoding: 1114335 -1 2197
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+41 328 m 0
+ 41 475 160 594 307 594 c 0
+ 454 594 573 475 573 328 c 0
+ 573 181 454 61 307 61 c 0
+ 160 61 41 181 41 328 c 0
+127 367 m 1
+ 488 367 l 1
+ 470 450 396 512 307 512 c 0
+ 218 512 145 450 127 367 c 1
+488 289 m 1
+ 127 289 l 1
+ 145 206 218 143 307 143 c 0
+ 396 143 470 206 488 289 c 1
+EndSplineSet
+EndChar
+
+StartChar: delete.alt
+Encoding: 1114336 -1 2198
+Width: 613
+VWidth: 1046
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+227 643 m 1
+ 21 437 l 1
+ 21 543 l 1
+ 121 643 l 1
+ 227 643 l 1
+21 225 m 1
+ 21 331 l 1
+ 333 643 l 1
+ 439 643 l 1
+ 21 225 l 1
+21 119 m 1
+ 545 643 l 1
+ 592 643 l 1
+ 592 584 l 1
+ 79 71 l 1
+ 21 71 l 1
+ 21 119 l 1
+503 71 m 1
+ 397 71 l 1
+ 592 266 l 1
+ 592 160 l 1
+ 503 71 l 1
+291 71 m 1
+ 185 71 l 1
+ 592 478 l 1
+ 592 372 l 1
+ 291 71 l 1
 EndSplineSet
 EndChar
 EndChars

@@ -232,6 +232,11 @@ has two variants.
 _Ge with stroke and descender_ is a variant of _ge with stroke and hook_
 (U+04FA and U+04FB).
 
+### `cv12`: Alternative glyphs for control pictures ###
+![Alternative glyphs for control pictures](doc/control_pictures.png)
+
+Symbol notations for U+2400 to U+2421 in Control Pictures.
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
