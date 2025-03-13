@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1741519561
+ModificationTime: 1741873208
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -6018,8 +6018,22 @@ EndChar
 StartChar: .notdef
 Encoding: 1114119 -1 293
 Width: 613
+VWidth: 1046
 Flags: MW
 LayerCount: 2
+Fore
+SplineSet
+135 60 m 1
+ 500 60 l 1
+ 609 681 l 1
+ 244 681 l 1
+ 135 60 l 1
+65 0 m 1
+ 195 740 l 1
+ 678 740 l 1
+ 548 0 l 1
+ 65 0 l 1
+EndSplineSet
 EndChar
 
 StartChar: alpha
