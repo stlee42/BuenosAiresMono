@@ -4,6 +4,8 @@ Buenos Aires Mono is a monospaced font for programming, forked from [Inconsolata
 
 It comes in 4 styles (regular, italic, bold, and bold italic), and has Latin, Greek, and Cyrillic glyphs.
 
+Starting with v1.403 (based off of upstream version 1.13.1), it adds two more styles (thin and thin italic) which I now prefer.
+
 ### Customizations
 
 - To set your own line spacing, please see [c9839cc](https://github.com/stlee42/BuenosAiresMono/commit/c9839cc066eb7ca2b1d2eedee06242ba203fdb77). It is currently set to zero. To increase the spacing between lines, increase the LineGap parameter.
@@ -11,7 +13,14 @@ It comes in 4 styles (regular, italic, bold, and bold italic), and has Latin, Gr
 
 ### Build instructions
 
-With [fontforge](https://fontforge.org) and [ttfautohint](https://github.com/fonttools/ttfautohint-py) installed,
+Build-time dependencies are
+
+* [FontForge](https://fontforge.org/) with both Python and classic scripting
+  feature enabled
+* [fonttools](https://github.com/fonttools/fonttools)
+* [fontmake](https://github.com/googlefonts/fontmake)
+
+Then run the command
 
 ```
 make
