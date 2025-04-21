@@ -35,10 +35,10 @@ def alignTilde(fontfile):
     thisfont[tilde].transform( psMat.translate( 0, offset) )
     thisfont.save()
 
-alignTilde("../BuenosAiresMono-Regular.sfd")
-alignTilde("../BuenosAiresMono-Italic.sfd")
-alignTilde("../BuenosAiresMono-BoldItalic.sfd")
-alignTilde("../BuenosAiresMono-Bold.sfd")
+alignTilde("../BuenosAiresMono-Regular-master.sfd")
+alignTilde("../BuenosAiresMono-Italic-master.sfd")
+alignTilde("../BuenosAiresMono-BoldItalic-master.sfd")
+alignTilde("../BuenosAiresMono-Bold-master.sfd")
 
 # originally from
 # https://www.reddit.com/r/FontForge/comments/11r6x4q/vertically_centering_glyphs/
