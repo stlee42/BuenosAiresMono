@@ -2,9 +2,7 @@
 
 Buenos Aires Mono is a monospaced font for programming, forked from [Inconsolata LGC Short](https://github.com/eggsyntax/Inconsolata-LGC-Short), but with even more reduced line spacing and with vertically centered tilde.
 
-It comes in 4 styles (regular, italic, bold, and bold italic), and has Latin, Greek, and Cyrillic glyphs.
-
-I added two more styles (thin and thin italic) which I now prefer.
+It comes in 6 styles (regular, italic, bold, and bold italic, as well as thin and thin italic), and has Latin, Greek, and Cyrillic glyphs.
 
 ### Customizations
 
